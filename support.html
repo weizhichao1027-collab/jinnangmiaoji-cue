@@ -1,44 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-Hans">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>技术支持 - 锦囊妙计 Cue</title>
-  <style>
-    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    body { margin: 0; background: #f7f7fa; color: #15161a; }
-    main { max-width: 820px; margin: 0 auto; padding: 48px 22px; line-height: 1.68; }
-    h1 { margin-top: 0; font-size: 32px; }
-    h2 { margin-top: 30px; font-size: 20px; }
-    p, li { color: #383b44; }
-    a { color: #0b66c3; }
-    @media (prefers-color-scheme: dark) {
-      body { background: #111216; color: #f5f6f8; }
-      p, li { color: #c8cbd3; }
-      a { color: #8fc7ff; }
-    }
-  </style>
+  <title>Support · 听写笔记</title>
+  <meta name="description" content="Support for Dictation Notes: setup, trial, purchases, and troubleshooting.">
+  <meta name="theme-color" content="#14161b">
+  <link rel="canonical" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500&family=Literata:opsz,wght@7..72,500;7..72,650&family=Noto+Sans+SC:wght@400;700&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <p><a href="./index.html">← 锦囊妙计 Cue</a></p>
-    <h1>技术支持 / Support</h1>
-    <p>如需帮助，请发送邮件至 <a href="mailto:281916057@qq.com">281916057@qq.com</a>。</p>
-    <p>For support, please email <a href="mailto:281916057@qq.com">281916057@qq.com</a>.</p>
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="wrap site-header">
+    <a class="brand" href="index.html">
+      <img class="brand-icon" src="app-icon.png" width="32" height="32" alt="">
+      <span class="brand-name" data-i18n="brand">听写笔记</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" data-i18n="nav.home">产品</a>
+      <a href="privacy.html" data-i18n="nav.privacy">隐私政策</a>
+      <a href="support.html" aria-current="page" data-i18n="nav.support">技术支持</a>
+      <a href="terms.html" data-i18n="nav.terms">使用条款</a>
+      <span class="lang-row">
+        <label for="site-lang" data-i18n="lang.label">语言</label>
+        <select id="site-lang"></select>
+      </span>
+    </nav>
+  </header>
 
-    <h2>常见问题</h2>
+  <main id="main" class="wrap page qa">
+    <h1 data-i18n="support.h1">技术支持</h1>
+    <p class="lead" data-i18n="support.lead">写信前请带上这些信息，处理会快很多。</p>
     <ul>
-      <li>应用需要用户自己配置语音转文字 API 和 AI API。</li>
-      <li>如果 API 测试失败，请检查 API Key、服务商、网络和账号额度。</li>
-      <li>请只在合法并获得必要同意的情况下录音或转录。</li>
+      <li data-i18n="support.li1">设备型号和系统版本</li>
+      <li data-i18n="support.li2">应用版本</li>
+      <li data-i18n="support.li3">问题出在 iPhone、Mac，还是两端都有</li>
+      <li data-i18n="support.li4">设置里选的转录和 AI 服务商</li>
+      <li data-i18n="support.li5">现象和屏幕上的错误原文</li>
     </ul>
+    <p data-i18n="support.secret">请不要发送 API Key、私人录音或未脱敏的转录，除非你明确决定分享。</p>
+    <p><a href="mailto:281916057@qq.com" data-i18n="support.mail">写信给 281916057@qq.com</a></p>
 
-    <h2>FAQ</h2>
-    <ul>
-      <li>The app requires users to configure their own speech-to-text API and AI API.</li>
-      <li>If an API test fails, check the API key, provider, network connection, and provider account quota.</li>
-      <li>Record or transcribe conversations only where legal and with any required consent.</li>
-    </ul>
+    <article>
+      <h2 data-i18n="support.q1">本机听写没有出字</h2>
+      <p data-i18n="support.a1">先允许麦克风。本机听写还需要语音识别权限。到系统设置打开这两项后，回到应用再点开始。部分语言若没有离线模型，会走 Apple 的语音识别。</p>
+    </article>
+    <article>
+      <h2 data-i18n="support.q2">怎么接自己的 API</h2>
+      <p data-i18n="support.a2">打开设置，选一家 AI 或转录服务商，粘贴 Key，点保存并测试。常见服务商不用改地址和模型。本机听写可以先用，不必填转录 Key。</p>
+    </article>
+    <article>
+      <h2 data-i18n="support.q3">试用和买断怎么算</h2>
+      <p data-i18n="support.a3">本机听写不计数。云端转录和 AI 接话一共可以试用 20 次，之后一次性买断。这不是自动续期订阅。同一 Apple ID 可在 iPhone 与 Mac 点恢复购买。</p>
+    </article>
+    <article>
+      <h2 data-i18n="support.q4">买了但还是锁着</h2>
+      <p data-i18n="support.a4">到设置里点恢复购买，并确认用的是付款时的 Apple ID。沙盒账号和正式账号的购买不能混用。</p>
+    </article>
+    <article>
+      <h2 data-i18n="support.q5">测试服务商失败</h2>
+      <p data-i18n="support.a5">核对 Key 是否完整、该服务商是否仍提供这个模型，以及网络能否访问其接口。局域网或本机模型请确认地址指向你自己的服务。</p>
+    </article>
   </main>
+
+  <footer class="wrap site-footer">
+    <nav>
+      <a href="privacy.html" data-i18n="nav.privacy">隐私政策</a>
+      <a href="support.html" data-i18n="nav.support">技术支持</a>
+      <a href="terms.html" data-i18n="nav.terms">使用条款</a>
+    </nav>
+    <p data-i18n="footer.copy">© 2026 听写笔记 / Dictation Notes</p>
+  </footer>
+  <script src="site.js"></script>
 </body>
 </html>

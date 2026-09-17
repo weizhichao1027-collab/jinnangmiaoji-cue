@@ -1,38 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-Hans">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>锦囊妙计 Cue</title>
-  <style>
-    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    body { margin: 0; background: #f7f7fa; color: #15161a; }
-    main { max-width: 760px; margin: 0 auto; padding: 56px 22px; line-height: 1.65; }
-    h1 { margin: 0 0 12px; font-size: 34px; line-height: 1.15; }
-    p { margin: 0 0 16px; color: #3b3d45; }
-    nav { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 26px; }
-    a { color: #0b66c3; text-decoration: none; font-weight: 600; }
-    a:hover { text-decoration: underline; }
-    .card { background: #fff; border: 1px solid #e3e5ea; border-radius: 8px; padding: 22px; }
-    @media (prefers-color-scheme: dark) {
-      body { background: #111216; color: #f5f6f8; }
-      p { color: #c8cbd3; }
-      .card { background: #1b1d23; border-color: #30333c; }
-      a { color: #8fc7ff; }
-    }
-  </style>
+  <title>听写笔记 · Dictation Notes</title>
+  <meta name="description" content="Live transcription and a line you can say next. Bring your own API key. iPhone and Mac.">
+  <meta name="theme-color" content="#14161b">
+  <link rel="canonical" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/">
+  <meta property="og:title" content="听写笔记 · Dictation Notes">
+  <meta property="og:description" content="Live transcription and a line you can say next. Bring your own API key.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:image" content="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/app-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500&family=Literata:opsz,wght@7..72,500;7..72,650&family=Noto+Sans+SC:wght@400;700&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <section class="card">
-      <h1>锦囊妙计 Cue</h1>
-      <p>锦囊妙计 Cue 是一款自带 API Key 的实时转录与 AI 接话助手，支持 iPhone 和 Mac。</p>
-      <p>Cue is a bring-your-own-API-key live transcription and AI reply copilot for iPhone and Mac.</p>
-      <nav>
-        <a href="./privacy.html">隐私政策 / Privacy Policy</a>
-        <a href="./support.html">技术支持 / Support</a>
-      </nav>
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="wrap site-header">
+    <a class="brand" href="index.html">
+      <img class="brand-icon" src="app-icon.png" width="32" height="32" alt="">
+      <span class="brand-name" data-i18n="brand">听写笔记</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" aria-current="page" data-i18n="nav.home">产品</a>
+      <a href="privacy.html" data-i18n="nav.privacy">隐私政策</a>
+      <a href="support.html" data-i18n="nav.support">技术支持</a>
+      <a href="terms.html" data-i18n="nav.terms">使用条款</a>
+      <span class="lang-row">
+        <label for="site-lang" data-i18n="lang.label">语言</label>
+        <select id="site-lang"></select>
+      </span>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="hero">
+      <div>
+        <h1 data-i18n="home.h1">听写笔记</h1>
+        <p class="lead" data-i18n="home.lead">把对面的话写成字，再给你一句能说出口的接话。本机听写免费，云端和 AI 用你自己的 Key。</p>
+        <div class="cta-row">
+          <a class="btn" href="https://apps.apple.com/app/id6783130548" data-i18n="home.cta">在 App Store 查看</a>
+          <a class="btn ghost" href="support.html" data-i18n="home.help">使用说明</a>
+        </div>
+      </div>
+      <aside class="session" aria-label="Product sample">
+        <div class="session-top">
+          <span data-i18n="home.session">现场</span>
+          <span class="meter" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+        </div>
+        <div class="line">
+          <strong data-i18n="home.spk1">对方</strong>
+          <p data-i18n="home.line1">这个排期下周能定吗？预算还是上次那一档。</p>
+        </div>
+        <div class="line">
+          <strong data-i18n="home.spk2">你</strong>
+          <p data-i18n="home.line2">可以。我先把范围收成两周可交付的部分。</p>
+        </div>
+        <div class="line reply">
+          <strong data-i18n="home.suggest">建议回复</strong>
+          <p data-i18n="home.line3">可以。我今天下午发一版两周范围，预算按上次那档锁死。</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="split">
+      <div>
+        <h2 data-i18n="home.localTitle">本机听写一直开着</h2>
+        <p class="note" data-i18n="home.localBody">开始听写不必先买。密钥只写在你的设备上。音频和文字只在你点云端或 AI 时，才发给你自己选的服务商。</p>
+        <h2 data-i18n="home.byokTitle">没有我们的云额度</h2>
+        <p class="note" data-i18n="home.byokBody">应用不携带开发者 API Key，也不转发请求。你用哪家，账单就在哪家。</p>
+      </div>
+      <dl class="receipt">
+        <dt data-i18n="home.freeTitle">免费留下的</dt>
+        <dd data-i18n="home.freeBody">iPhone 本机听写、历史会话、本地录音。</dd>
+        <dt data-i18n="home.paidTitle">买断打开的</dt>
+        <dd data-i18n="home.paidBody">云端转录和 AI 接话可试用 20 次，之后一次性买断，不是订阅。</dd>
+        <dt data-i18n="home.platforms">系统</dt>
+        <dd data-i18n="home.platformsBody">iPhone 与 Mac。13 种界面语言。同一 Apple ID 可恢复购买。</dd>
+      </dl>
     </section>
   </main>
+
+  <footer class="wrap site-footer">
+    <nav>
+      <a href="privacy.html" data-i18n="nav.privacy">隐私政策</a>
+      <a href="support.html" data-i18n="nav.support">技术支持</a>
+      <a href="terms.html" data-i18n="nav.terms">使用条款</a>
+    </nav>
+    <p data-i18n="footer.copy">© 2026 听写笔记 / Dictation Notes</p>
+  </footer>
+  <script src="site.js"></script>
 </body>
 </html>
