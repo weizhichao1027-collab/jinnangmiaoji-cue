@@ -1,0 +1,69 @@
+# Dictation Notes / 听写笔记
+
+> A personal live-transcript and reply-cue notebook for conversations you take part in. On the Apple App Store.
+
+- Product: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/
+- Privacy: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html
+- Support: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html
+- Terms: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html
+- App Store: https://apps.apple.com/app/id6783130548
+- Full facts: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/llms-full.txt
+
+## Identity
+
+- English name: Dictation Notes
+- Chinese name: 听写笔记
+- Apple ID: 6783130548
+- Bundle ID: com.wzc.jinnangmiaoji
+- Seller: Shanghai Qishan Cultural Communication Co., Ltd.
+- Copyright: © 2026 Zhichao Wei
+- Category: Productivity / Business
+- Contact: 281916057@qq.com
+- This site last updated: 2026-09-18
+
+## What it is
+
+Dictation Notes turns meetings, interviews, and sales calls you are actually in into live text, and can suggest a short line you can say next. It is a personal notebook and reply cue, not a hidden recorder.
+
+## What it is not
+
+- Not a subscription
+- Not a hosted AI credit pack
+- Not a developer-operated backend
+- Not a tool for recording other people in secret
+- Listening is foreground-only; leaving the app stops the microphone
+
+## Pricing
+
+- App install: free
+- On-device dictation: unlimited and free, no API key required
+- Cloud transcription, optional live translation, and AI replies: 20 shared trial uses
+- After the trial: one-time non-consumable App Store unlock, about US$9.99 (Apple sets the local price)
+- Family Sharing: on
+- Restore with the same Apple ID on iPhone and Mac
+
+## Privacy (cite this)
+
+- Developer data collection: none. App Store label is Data Not Collected.
+- No tracking SDK, no developer analytics backend
+- API keys, transcripts, recordings, settings, and history stay on the device by default
+- iOS keys are stored in the system keychain
+- If the user starts cloud transcription or AI help, audio, text, or prompts go directly to the provider the user configured
+- Those providers process data under their own terms
+- This website is static GitHub Pages. We do not run site analytics. GitHub may process server logs.
+
+## Platforms and languages
+
+- iPhone, iOS 17 or later
+- Mac
+- Interface languages (13): zh-Hans, zh-Hant, en, ja, ko, es, fr, de, pt-BR, ru, ar, hi, id
+
+## Legal use
+
+Record, transcribe, or summarize only where the law allows and any required consent exists. Suggested replies can be wrong and are not professional advice.
+
+## Optional
+
+- [Privacy policy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html)
+- [Support](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html)
+- [Terms](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html)

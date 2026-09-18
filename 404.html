@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hans">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Page not found · Dictation Notes</title>
+  <title>没有这个页面 · 听写笔记</title>
+  <meta name="robots" content="noindex">
   <meta name="theme-color" content="#14161b">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-page="notfound">
   <main class="wrap page">
-    <h1>404</h1>
-    <p class="lead">This page is not on the Dictation Notes site.</p>
-    <p><a class="btn" href="index.html">Back to the product page</a></p>
+    <h1 data-i18n="notfound.h1">没有这个页面</h1>
+    <p class="lead" data-i18n="notfound.lead">听写笔记的公开站只有产品、隐私、支持、条款这几页。</p>
+    <p><a class="btn" href="index.html" data-i18n="notfound.back">回到产品页</a></p>
   </main>
+  <script src="site.js"></script>
 </body>
 </html>
