@@ -47,7 +47,7 @@
     "@type": "PrivacyPolicy",
     "name": "Dictation Notes Privacy Policy",
     "url": "https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html",
-    "dateModified": "2026-09-18",
+    "dateModified": "2026-10-08",
     "inLanguage": ["zh-Hans", "en"],
     "publisher": {
       "@type": "Organization",
@@ -83,7 +83,7 @@
 
   <main id="main" class="wrap page doc">
     <h1 data-i18n="privacy.h1">隐私政策</h1>
-    <p class="updated" data-i18n="privacy.updated">最后更新：2026-09-18</p>
+    <p class="updated" data-i18n="privacy.updated">最后更新：2026-10-08</p>
     <p data-i18n="privacy.p1">听写笔记（Dictation Notes）是一款用户自带 API Key 的对话转录与 AI 辅助应用，适用于 iPhone 与 Mac。我们不为这个应用运营后端，也不会从应用里收集、出售或追踪个人数据。</p>
 
     <h2 data-i18n="privacy.hWho">发布方</h2>
@@ -93,10 +93,13 @@
     <p data-i18n="privacy.pCollect">我们没有开发者服务器来接收账号、分析事件、广告标识符或崩溃档案。应用本身不内置追踪 SDK，也不做跨应用追踪。</p>
 
     <h2 data-i18n="privacy.hLocal">保存在你设备上的内容</h2>
-    <p data-i18n="privacy.pLocal">API Key、转录、录音、设置和历史会话默认只保存在本机。iOS 上密钥写在系统钥匙串；你可以随时清除。除非你主动导出或分享，这些内容不会传到我们这里。我们也没有地方接收它们。</p>
+    <p data-i18n="privacy.pLocal">API Key、录音、转录和历史保存在你的设备上。iOS 密钥使用系统钥匙串；Mac 密钥在系统安全存储可用时加密保存。主动导出或分享会把文件发送到你选择的位置。开发者不接收这些内容。</p>
+
+    <h2 data-i18n="privacy.hApple">Apple 语音识别</h2>
+    <p data-i18n="privacy.pApple">Mac 免费听写优先在设备上识别；iPhone 可能使用本机识别或 Apple 语音服务。Mac 离线模型不可用或识别失败时，音频也可能发送给 Apple 语音服务。Apple 按其隐私政策处理接收到的音频。应用会在开始听写前说明可能由 Apple 处理，并请求系统语音识别权限。麦克风及可选的 Mac 系统音频采集也需要系统授权。</p>
 
     <h2 data-i18n="privacy.hProviders">你配置的服务商</h2>
-    <p data-i18n="privacy.pProviders">当你开始云端转录或向 AI 提问时，音频、文字和提示词会由应用直接发送给你选择的服务商，例如语音识别服务、兼容的对话补全接口，或你自己的网关。这些服务商按他们自己的条款处理数据，也可能在其他国家处理。请只配置你信任的服务商。</p>
+    <p data-i18n="privacy.pProviders">经你同意后，云端转录把音频发给你选择的语音服务商；AI 接话、翻译和纪要把转录、问题、对话历史及你填写的背景资料发给你选择的 AI 服务商。Mac 会说明接收服务商和接口地址，更换接收方需重新同意。各服务商自行决定数据处理、保留及跨境传输方式。运行在这台 Mac 上的模型在本机接收文字。</p>
 
     <h2 data-i18n="privacy.hRecord">录音与同意</h2>
     <p data-i18n="privacy.pRecord">录音和转录可能包含敏感对话。你需要在合法、并获得必要同意的情况下使用录音、转录或总结。首次听写前，应用会再次提示这一点。</p>
@@ -105,13 +108,13 @@
     <p data-i18n="privacy.pPurchase">一次性买断由 Apple 通过 App Store 处理。我们不会接收或保存支付卡信息。Apple 可能按自己的隐私政策处理购买收据。这是非消耗型一次性买断，不是自动续期订阅。</p>
 
     <h2 data-i18n="privacy.hStore">App Store 隐私标签</h2>
-    <p data-i18n="privacy.pStore">本应用在 App Store 的隐私标签为开发者「不收集数据」。用户自选服务商收到的音频或文字，不属于开发者收集的数据。</p>
+    <p data-i18n="privacy.pStore">开发者不接收音频、转录、AI 提示词或支付卡信息。你选择的服务商按其自身政策处理数据。隐私标签请参阅 App Store 商品页；数据处理及保留方式请参阅对应服务商的说明。</p>
 
     <h2 data-i18n="privacy.hSite">本网站</h2>
     <p data-i18n="privacy.pSite">这些页面是放在 GitHub Pages 上的静态文件。我们不在本站运行分析、广告或追踪 SDK。浏览器可能把语言偏好存在 localStorage。GitHub 可能按自己的政策处理访问日志（例如 IP 地址）。</p>
 
     <h2 data-i18n="privacy.hRights">你能自己做的控制</h2>
-    <p data-i18n="privacy.pRights">你可以在应用里删除会话、录音和密钥。卸载应用会去掉这台设备上的本地历史。若不想再向某家服务商发送新的音频或文字，删掉对应 Key，或改回本机听写。</p>
+    <p data-i18n="privacy.pRights">你可以在应用里删除会话、录音和密钥。Mac 设置中还可以撤回数据发送同意并停止当前请求。仅删除 Mac 应用可能留下本地数据，请先在应用中清除历史和密钥，再卸载。已导出或分享的副本需在目标位置另行删除。</p>
 
     <h2 data-i18n="privacy.hChildren">儿童</h2>
     <p data-i18n="privacy.pChildren">本应用不面向 13 岁以下儿童，也不会故意收集儿童的个人数据。</p>
