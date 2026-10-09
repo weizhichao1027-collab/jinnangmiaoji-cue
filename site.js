@@ -102,7 +102,7 @@ var I18N = {
     'home.faq4a': 'iPhone (iOS 17 or later) and Mac. The interface has 13 languages. The same Apple ID can restore the unlock.',
     'home.consent': 'Record, transcribe, or summarize only where it is legal and you have any required consent. Suggested replies can be wrong and are not professional advice.',
     'privacy.h1': 'Privacy Policy',
-    'privacy.updated': 'Last updated: 2026-10-08',
+    'privacy.updated': 'Last updated: 2026-10-09',
     'privacy.p1': 'Dictation Notes (听写笔记) is a bring-your-own-API-key transcription and AI assistant for iPhone and Mac. We do not operate a backend for this app, and we do not collect, sell, or track personal data from the app.',
     'privacy.hWho': 'Who publishes the app',
     'privacy.pWho': 'The app is published on the App Store by Shanghai Qishan Cultural Communication Co., Ltd. Copyright is marked © 2026 Zhichao Wei. Privacy questions: 281916057@qq.com.',
@@ -117,7 +117,7 @@ var I18N = {
     'privacy.hPurchase': 'Purchases',
     'privacy.pPurchase': 'The lifetime unlock is processed by Apple through the App Store. We do not receive or store payment card information. Apple may process purchase receipts under its own privacy policy. This is a non-consumable one-time purchase, not an auto-renewing subscription.',
     'privacy.hStore': 'App Store privacy label',
-    'privacy.pStore': 'The developer does not receive audio, transcripts, AI prompts or payment card details. Providers you select process data according to their own policies. Consult the App Store product page for its privacy label and the chosen provider for its data handling and retention.',
+    'privacy.pStore': 'The App Store label includes optional cloud-provider collection of audio, other user content, user IDs, usage, diagnostic and network data. Data may be linked to your provider account. The developer does not receive audio, transcripts, AI prompts or payment card details.',
     'privacy.hSite': 'This website',
     'privacy.pSite': 'These pages are static files hosted on GitHub Pages. We do not run analytics, ads, or a tracking SDK here. Your browser may store a language preference in localStorage. GitHub may process standard server logs, such as IP addresses, under GitHub’s privacy policy.',
     'privacy.hRights': 'Controls you already have',
@@ -175,7 +175,9 @@ var I18N = {
     'notfound.lead': 'The public Dictation Notes site only has product, privacy, support, and terms.',
     'notfound.back': 'Back to the product page',
     'privacy.hApple': 'Apple speech recognition',
-    'privacy.pApple': 'On Mac, free dictation prefers recognition on the device. iPhone may use on-device recognition or Apple speech services. If a Mac offline model is unavailable or fails, audio may also be sent to Apple speech services. Apple processes received audio under its privacy policy. The app explains possible Apple processing before listening and requests system speech recognition permission. Microphone and optional Mac system audio capture also require system permission.'
+    'privacy.pApple': 'On Mac, free dictation prefers recognition on the device. iPhone may use on-device recognition or Apple speech services. If a Mac offline model is unavailable or fails, audio may also be sent to Apple speech services. Apple processes received audio under its privacy policy. The app explains possible Apple processing before listening and requests system speech recognition permission. Microphone and optional Mac system audio capture also require system permission.',
+    'privacy.pCloudData': 'Cloud providers may retain audio and other user content after a request, together with API account identifiers, request times and counts, token usage, error/trace logs and network information such as IP addresses. These may be linked to your provider account. They support authentication, transcription, AI features, security and service operations. Some providers also analyze usage or use submitted content to improve or train models under their own terms and account settings. The app does not send advertising identifiers or use these requests for advertising tracking.',
+    'privacy.pRetention': 'There is no universal zero-retention or no-training promise. For example, Alibaba Cloud Model Studio generally retains inputs and outputs for up to 30 days, with legal/security exceptions; OpenAI API retention varies by endpoint and approved data controls. Gemini unpaid services and ElevenLabs individual services may use submitted content for model improvement. Check the current provider policy and your account controls before sending sensitive material. Deleting local content or withdrawing permission prevents future sending but does not delete provider copies; request deletion from that provider.'
   },
   'zh-Hans': {
     'skip': '跳到正文',
@@ -263,7 +265,7 @@ var I18N = {
     'home.faq4a': 'iPhone（iOS 17 或更高）与 Mac。界面有 13 种语言。同一 Apple ID 可恢复买断。',
     'home.consent': '请只在合法并获得必要同意时录音、转录或总结。建议回复可能不准确，不能替代专业意见。',
     'privacy.h1': '隐私政策',
-    'privacy.updated': '最后更新：2026-10-08',
+    'privacy.updated': '最后更新：2026-10-09',
     'privacy.p1': '听写笔记（Dictation Notes）是一款用户自带 API Key 的对话转录与 AI 辅助应用，适用于 iPhone 与 Mac。我们不为这个应用运营后端，也不会从应用里收集、出售或追踪个人数据。',
     'privacy.hWho': '发布方',
     'privacy.pWho': '本应用由 Shanghai Qishan Cultural Communication Co., Ltd. 在 App Store 发布。版权标注为 © 2026 Zhichao Wei。隐私问题请写到 281916057@qq.com。',
@@ -278,7 +280,7 @@ var I18N = {
     'privacy.hPurchase': '购买',
     'privacy.pPurchase': '一次性买断由 Apple 通过 App Store 处理。我们不会接收或保存支付卡信息。Apple 可能按自己的隐私政策处理购买收据。这是非消耗型一次性买断，不是自动续期订阅。',
     'privacy.hStore': 'App Store 隐私标签',
-    'privacy.pStore': '开发者不接收音频、转录、AI 提示词或支付卡信息。你选择的服务商按其自身政策处理数据。隐私标签请参阅 App Store 商品页；数据处理及保留方式请参阅对应服务商的说明。',
+    'privacy.pStore': 'App Store 标签包括可选云服务商对音频、其他用户内容、用户 ID、用量、诊断和网络信息的收集。这些数据可能关联到你的服务商账号。开发者不接收音频、转录、AI 提示词或付款卡详情。',
     'privacy.hSite': '本网站',
     'privacy.pSite': '这些页面是放在 GitHub Pages 上的静态文件。我们不在本站运行分析、广告或追踪 SDK。浏览器可能把语言偏好存在 localStorage。GitHub 可能按自己的政策处理访问日志（例如 IP 地址）。',
     'privacy.hRights': '你能自己做的控制',
@@ -336,7 +338,9 @@ var I18N = {
     'notfound.lead': '听写笔记的公开站只有产品、隐私、支持、条款这几页。',
     'notfound.back': '回到产品页',
     'privacy.hApple': 'Apple 语音识别',
-    'privacy.pApple': 'Mac 免费听写优先在设备上识别；iPhone 可能使用本机识别或 Apple 语音服务。Mac 离线模型不可用或识别失败时，音频也可能发送给 Apple 语音服务。Apple 按其隐私政策处理接收到的音频。应用会在开始听写前说明可能由 Apple 处理，并请求系统语音识别权限。麦克风及可选的 Mac 系统音频采集也需要系统授权。'
+    'privacy.pApple': 'Mac 免费听写优先在设备上识别；iPhone 可能使用本机识别或 Apple 语音服务。Mac 离线模型不可用或识别失败时，音频也可能发送给 Apple 语音服务。Apple 按其隐私政策处理接收到的音频。应用会在开始听写前说明可能由 Apple 处理，并请求系统语音识别权限。麦克风及可选的 Mac 系统音频采集也需要系统授权。',
+    'privacy.pCloudData': '云服务商可能在请求结束后保留音频、其他用户内容，以及 API 账号标识、请求时间和次数、Token 用量、错误与追踪日志、IP 地址等网络信息。这些数据可能关联到你的服务商账号，用于认证、转录、AI 功能、安全及服务运行。部分服务商还会按自身条款和账号设置分析用量，或将提交内容用于模型改进和训练。应用不发送广告标识符，也不将这些请求用于广告追踪。',
+    'privacy.pRetention': '我们不统一承诺所有服务都零保留或不训练。例如，阿里云百炼通常保留输入和输出最多 30 天，法律和安全需要有例外；OpenAI API 的保留规则因端点及获批的数据控制而异。Gemini 免费服务和 ElevenLabs 个人服务可能使用提交内容改进模型。发送敏感内容前，请核对服务商最新政策和账号设置。删除本地内容或撤回同意会停止后续发送，但不会删除服务商副本；请向服务商提出删除请求。'
   },
   'zh-Hant': {
     'skip': '跳到正文',
@@ -424,7 +428,7 @@ var I18N = {
     'home.faq4a': 'iPhone（iOS 17 或更高）與 Mac。介面有 13 種語言。同一 Apple ID 可恢復買斷。',
     'home.consent': '請只在合法並取得必要同意時錄音、轉錄或總結。建議回覆可能不準確，不能替代專業意見。',
     'privacy.h1': '隱私權政策',
-    'privacy.updated': '最後更新：2026-10-08',
+    'privacy.updated': '最後更新：2026-10-09',
     'privacy.p1': '聽寫筆記（Dictation Notes）是一款使用者自帶 API Key 的對話轉錄與 AI 輔助應用，適用於 iPhone 與 Mac。我們不為這個應用營運後端，也不會從應用裡收集、出售或追蹤個人資料。',
     'privacy.hWho': '發布方',
     'privacy.pWho': '本應用由 Shanghai Qishan Cultural Communication Co., Ltd. 在 App Store 發布。版權標註為 © 2026 Zhichao Wei。隱私問題請寫到 281916057@qq.com。',
@@ -439,7 +443,7 @@ var I18N = {
     'privacy.hPurchase': '購買',
     'privacy.pPurchase': '一次性買斷由 Apple 透過 App Store 處理。我們不會接收或保存支付卡資訊。Apple 可能按自己的隱私權政策處理購買收據。這是非消耗型一次性買斷，不是自動續期訂閱。',
     'privacy.hStore': 'App Store 隱私標籤',
-    'privacy.pStore': '開發者不接收音訊、轉錄、AI 提示詞或支付卡資訊。你選擇的服務商依其政策處理資料。隱私標籤請參閱 App Store 商品頁；資料處理與保留方式請參閱對應服務商的說明。',
+    'privacy.pStore': 'App Store 標籤包括可選雲端服務商對音訊、其他使用者內容、使用者 ID、用量、診斷及網路資訊的收集。這些資料可能關聯到你的服務商帳號。開發者不接收音訊、轉錄、AI 提示詞或付款卡詳情。',
     'privacy.hSite': '本網站',
     'privacy.pSite': '這些頁面是放在 GitHub Pages 上的靜態檔案。我們不在本站執行分析、廣告或追蹤 SDK。瀏覽器可能把語言偏好存在 localStorage。GitHub 可能按自己的政策處理造訪紀錄（例如 IP 位址）。',
     'privacy.hRights': '你能自己做的控制',
@@ -497,7 +501,9 @@ var I18N = {
     'notfound.lead': '聽寫筆記的公開站只有產品、隱私、支援、條款這幾頁。',
     'notfound.back': '回到產品頁',
     'privacy.hApple': 'Apple 語音辨識',
-    'privacy.pApple': 'Mac 免費聽寫優先在裝置上辨識；iPhone 可能使用本機辨識或 Apple 語音服務。Mac 離線模型不可用或辨識失敗時，音訊也可能傳給 Apple 語音服務。Apple 依其隱私政策處理收到的音訊。應用會在開始聽寫前說明可能由 Apple 處理，並請求系統語音辨識權限。麥克風及可選的 Mac 系統音訊擷取也需要系統授權。'
+    'privacy.pApple': 'Mac 免費聽寫優先在裝置上辨識；iPhone 可能使用本機辨識或 Apple 語音服務。Mac 離線模型不可用或辨識失敗時，音訊也可能傳給 Apple 語音服務。Apple 依其隱私政策處理收到的音訊。應用會在開始聽寫前說明可能由 Apple 處理，並請求系統語音辨識權限。麥克風及可選的 Mac 系統音訊擷取也需要系統授權。',
+    'privacy.pCloudData': '雲端服務商可能在請求結束後保留音訊、其他使用者內容，以及 API 帳號識別碼、請求時間與次數、Token 用量、錯誤與追蹤記錄、IP 位址等網路資訊。這些資料可能關聯到你的服務商帳號，用於驗證、轉錄、AI 功能、安全及服務運作。部分服務商也會依其條款和帳號設定分析用量，或將提交內容用於模型改進與訓練。應用程式不傳送廣告識別碼，也不將這些請求用於廣告追蹤。',
+    'privacy.pRetention': '我們不統一承諾所有服務都零保留或不訓練。例如，阿里雲百煉通常保留輸入和輸出最多 30 天，法律及安全需求有例外；OpenAI API 的保留規則依端點及核准的資料控制而異。Gemini 免費服務和 ElevenLabs 個人服務可能使用提交內容改進模型。傳送敏感內容前，請核對服務商最新政策和帳號設定。刪除本機內容或撤回同意會停止後續傳送，但不會刪除服務商副本；請向服務商提出刪除要求。'
   },
   'ja': {
     'skip': '本文へスキップ',
@@ -585,7 +591,7 @@ var I18N = {
     'home.faq4a': 'iPhone（iOS 17以降）とMac。画面は13言語です。同じApple IDで解除を復元できます。',
     'home.consent': '録音、文字起こし、要約は、合法で必要な同意がある場合にだけ行ってください。提案する返答は間違うことがあり、専門的な助言ではありません。',
     'privacy.h1': 'プライバシーポリシー',
-    'privacy.updated': '最終更新: 2026-10-08',
+    'privacy.updated': '最終更新: 2026-10-09',
     'privacy.p1': 'Dictation Notes（听写笔记）は、自分のAPIキーを使う文字起こしとAI補助で、iPhoneとMac向けです。このアプリのバックエンドは運営せず、アプリから個人データを収集、販売、追跡しません。',
     'privacy.hWho': '公開している主体',
     'privacy.pWho': 'App Storeでの公開者は Shanghai Qishan Cultural Communication Co., Ltd. です。著作権表示は © 2026 Zhichao Wei。プライバシーに関する問い合わせ: 281916057@qq.com。',
@@ -600,7 +606,7 @@ var I18N = {
     'privacy.hPurchase': '購入',
     'privacy.pPurchase': '買い切りの解除は、AppleがApp Store経由で処理します。こちらは支払いカード情報を受け取らず、保存もしません。Appleは自社のプライバシーポリシーに従って購入レシートを処理することがあります。これは非消耗型の買い切りであり、自動更新のサブスクリプションではありません。',
     'privacy.hStore': 'App Storeのプライバシーラベル',
-    'privacy.pStore': '開発者は音声、文字起こし、AIプロンプト、支払カード情報を受信しません。選択したサービスは独自の方針でデータを処理します。プライバシーラベルはApp Storeの商品ページ、データ処理と保存期間は各サービスの説明をご確認ください。',
+    'privacy.pStore': 'App Store のラベルには、任意のクラウド事業者による音声、その他のコンテンツ、ユーザー ID、使用量、診断、ネットワーク情報の収集が含まれます。データは事業者のアカウントに紐付く場合があります。開発者は音声、文字起こし、AI プロンプト、決済カード情報を受け取りません。',
     'privacy.hSite': 'このウェブサイト',
     'privacy.pSite': 'これらのページは、GitHub Pages上の静的ファイルです。ここには分析、広告、トラッキングSDKはありません。ブラウザは言語設定をlocalStorageに保存することがあります。GitHubは、自社のプライバシーポリシーに従い、IPアドレスなどの通常のサーバーログを処理することがあります。',
     'privacy.hRights': 'すでに使える操作',
@@ -658,7 +664,9 @@ var I18N = {
     'notfound.lead': '公開中のDictation Notesサイトにあるのは、製品、プライバシー、サポート、利用規約だけです。',
     'notfound.back': '製品ページへ戻る',
     'privacy.hApple': 'Appleの音声認識',
-    'privacy.pApple': 'Macの無料音声入力は端末上での認識を優先します。iPhoneでは端末上の認識またはAppleの音声サービスを使うことがあります。Macのオフラインモデルが利用できない場合や認識に失敗した場合も、Appleの音声サービスに音声を送信することがあります。Appleは受信した音声を自社のプライバシーポリシーに従って処理します。開始前にAppleが処理する可能性を説明し、システムの音声認識許可を求めます。マイクと任意のMacシステム音声収録にもシステムの許可が必要です。'
+    'privacy.pApple': 'Macの無料音声入力は端末上での認識を優先します。iPhoneでは端末上の認識またはAppleの音声サービスを使うことがあります。Macのオフラインモデルが利用できない場合や認識に失敗した場合も、Appleの音声サービスに音声を送信することがあります。Appleは受信した音声を自社のプライバシーポリシーに従って処理します。開始前にAppleが処理する可能性を説明し、システムの音声認識許可を求めます。マイクと任意のMacシステム音声収録にもシステムの許可が必要です。',
+    'privacy.pCloudData': 'クラウド事業者は、要求終了後も音声やその他のユーザーコンテンツ、API アカウント識別子、要求時刻・回数、トークン使用量、エラー・トレースログ、IP アドレスなどのネットワーク情報を保持する場合があります。これらは事業者のアカウントに紐付き、認証、文字起こし、AI 機能、セキュリティ、サービス運用に使われます。一部の事業者は規約やアカウント設定に従い、利用状況の分析やモデルの改善・学習にもデータを使います。アプリは広告識別子を送信せず、これらの要求を広告追跡に使いません。',
+    'privacy.pRetention': 'すべてのサービスが保存ゼロ・学習なしとは保証しません。例えば Alibaba Cloud Model Studio は通常、入出力を最大 30 日間保持し、法律・安全上の例外があります。OpenAI API の保持はエンドポイントと承認済みデータ管理により異なります。Gemini の無料サービスと ElevenLabs の個人向けサービスは、送信内容をモデル改善に使う場合があります。機密情報の送信前に最新の規約と設定を確認してください。本機の削除や同意撤回は今後の送信を止めますが、事業者のコピーを削除しません。削除は事業者に依頼してください。'
   },
   'ko': {
     'skip': '본문으로 건너뛰기',
@@ -746,7 +754,7 @@ var I18N = {
     'home.faq4a': 'iPhone(iOS 17 이상)과 Mac. 화면은 13개 언어예요. 같은 Apple ID로 잠금 해제를 복원할 수 있어요.',
     'home.consent': '법이 허용하고 필요한 동의가 있을 때만 녹음, 전사, 요약하세요. 추천 답변은 틀릴 수 있고, 전문 조언이 아니에요.',
     'privacy.h1': '개인정보 처리방침',
-    'privacy.updated': '마지막 업데이트: 2026-10-08',
+    'privacy.updated': '마지막 업데이트: 2026-10-09',
     'privacy.p1': 'Dictation Notes(听写笔记)는 내 API 키를 쓰는 받아쓰기와 AI 도우미로, iPhone과 Mac용이에요. 이 앱의 백엔드를 운영하지 않고, 앱에서 개인 데이터를 수집하거나 판매하거나 추적하지 않아요.',
     'privacy.hWho': '앱을 내는 곳',
     'privacy.pWho': 'App Store 게시자는 Shanghai Qishan Cultural Communication Co., Ltd.예요. 저작권 표기는 © 2026 Zhichao Wei. 개인정보 문의: 281916057@qq.com.',
@@ -761,7 +769,7 @@ var I18N = {
     'privacy.hPurchase': '구매',
     'privacy.pPurchase': '평생 잠금 해제는 Apple이 App Store를 통해 처리해요. 우리는 결제 카드 정보를 받거나 저장하지 않아요. Apple은 자체 개인정보 처리방침에 따라 구매 영수증을 처리할 수 있어요. 비소모성 일회 구매이고, 자동 갱신 구독이 아니에요.',
     'privacy.hStore': 'App Store 개인정보 라벨',
-    'privacy.pStore': '개발자는 오디오, 전사, AI 프롬프트 또는 결제 카드 정보를 받지 않습니다. 선택한 서비스는 자체 정책에 따라 데이터를 처리합니다. 개인정보 라벨은 App Store 제품 페이지에서, 데이터 처리 및 보관은 해당 서비스의 안내에서 확인하세요.',
+    'privacy.pStore': 'App Store 라벨에는 선택한 클라우드 업체의 오디오, 기타 콘텐츠, 사용자 ID, 사용량, 진단 및 네트워크 정보 수집이 포함됩니다. 데이터는 업체 계정과 연결될 수 있습니다. 개발자는 오디오, 전사, AI 프롬프트나 결제 카드 정보를 받지 않습니다.',
     'privacy.hSite': '이 웹사이트',
     'privacy.pSite': '이 페이지는 GitHub Pages에 올라간 정적 파일이에요. 여기서 분석, 광고, 추적 SDK를 돌리지 않아요. 브라우저가 언어 설정을 localStorage에 저장할 수 있어요. GitHub는 자체 개인정보 처리방침에 따라 IP 주소 같은 일반 서버 로그를 처리할 수 있어요.',
     'privacy.hRights': '이미 있는 제어',
@@ -819,7 +827,9 @@ var I18N = {
     'notfound.lead': '공개 Dictation Notes 사이트에는 제품, 개인정보, 지원, 이용약관만 있어요.',
     'notfound.back': '제품 페이지로 돌아가기',
     'privacy.hApple': 'Apple 음성 인식',
-    'privacy.pApple': 'Mac의 무료 받아쓰기는 기기 내 인식을 우선합니다. iPhone은 기기 내 인식 또는 Apple 음성 서비스를 사용할 수 있습니다. Mac의 오프라인 모델을 사용할 수 없거나 인식이 실패하면 오디오가 Apple 음성 서비스로 전송될 수도 있습니다. Apple은 받은 오디오를 자체 개인정보 처리방침에 따라 처리합니다. 앱은 시작 전에 Apple에서 처리될 수 있음을 설명하고 시스템 음성 인식 권한을 요청합니다. 마이크와 선택적인 Mac 시스템 오디오 캡처에도 시스템 권한이 필요합니다.'
+    'privacy.pApple': 'Mac의 무료 받아쓰기는 기기 내 인식을 우선합니다. iPhone은 기기 내 인식 또는 Apple 음성 서비스를 사용할 수 있습니다. Mac의 오프라인 모델을 사용할 수 없거나 인식이 실패하면 오디오가 Apple 음성 서비스로 전송될 수도 있습니다. Apple은 받은 오디오를 자체 개인정보 처리방침에 따라 처리합니다. 앱은 시작 전에 Apple에서 처리될 수 있음을 설명하고 시스템 음성 인식 권한을 요청합니다. 마이크와 선택적인 Mac 시스템 오디오 캡처에도 시스템 권한이 필요합니다.',
+    'privacy.pCloudData': '클라우드 제공업체는 요청 후에도 오디오와 기타 사용자 콘텐츠, API 계정 식별자, 요청 시간·횟수, 토큰 사용량, 오류·추적 로그, IP 주소 등의 네트워크 정보를 보관할 수 있습니다. 이 정보는 제공업체 계정과 연결되며 인증, 전사, AI 기능, 보안 및 서비스 운영에 사용됩니다. 일부 업체는 약관과 계정 설정에 따라 사용량을 분석하거나 콘텐츠를 모델 개선·학습에 사용할 수 있습니다. 앱은 광고 식별자를 보내거나 이러한 요청을 광고 추적에 사용하지 않습니다.',
+    'privacy.pRetention': '모든 서비스가 데이터를 보관하지 않거나 학습에 사용하지 않는다고 보장하지 않습니다. 예를 들어 Alibaba Cloud Model Studio는 일반적으로 입력·출력을 최대 30일 보관하며 법률·보안상 예외가 있습니다. OpenAI API 보관 규칙은 엔드포인트와 승인된 데이터 관리에 따라 다릅니다. Gemini 무료 서비스와 ElevenLabs 개인 서비스는 콘텐츠를 모델 개선에 사용할 수 있습니다. 민감한 자료 전송 전 최신 정책과 계정 설정을 확인하세요. 로컬 삭제와 동의 철회는 이후 전송을 중단하지만 업체의 사본을 삭제하지 않습니다. 삭제는 해당 업체에 요청하세요.'
   },
   'es': {
     'skip': 'Saltar al contenido',
@@ -907,7 +917,7 @@ var I18N = {
     'home.faq4a': 'iPhone (iOS 17 o posterior) y Mac. La interfaz tiene 13 idiomas. El mismo Apple ID puede restaurar el desbloqueo.',
     'home.consent': 'Graba, transcribe o resume solo donde sea legal y tengas el consentimiento exigido. Las respuestas sugeridas pueden equivocarse y no son asesoramiento profesional.',
     'privacy.h1': 'Política de privacidad',
-    'privacy.updated': 'Última actualización: 2026-10-08',
+    'privacy.updated': 'Última actualización: 2026-10-09',
     'privacy.p1': 'Dictation Notes (听写笔记) es un asistente de transcripción e IA con tu propia clave API, para iPhone y Mac. No operamos un backend para esta app, y no recopilamos, vendemos ni rastreamos datos personales desde la app.',
     'privacy.hWho': 'Quién publica la app',
     'privacy.pWho': 'La app se publica en el App Store por Shanghai Qishan Cultural Communication Co., Ltd. El copyright figura como © 2026 Zhichao Wei. Preguntas de privacidad: 281916057@qq.com.',
@@ -922,7 +932,7 @@ var I18N = {
     'privacy.hPurchase': 'Compras',
     'privacy.pPurchase': 'El desbloqueo de por vida lo procesa Apple a través del App Store. No recibimos ni guardamos datos de tarjetas de pago. Apple puede tratar los recibos de compra según su propia política de privacidad. Es una compra única no consumible, no una suscripción de renovación automática.',
     'privacy.hStore': 'Etiqueta de privacidad del App Store',
-    'privacy.pStore': 'El desarrollador no recibe audio, transcripciones, instrucciones de IA ni datos de tarjetas. Los proveedores elegidos aplican sus propias políticas. Consulta la ficha de App Store para la etiqueta de privacidad y al proveedor para su tratamiento y conservación de datos.',
+    'privacy.pStore': 'La etiqueta de App Store incluye la recopilación opcional de audio, otros contenidos, ID de usuario y datos de uso, diagnóstico y red por proveedores de nube. Pueden vincularse a tu cuenta. El desarrollador no recibe audio, transcripciones, prompts ni datos de tarjetas.',
     'privacy.hSite': 'Este sitio',
     'privacy.pSite': 'Estas páginas son archivos estáticos alojados en GitHub Pages. Aquí no hay analítica, anuncios ni un SDK de seguimiento. El navegador puede guardar una preferencia de idioma en localStorage. GitHub puede tratar registros de servidor habituales, como direcciones IP, según la política de privacidad de GitHub.',
     'privacy.hRights': 'Controles que ya tienes',
@@ -980,7 +990,9 @@ var I18N = {
     'notfound.lead': 'El sitio público de Dictation Notes solo tiene producto, privacidad, soporte y términos.',
     'notfound.back': 'Volver a la página del producto',
     'privacy.hApple': 'Reconocimiento de voz de Apple',
-    'privacy.pApple': 'En Mac, el dictado gratuito prioriza el reconocimiento en el dispositivo. El iPhone puede usar reconocimiento local o los servicios de voz de Apple. Si el modelo sin conexión del Mac no está disponible o falla, el audio también puede enviarse a Apple. Apple trata el audio recibido según su política de privacidad. La app explica el posible tratamiento por Apple antes de escuchar y solicita el permiso de reconocimiento de voz del sistema. El micrófono y la captura opcional de audio del sistema del Mac también requieren permiso.'
+    'privacy.pApple': 'En Mac, el dictado gratuito prioriza el reconocimiento en el dispositivo. El iPhone puede usar reconocimiento local o los servicios de voz de Apple. Si el modelo sin conexión del Mac no está disponible o falla, el audio también puede enviarse a Apple. Apple trata el audio recibido según su política de privacidad. La app explica el posible tratamiento por Apple antes de escuchar y solicita el permiso de reconocimiento de voz del sistema. El micrófono y la captura opcional de audio del sistema del Mac también requieren permiso.',
+    'privacy.pCloudData': 'Los proveedores de nube pueden conservar audio y otros contenidos tras una solicitud, junto con identificadores de cuenta API, fechas y número de solicitudes, uso de tokens, registros de errores y trazas e información de red como la dirección IP. Pueden vincularse a tu cuenta del proveedor para autenticación, transcripción, funciones de IA, seguridad y operaciones. Algunos proveedores también analizan el uso o utilizan contenidos para mejorar o entrenar modelos según sus condiciones y ajustes. La app no envía identificadores publicitarios ni usa estas solicitudes para seguimiento publicitario.',
+    'privacy.pRetention': 'No garantizamos retención cero ni ausencia de entrenamiento en todos los servicios. Alibaba Cloud Model Studio suele conservar entradas y salidas hasta 30 días, con excepciones legales o de seguridad; OpenAI API varía según el endpoint y los controles aprobados. Gemini gratuito y ElevenLabs para particulares pueden usar contenidos para mejorar modelos. Revisa la política vigente y tus ajustes antes de enviar material sensible. Borrar datos locales o retirar el permiso detiene futuros envíos, pero no elimina las copias del proveedor; solicítaselo directamente.'
   },
   'fr': {
     'skip': 'Aller au contenu',
@@ -1068,7 +1080,7 @@ var I18N = {
     'home.faq4a': 'iPhone (iOS 17 ou version ultérieure) et Mac. L\'interface a 13 langues. Le même Apple ID peut restaurer le déverrouillage.',
     'home.consent': 'Enregistrez, transcrivez ou résumez seulement là où c\'est légal et où vous avez le consentement requis. Les réponses suggérées peuvent être fausses et ne constituent pas un conseil professionnel.',
     'privacy.h1': 'Politique de confidentialité',
-    'privacy.updated': 'Dernière mise à jour : 2026-10-08',
+    'privacy.updated': 'Dernière mise à jour : 2026-10-09',
     'privacy.p1': 'Dictation Notes (听写笔记) est un assistant de transcription et d\'IA avec votre propre clé API, pour iPhone et Mac. Nous n\'exploitons pas de backend pour cette app, et nous ne collectons, ne vendons ni ne suivons de données personnelles depuis l\'app.',
     'privacy.hWho': 'Qui publie l\'app',
     'privacy.pWho': 'L\'app est publiée sur l\'App Store par Shanghai Qishan Cultural Communication Co., Ltd. Le copyright est indiqué © 2026 Zhichao Wei. Questions de confidentialité : 281916057@qq.com.',
@@ -1083,7 +1095,7 @@ var I18N = {
     'privacy.hPurchase': 'Achats',
     'privacy.pPurchase': 'Le déverrouillage à vie est traité par Apple via l\'App Store. Nous ne recevons ni ne stockons d\'informations de carte de paiement. Apple peut traiter les reçus d\'achat selon sa propre politique de confidentialité. Il s\'agit d\'un achat unique non consommable, pas d\'un abonnement à renouvellement automatique.',
     'privacy.hStore': 'Libellé de confidentialité de l\'App Store',
-    'privacy.pStore': 'Le développeur ne reçoit ni audio, transcriptions, instructions IA, ni données de carte bancaire. Les fournisseurs choisis appliquent leurs propres politiques. Consultez la fiche App Store pour l’étiquette de confidentialité et le fournisseur pour le traitement et la conservation des données.',
+    'privacy.pStore': 'L’étiquette App Store inclut la collecte facultative par les fournisseurs cloud : audio, autres contenus, identifiants utilisateur et données d’usage, de diagnostic et de réseau. Ces données peuvent être liées à votre compte. Le développeur ne reçoit ni audio, ni transcriptions, ni requêtes IA, ni données de carte bancaire.',
     'privacy.hSite': 'Ce site',
     'privacy.pSite': 'Ces pages sont des fichiers statiques hébergés sur GitHub Pages. Nous n\'y faisons tourner ni analyse, ni publicité, ni SDK de suivi. Votre navigateur peut stocker une préférence de langue dans localStorage. GitHub peut traiter des journaux serveur habituels, par exemple des adresses IP, selon la politique de confidentialité de GitHub.',
     'privacy.hRights': 'Contrôles déjà à votre disposition',
@@ -1141,7 +1153,9 @@ var I18N = {
     'notfound.lead': 'Le site public Dictation Notes n\'a que le produit, la confidentialité, l\'assistance et les conditions.',
     'notfound.back': 'Retour à la page produit',
     'privacy.hApple': 'Reconnaissance vocale Apple',
-    'privacy.pApple': 'Sur Mac, la dictée gratuite privilégie la reconnaissance sur l’appareil. L’iPhone peut utiliser la reconnaissance locale ou les services vocaux Apple. Si le modèle hors ligne du Mac est indisponible ou échoue, l’audio peut aussi être envoyé à Apple. Apple traite l’audio reçu selon sa politique de confidentialité. L’app explique ce traitement possible avant l’écoute et demande l’autorisation système de reconnaissance vocale. Le micro et la capture facultative de l’audio système du Mac nécessitent aussi une autorisation.'
+    'privacy.pApple': 'Sur Mac, la dictée gratuite privilégie la reconnaissance sur l’appareil. L’iPhone peut utiliser la reconnaissance locale ou les services vocaux Apple. Si le modèle hors ligne du Mac est indisponible ou échoue, l’audio peut aussi être envoyé à Apple. Apple traite l’audio reçu selon sa politique de confidentialité. L’app explique ce traitement possible avant l’écoute et demande l’autorisation système de reconnaissance vocale. Le micro et la capture facultative de l’audio système du Mac nécessitent aussi une autorisation.',
+    'privacy.pCloudData': 'Les fournisseurs cloud peuvent conserver l’audio et d’autres contenus après une requête, ainsi que les identifiants de compte API, dates et nombres de requêtes, volumes de tokens, journaux d’erreurs et de traces et informations réseau comme l’adresse IP. Ces données peuvent être liées à votre compte pour l’authentification, la transcription, les fonctions IA, la sécurité et le fonctionnement du service. Certains fournisseurs analysent aussi l’usage ou utilisent les contenus pour améliorer ou entraîner des modèles selon leurs conditions et vos réglages. L’app n’envoie pas d’identifiants publicitaires et n’utilise pas ces requêtes pour le suivi publicitaire.',
+    'privacy.pRetention': 'Nous ne garantissons pas une absence de conservation ou d’entraînement pour tous les services. Alibaba Cloud Model Studio conserve généralement les entrées et sorties jusqu’à 30 jours, avec des exceptions légales ou de sécurité ; OpenAI API varie selon le point d’accès et les contrôles approuvés. Gemini gratuit et ElevenLabs pour particuliers peuvent utiliser les contenus pour améliorer leurs modèles. Vérifiez les règles en vigueur et vos réglages avant d’envoyer des données sensibles. La suppression locale ou le retrait du consentement arrête les futurs envois mais ne supprime pas les copies du fournisseur ; contactez-le directement.'
   },
   'de': {
     'skip': 'Zum Inhalt springen',
@@ -1229,7 +1243,7 @@ var I18N = {
     'home.faq4a': 'iPhone (iOS 17 oder neuer) und Mac. Die Oberfläche hat 13 Sprachen. Dieselbe Apple ID kann die Freischaltung wiederherstellen.',
     'home.consent': 'Nehmen Sie auf, transkribieren oder fassen Sie nur zusammen, wo es legal ist und die erforderliche Einwilligung vorliegt. Vorgeschlagene Antworten können falsch sein und sind kein fachlicher Rat.',
     'privacy.h1': 'Datenschutzrichtlinie',
-    'privacy.updated': 'Zuletzt aktualisiert: 2026-10-08',
+    'privacy.updated': 'Zuletzt aktualisiert: 2026-10-09',
     'privacy.p1': 'Dictation Notes (听写笔记) ist ein Transkriptions- und KI-Assistent mit eigenem API-Schlüssel für iPhone und Mac. Wir betreiben kein Backend für diese App und erheben, verkaufen oder verfolgen keine personenbezogenen Daten aus der App.',
     'privacy.hWho': 'Wer die App veröffentlicht',
     'privacy.pWho': 'Die App wird im App Store von Shanghai Qishan Cultural Communication Co., Ltd. veröffentlicht. Das Copyright lautet © 2026 Zhichao Wei. Datenschutzfragen: 281916057@qq.com.',
@@ -1244,7 +1258,7 @@ var I18N = {
     'privacy.hPurchase': 'Käufe',
     'privacy.pPurchase': 'Die lebenslange Freischaltung wird von Apple über den App Store abgewickelt. Wir erhalten und speichern keine Zahlungskartendaten. Apple kann Kaufbelege nach eigener Datenschutzrichtlinie verarbeiten. Das ist ein nicht verbrauchbarer Einmalkauf, kein automatisch verlängerndes Abonnement.',
     'privacy.hStore': 'App-Store-Datenschutzlabel',
-    'privacy.pStore': 'Der Entwickler erhält keine Audiodaten, Transkripte, KI-Eingaben oder Zahlungskartendaten. Gewählte Anbieter verarbeiten Daten nach eigenen Richtlinien. Das Datenschutzlabel steht auf der App-Store-Produktseite; Angaben zur Verarbeitung und Aufbewahrung findest du beim Anbieter.',
+    'privacy.pStore': 'Das App Store-Label umfasst die optionale Erfassung von Audio, anderen Inhalten, Nutzer-IDs sowie Nutzungs-, Diagnose- und Netzwerkdaten durch Cloud-Anbieter. Diese können mit Ihrem Konto verknüpft sein. Der Entwickler erhält keine Audiodaten, Transkripte, KI-Eingaben oder Zahlungskartendaten.',
     'privacy.hSite': 'Diese Website',
     'privacy.pSite': 'Diese Seiten sind statische Dateien auf GitHub Pages. Wir betreiben hier keine Analyse, Werbung oder ein Tracking-SDK. Ihr Browser kann eine Spracheinstellung in localStorage speichern. GitHub kann übliche Serverprotokolle, etwa IP-Adressen, nach der Datenschutzrichtlinie von GitHub verarbeiten.',
     'privacy.hRights': 'Steuerungen, die Sie schon haben',
@@ -1302,7 +1316,9 @@ var I18N = {
     'notfound.lead': 'Die öffentliche Dictation-Notes-Website hat nur Produkt, Datenschutz, Support und Bedingungen.',
     'notfound.back': 'Zurück zur Produktseite',
     'privacy.hApple': 'Apple-Spracherkennung',
-    'privacy.pApple': 'Auf Mac bevorzugt das kostenlose Diktat die Erkennung auf dem Gerät. Das iPhone kann lokale Erkennung oder Apple-Sprachdienste nutzen. Ist das Offline-Modell des Mac nicht verfügbar oder schlägt es fehl, kann Audio ebenfalls an Apple gesendet werden. Apple verarbeitet empfangenes Audio nach seiner Datenschutzrichtlinie. Die App erklärt die mögliche Verarbeitung durch Apple vor Beginn und fordert die Systemberechtigung für Spracherkennung an. Mikrofon und optionale Systemaudioaufnahme auf Mac benötigen ebenfalls eine Berechtigung.'
+    'privacy.pApple': 'Auf Mac bevorzugt das kostenlose Diktat die Erkennung auf dem Gerät. Das iPhone kann lokale Erkennung oder Apple-Sprachdienste nutzen. Ist das Offline-Modell des Mac nicht verfügbar oder schlägt es fehl, kann Audio ebenfalls an Apple gesendet werden. Apple verarbeitet empfangenes Audio nach seiner Datenschutzrichtlinie. Die App erklärt die mögliche Verarbeitung durch Apple vor Beginn und fordert die Systemberechtigung für Spracherkennung an. Mikrofon und optionale Systemaudioaufnahme auf Mac benötigen ebenfalls eine Berechtigung.',
+    'privacy.pCloudData': 'Cloud-Anbieter können Audio und andere Nutzerinhalte nach einer Anfrage speichern, ebenso API-Kontokennungen, Anfragezeiten und -zahlen, Token-Verbrauch, Fehler- und Trace-Protokolle sowie Netzwerkinformationen wie IP-Adressen. Die Daten können mit Ihrem Anbieterkonto verknüpft sein und für Authentifizierung, Transkription, KI-Funktionen, Sicherheit und Betrieb genutzt werden. Manche Anbieter analysieren die Nutzung oder verwenden Inhalte zur Modellverbesserung und zum Training gemäß ihren Bedingungen und Kontoeinstellungen. Die App sendet keine Werbekennungen und nutzt diese Anfragen nicht für Werbetracking.',
+    'privacy.pRetention': 'Wir garantieren nicht für alle Dienste eine Speicherung von null Tagen oder den Ausschluss von Training. Alibaba Cloud Model Studio speichert Ein- und Ausgaben üblicherweise bis zu 30 Tage mit gesetzlichen und sicherheitsbedingten Ausnahmen; bei OpenAI API hängt dies vom Endpunkt und genehmigten Datenkontrollen ab. Kostenlose Gemini-Dienste und ElevenLabs für Einzelpersonen können Inhalte zur Modellverbesserung nutzen. Prüfen Sie vor sensiblen Übermittlungen die aktuellen Regeln und Einstellungen. Lokales Löschen oder Widerrufen stoppt künftige Übermittlungen, löscht aber keine Anbieterkopien; beantragen Sie dies beim Anbieter.'
   },
   'pt-BR': {
     'skip': 'Pular para o conteúdo',
@@ -1390,7 +1406,7 @@ var I18N = {
     'home.faq4a': 'iPhone (iOS 17 ou posterior) e Mac. A interface tem 13 idiomas. O mesmo Apple ID pode restaurar o desbloqueio.',
     'home.consent': 'Grave, transcreva ou resuma só onde for legal e você tiver o consentimento exigido. As respostas sugeridas podem estar erradas e não são aconselhamento profissional.',
     'privacy.h1': 'Política de Privacidade',
-    'privacy.updated': 'Última atualização: 2026-10-08',
+    'privacy.updated': 'Última atualização: 2026-10-09',
     'privacy.p1': 'O Dictation Notes (听写笔记) é um assistente de transcrição e IA para iPhone e Mac em que você usa a própria chave de API. Não operamos um backend para este app e não coletamos, vendemos nem rastreamos dados pessoais a partir do aplicativo.',
     'privacy.hWho': 'Quem publica o app',
     'privacy.pWho': 'O app é publicado na App Store por Shanghai Qishan Cultural Communication Co., Ltd. O copyright está marcado como © 2026 Zhichao Wei. Dúvidas de privacidade: 281916057@qq.com.',
@@ -1405,7 +1421,7 @@ var I18N = {
     'privacy.hPurchase': 'Compras',
     'privacy.pPurchase': 'O desbloqueio vitalício é processado pela Apple pela App Store. Não recebemos nem armazenamos dados de cartão. A Apple pode tratar recibos de compra sob a própria política de privacidade. Isso é uma compra única não consumível, não uma assinatura com renovação automática.',
     'privacy.hStore': 'Rótulo de privacidade da App Store',
-    'privacy.pStore': 'O desenvolvedor não recebe áudio, transcrições, instruções de IA ou dados de cartão. Os serviços escolhidos processam dados segundo suas próprias políticas. Consulte a página do App Store para o rótulo de privacidade e o serviço para o tratamento e a retenção dos dados.',
+    'privacy.pStore': 'O rótulo da App Store inclui a coleta opcional de áudio, outros conteúdos, IDs de usuário e dados de uso, diagnóstico e rede pelos provedores de nuvem. Eles podem ser vinculados à sua conta. O desenvolvedor não recebe áudio, transcrições, prompts ou dados de cartões.',
     'privacy.hSite': 'Este site',
     'privacy.pSite': 'Estas páginas são arquivos estáticos hospedados no GitHub Pages. Não rodamos analytics, anúncios nem SDK de rastreamento aqui. O navegador pode guardar a preferência de idioma no localStorage. O GitHub pode tratar logs padrão do servidor, como endereços IP, sob a política de privacidade do GitHub.',
     'privacy.hRights': 'Controles que você já tem',
@@ -1463,7 +1479,9 @@ var I18N = {
     'notfound.lead': 'O site público do Dictation Notes só tem produto, privacidade, suporte e termos.',
     'notfound.back': 'Voltar à página do produto',
     'privacy.hApple': 'Reconhecimento de fala da Apple',
-    'privacy.pApple': 'No Mac, o ditado gratuito prioriza o reconhecimento no dispositivo. O iPhone pode usar reconhecimento local ou os serviços de fala da Apple. Se o modelo offline do Mac estiver indisponível ou falhar, o áudio também poderá ser enviado à Apple. A Apple trata o áudio recebido conforme sua política de privacidade. O app explica esse possível tratamento antes de ouvir e solicita a permissão de reconhecimento de fala do sistema. O microfone e a captura opcional de áudio do sistema do Mac também exigem permissão.'
+    'privacy.pApple': 'No Mac, o ditado gratuito prioriza o reconhecimento no dispositivo. O iPhone pode usar reconhecimento local ou os serviços de fala da Apple. Se o modelo offline do Mac estiver indisponível ou falhar, o áudio também poderá ser enviado à Apple. A Apple trata o áudio recebido conforme sua política de privacidade. O app explica esse possível tratamento antes de ouvir e solicita a permissão de reconhecimento de fala do sistema. O microfone e a captura opcional de áudio do sistema do Mac também exigem permissão.',
+    'privacy.pCloudData': 'Provedores de nuvem podem reter áudio e outros conteúdos após uma solicitação, além de identificadores da conta API, horários e contagens de solicitações, uso de tokens, logs de erros e rastreamento e informações de rede como IP. Esses dados podem ser vinculados à sua conta para autenticação, transcrição, recursos de IA, segurança e operação do serviço. Alguns provedores também analisam o uso ou utilizam conteúdos para melhorar ou treinar modelos conforme seus termos e configurações. O app não envia identificadores de publicidade nem usa essas solicitações para rastreamento publicitário.',
+    'privacy.pRetention': 'Não garantimos retenção zero ou ausência de treinamento em todos os serviços. O Alibaba Cloud Model Studio normalmente retém entradas e saídas por até 30 dias, com exceções legais ou de segurança; a OpenAI API varia por endpoint e controles aprovados. Serviços gratuitos Gemini e serviços individuais ElevenLabs podem usar conteúdos para melhorar modelos. Consulte as regras atuais e sua conta antes de enviar material sensível. Apagar dados locais ou retirar a permissão interrompe envios futuros, mas não apaga cópias do provedor; solicite a exclusão diretamente a ele.'
   },
   'ru': {
     'skip': 'Перейти к содержанию',
@@ -1551,7 +1569,7 @@ var I18N = {
     'home.faq4a': 'iPhone (iOS 17 или новее) и Mac. В интерфейсе 13 языков. Та же учётная запись Apple ID восстанавливает разблокировку.',
     'home.consent': 'Записывайте, расшифровывайте или суммируйте только там, где это законно и есть нужное согласие. Предложенные ответы могут быть неверными и не являются профессиональной консультацией.',
     'privacy.h1': 'Политика конфиденциальности',
-    'privacy.updated': 'Последнее обновление: 2026-10-08',
+    'privacy.updated': 'Последнее обновление: 2026-10-09',
     'privacy.p1': 'Dictation Notes (听写笔记): помощник по расшифровке и ИИ для iPhone и Mac, в котором вы приносите собственный ключ API. Мы не ведём серверную часть этого приложения и не собираем, не продаём и не отслеживаем личные данные из приложения.',
     'privacy.hWho': 'Кто публикует приложение',
     'privacy.pWho': 'Приложение публикует в App Store компания Shanghai Qishan Cultural Communication Co., Ltd. Знак авторского права: © 2026 Zhichao Wei. Вопросы о конфиденциальности: 281916057@qq.com.',
@@ -1566,7 +1584,7 @@ var I18N = {
     'privacy.hPurchase': 'Покупки',
     'privacy.pPurchase': 'Пожизненную разблокировку проводит Apple через App Store. Мы не получаем и не храним данные платёжных карт. Apple может обрабатывать квитанции по своей политике конфиденциальности. Это нерасходуемая разовая покупка, не автоматически продлеваемая подписка.',
     'privacy.hStore': 'Метка конфиденциальности App Store',
-    'privacy.pStore': 'Разработчик не получает аудио, расшифровки, запросы ИИ и данные платёжных карт. Выбранные сервисы обрабатывают данные по своим правилам. Метка конфиденциальности доступна на странице App Store, а правила обработки и хранения — у соответствующего сервиса.',
+    'privacy.pStore': 'Метка App Store включает сбор облачными поставщиками аудио, другого контента, ID пользователя, данных об использовании, диагностике и сети. Они могут быть связаны с вашим аккаунтом. Разработчик не получает аудио, расшифровки, запросы ИИ или данные платёжных карт.',
     'privacy.hSite': 'Этот сайт',
     'privacy.pSite': 'Эти страницы: статичные файлы на GitHub Pages. Здесь нет аналитики, рекламы и SDK слежения. Браузер может сохранить язык в localStorage. GitHub может обрабатывать обычные серверные журналы, например IP-адреса, по политике конфиденциальности GitHub.',
     'privacy.hRights': 'Уже доступные вам настройки',
@@ -1624,7 +1642,9 @@ var I18N = {
     'notfound.lead': 'Публичный сайт Dictation Notes содержит только продукт, конфиденциальность, поддержку и условия.',
     'notfound.back': 'Вернуться на страницу продукта',
     'privacy.hApple': 'Распознавание речи Apple',
-    'privacy.pApple': 'На Mac бесплатная диктовка предпочитает распознавание на устройстве. iPhone может использовать локальное распознавание или речевые сервисы Apple. Если офлайн-модель Mac недоступна или не работает, аудио также может передаваться Apple. Apple обрабатывает полученное аудио согласно своей политике конфиденциальности. Приложение объясняет возможную обработку Apple до начала и запрашивает системное разрешение на распознавание речи. Микрофон и необязательный захват системного звука Mac также требуют разрешения.'
+    'privacy.pApple': 'На Mac бесплатная диктовка предпочитает распознавание на устройстве. iPhone может использовать локальное распознавание или речевые сервисы Apple. Если офлайн-модель Mac недоступна или не работает, аудио также может передаваться Apple. Apple обрабатывает полученное аудио согласно своей политике конфиденциальности. Приложение объясняет возможную обработку Apple до начала и запрашивает системное разрешение на распознавание речи. Микрофон и необязательный захват системного звука Mac также требуют разрешения.',
+    'privacy.pCloudData': 'Облачные поставщики могут сохранять аудио и другой пользовательский контент после запроса, а также идентификаторы аккаунта API, время и число запросов, расход токенов, журналы ошибок и трассировки и сетевые данные, например IP-адрес. Данные могут быть связаны с вашим аккаунтом и использоваться для авторизации, расшифровки, функций ИИ, безопасности и работы сервиса. Некоторые поставщики также анализируют использование или применяют контент для улучшения и обучения моделей согласно своим условиям и настройкам аккаунта. Приложение не отправляет рекламные идентификаторы и не использует запросы для рекламного отслеживания.',
+    'privacy.pRetention': 'Мы не гарантируем нулевое хранение или отсутствие обучения для всех сервисов. Alibaba Cloud Model Studio обычно хранит входные и выходные данные до 30 дней с исключениями по закону и безопасности; в OpenAI API правила зависят от конечной точки и одобренных настроек. Бесплатный Gemini и индивидуальные сервисы ElevenLabs могут использовать контент для улучшения моделей. Перед отправкой чувствительных данных проверьте действующие правила и настройки. Локальное удаление или отзыв согласия прекращает будущую отправку, но не удаляет копии поставщика; запросите удаление у него.'
   },
   'ar': {
     'skip': 'تخطي إلى المحتوى',
@@ -1712,7 +1732,7 @@ var I18N = {
     'home.faq4a': 'iPhone (iOS 17 أو أحدث) وMac. الواجهة بـ 13 لغة. يمكن لـ Apple ID نفسه استعادة الفتح.',
     'home.consent': 'سجّل أو فرّغ أو لخّص فقط حيث يكون ذلك قانونياً ومع أي موافقة مطلوبة. قد تكون الردود المقترحة خاطئة وليست مشورة مهنية.',
     'privacy.h1': 'سياسة الخصوصية',
-    'privacy.updated': 'آخر تحديث: 2026-10-08',
+    'privacy.updated': 'آخر تحديث: 2026-10-09',
     'privacy.p1': 'Dictation Notes (听写笔记) مساعد تفريغ وذكاء اصطناعي لهاتف iPhone وMac تعتمد فيه على مفتاح API الخاص بك. لا نشغّل خادماً خلفياً لهذا التطبيق، ولا نجمع البيانات الشخصية من التطبيق ولا نبيعها ولا نتتبّعها.',
     'privacy.hWho': 'من ينشر التطبيق',
     'privacy.pWho': 'ينشر التطبيق على App Store شركة Shanghai Qishan Cultural Communication Co., Ltd. علامة حقوق النشر © 2026 Zhichao Wei. أسئلة الخصوصية: 281916057@qq.com.',
@@ -1727,7 +1747,7 @@ var I18N = {
     'privacy.hPurchase': 'المشتريات',
     'privacy.pPurchase': 'تعالج Apple الفتح مدى الحياة عبر App Store. لا نتلقى معلومات بطاقة الدفع ولا نخزّنها. قد تعالج Apple إيصالات الشراء وفق سياسة خصوصيتها. هذا شراء غير قابل للاستهلاك لمرة واحدة، وليس اشتراكاً يتجدد تلقائياً.',
     'privacy.hStore': 'تصنيف خصوصية App Store',
-    'privacy.pStore': 'لا يتلقى المطور الصوت أو النصوص أو تعليمات الذكاء الاصطناعي أو بيانات بطاقات الدفع. تعالج الخدمات المختارة البيانات وفق سياساتها. راجع صفحة المنتج في App Store لملصق الخصوصية، والخدمة المختارة لمعالجة البيانات والاحتفاظ بها.',
+    'privacy.pStore': 'يشمل ملصق App Store جمع مزوّدي السحابة الاختياري للصوت والمحتوى الآخر ومعرّفات المستخدم وبيانات الاستخدام والتشخيص والشبكة. قد ترتبط بحسابك لدى المزوّد. لا يتلقى المطوّر الصوت أو النصوص أو طلبات الذكاء الاصطناعي أو بيانات بطاقات الدفع.',
     'privacy.hSite': 'هذا الموقع',
     'privacy.pSite': 'هذه الصفحات ملفات ثابتة مستضافة على GitHub Pages. لا نشغّل هنا تحليلات ولا إعلانات ولا حزمة تتبّع. قد يخزّن المتصفح تفضيل اللغة في localStorage. قد يعالج GitHub سجلات خادم قياسية، مثل عناوين IP، وفق سياسة خصوصية GitHub.',
     'privacy.hRights': 'ضوابط لديك مسبقاً',
@@ -1785,7 +1805,9 @@ var I18N = {
     'notfound.lead': 'موقع Dictation Notes العام يحتوي فقط على المنتج والخصوصية والدعم والشروط.',
     'notfound.back': 'العودة إلى صفحة المنتج',
     'privacy.hApple': 'التعرف على الكلام من Apple',
-    'privacy.pApple': 'على Mac، يفضّل الإملاء المجاني التعرف على الجهاز. قد يستخدم iPhone التعرف المحلي أو خدمات الكلام من Apple. إذا لم يتوفر نموذج Mac دون اتصال أو فشل، فقد يُرسل الصوت أيضًا إلى Apple. تعالج Apple الصوت الذي تتلقاه وفق سياسة خصوصيتها. يوضح التطبيق احتمال معالجة Apple قبل الاستماع ويطلب إذن التعرف على الكلام من النظام. يحتاج الميكروفون والتقاط صوت نظام Mac الاختياري إلى إذن النظام أيضًا.'
+    'privacy.pApple': 'على Mac، يفضّل الإملاء المجاني التعرف على الجهاز. قد يستخدم iPhone التعرف المحلي أو خدمات الكلام من Apple. إذا لم يتوفر نموذج Mac دون اتصال أو فشل، فقد يُرسل الصوت أيضًا إلى Apple. تعالج Apple الصوت الذي تتلقاه وفق سياسة خصوصيتها. يوضح التطبيق احتمال معالجة Apple قبل الاستماع ويطلب إذن التعرف على الكلام من النظام. يحتاج الميكروفون والتقاط صوت نظام Mac الاختياري إلى إذن النظام أيضًا.',
+    'privacy.pCloudData': 'قد تحتفظ خدمات السحابة بالصوت ومحتوى المستخدم الآخر بعد الطلب، وكذلك معرّفات حساب API وأوقات الطلبات وعددها واستهلاك الرموز وسجلات الأخطاء والتتبّع ومعلومات الشبكة مثل عنوان IP. قد ترتبط البيانات بحسابك لدى المزوّد وتُستخدم للمصادقة والتفريغ ووظائف الذكاء الاصطناعي والأمان وتشغيل الخدمة. قد يحلل بعض المزوّدين الاستخدام أو يستخدمون المحتوى لتحسين النماذج وتدريبها حسب شروطهم وإعدادات الحساب. لا يرسل التطبيق معرّفات إعلانية ولا يستخدم هذه الطلبات للتتبّع الإعلاني.',
+    'privacy.pRetention': 'لا نضمن انعدام الاحتفاظ أو عدم التدريب لجميع الخدمات. يحتفظ Alibaba Cloud Model Studio عادةً بالمدخلات والمخرجات حتى 30 يومًا، مع استثناءات قانونية وأمنية؛ وتختلف قواعد OpenAI API حسب نقطة النهاية وضوابط البيانات المعتمدة. قد تستخدم خدمات Gemini المجانية وخدمات ElevenLabs الفردية المحتوى لتحسين النماذج. راجع السياسة الحالية وإعدادات حسابك قبل إرسال بيانات حساسة. الحذف المحلي أو سحب الموافقة يوقف الإرسال اللاحق لكنه لا يحذف نسخ المزوّد؛ اطلب الحذف منه مباشرةً.'
   },
   'hi': {
     'skip': 'सामग्री पर जाएँ',
@@ -1873,7 +1895,7 @@ var I18N = {
     'home.faq4a': 'iPhone (iOS 17 या उसके बाद) और Mac। इंटरफ़ेस में 13 भाषाएँ हैं। वही Apple ID अनलॉक बहाल कर सकता है।',
     'home.consent': 'रिकॉर्ड, ट्रांस्क्राइब या सारांश केवल वहीं करें जहाँ यह कानूनी हो और ज़रूरी सहमति हो। सुझाए जवाब गलत हो सकते हैं और पेशेवर सलाह नहीं हैं।',
     'privacy.h1': 'गोपनीयता नीति',
-    'privacy.updated': 'अंतिम अद्यतन: 2026-10-08',
+    'privacy.updated': 'अंतिम अद्यतन: 2026-10-09',
     'privacy.p1': 'Dictation Notes (听写笔记) iPhone और Mac के लिए एक ट्रांस्क्रिप्शन और AI सहायक है, जिसमें आप अपनी API कुंजी लाते हैं। हम इस ऐप के लिए बैकएंड नहीं चलाते, और ऐप से व्यक्तिगत डेटा जुटाते, बेचते या ट्रैक नहीं करते।',
     'privacy.hWho': 'ऐप कौन प्रकाशित करता है',
     'privacy.pWho': 'ऐप App Store पर Shanghai Qishan Cultural Communication Co., Ltd. प्रकाशित करता है। कॉपीराइट चिह्न © 2026 Zhichao Wei है। गोपनीयता प्रश्न: 281916057@qq.com।',
@@ -1888,7 +1910,7 @@ var I18N = {
     'privacy.hPurchase': 'खरीदारी',
     'privacy.pPurchase': 'लाइफटाइम अनलॉक को Apple, App Store के ज़रिए संसाधित करता है। हम भुगतान कार्ड की जानकारी न तो पाते हैं, न रखते हैं। Apple खरीद रसीदें अपनी गोपनीयता नीति के तहत संसाधित कर सकता है। यह गैर-उपभोज्य, एक बार की खरीद है, अपने आप नवीनीकृत होने वाली सदस्यता नहीं।',
     'privacy.hStore': 'App Store गोपनीयता लेबल',
-    'privacy.pStore': 'डेवलपर को ऑडियो, प्रतिलेख, AI निर्देश या भुगतान कार्ड विवरण नहीं मिलते। चुनी हुई सेवाएँ अपनी नीतियों के अनुसार डेटा संसाधित करती हैं। गोपनीयता लेबल के लिए App Store उत्पाद पृष्ठ और डेटा प्रसंस्करण तथा प्रतिधारण के लिए संबंधित सेवा देखें।',
+    'privacy.pStore': 'App Store लेबल में वैकल्पिक क्लाउड प्रदाताओं द्वारा ऑडियो, अन्य सामग्री, उपयोगकर्ता ID, उपयोग, निदान और नेटवर्क डेटा का संग्रह शामिल है। डेटा आपके प्रदाता खाते से जुड़ सकता है। डेवलपर ऑडियो, ट्रांसक्रिप्ट, AI प्रॉम्प्ट या भुगतान कार्ड जानकारी प्राप्त नहीं करता।',
     'privacy.hSite': 'यह वेबसाइट',
     'privacy.pSite': 'ये पृष्ठ GitHub Pages पर होस्ट की गई स्थिर फ़ाइलें हैं। हम यहाँ एनालिटिक्स, विज्ञापन या ट्रैकिंग SDK नहीं चलाते। ब्राउज़र भाषा पसंद localStorage में रख सकता है। GitHub अपनी गोपनीयता नीति के तहत सामान्य सर्वर लॉग, जैसे IP पते, संसाधित कर सकता है।',
     'privacy.hRights': 'नियंत्रण जो आपके पास पहले से हैं',
@@ -1946,7 +1968,9 @@ var I18N = {
     'notfound.lead': 'सार्वजनिक Dictation Notes साइट पर केवल उत्पाद, गोपनीयता, सहायता और नियम हैं।',
     'notfound.back': 'उत्पाद पृष्ठ पर वापस',
     'privacy.hApple': 'Apple वाणी पहचान',
-    'privacy.pApple': 'Mac पर मुफ़्त डिक्टेशन डिवाइस पर पहचान को प्राथमिकता देता है। iPhone डिवाइस पर पहचान या Apple की वाणी सेवाओं का उपयोग कर सकता है। Mac का ऑफ़लाइन मॉडल उपलब्ध न होने या विफल होने पर ऑडियो Apple को भी भेजा जा सकता है। Apple प्राप्त ऑडियो को अपनी गोपनीयता नीति के अनुसार संसाधित करता है। ऐप सुनना शुरू करने से पहले Apple द्वारा संभावित प्रसंस्करण बताता है और सिस्टम वाणी पहचान अनुमति माँगता है। माइक्रोफ़ोन और वैकल्पिक Mac सिस्टम ऑडियो कैप्चर के लिए भी सिस्टम अनुमति चाहिए।'
+    'privacy.pApple': 'Mac पर मुफ़्त डिक्टेशन डिवाइस पर पहचान को प्राथमिकता देता है। iPhone डिवाइस पर पहचान या Apple की वाणी सेवाओं का उपयोग कर सकता है। Mac का ऑफ़लाइन मॉडल उपलब्ध न होने या विफल होने पर ऑडियो Apple को भी भेजा जा सकता है। Apple प्राप्त ऑडियो को अपनी गोपनीयता नीति के अनुसार संसाधित करता है। ऐप सुनना शुरू करने से पहले Apple द्वारा संभावित प्रसंस्करण बताता है और सिस्टम वाणी पहचान अनुमति माँगता है। माइक्रोफ़ोन और वैकल्पिक Mac सिस्टम ऑडियो कैप्चर के लिए भी सिस्टम अनुमति चाहिए।',
+    'privacy.pCloudData': 'क्लाउड प्रदाता अनुरोध के बाद ऑडियो और अन्य उपयोगकर्ता सामग्री के साथ API खाता पहचानकर्ता, अनुरोध का समय और संख्या, टोकन उपयोग, त्रुटि और ट्रेस लॉग तथा IP पते जैसी नेटवर्क जानकारी रख सकते हैं। यह डेटा आपके प्रदाता खाते से जुड़ सकता है और प्रमाणीकरण, ट्रांसक्रिप्शन, AI सुविधाओं, सुरक्षा व सेवा संचालन में उपयोग होता है। कुछ प्रदाता अपनी शर्तों और खाता सेटिंग के अनुसार उपयोग का विश्लेषण या सामग्री से मॉडल का सुधार और प्रशिक्षण भी करते हैं। ऐप विज्ञापन पहचानकर्ता नहीं भेजता और इन अनुरोधों का विज्ञापन ट्रैकिंग के लिए उपयोग नहीं करता।',
+    'privacy.pRetention': 'हम सभी सेवाओं के लिए शून्य प्रतिधारण या प्रशिक्षण न होने की गारंटी नहीं देते। उदाहरण के लिए Alibaba Cloud Model Studio आम तौर पर इनपुट और आउटपुट 30 दिनों तक रखता है, कानूनी व सुरक्षा अपवाद लागू हैं; OpenAI API के नियम एंडपॉइंट और स्वीकृत डेटा नियंत्रणों पर निर्भर हैं। Gemini की मुफ्त सेवाएँ और ElevenLabs की व्यक्तिगत सेवाएँ मॉडल सुधार के लिए सामग्री का उपयोग कर सकती हैं। संवेदनशील सामग्री भेजने से पहले वर्तमान नीति और सेटिंग जाँचें। स्थानीय डेटा हटाने या अनुमति वापस लेने से भविष्य में भेजना रुकता है, प्रदाता की प्रतियाँ नहीं मिटतीं; प्रदाता से हटाने का अनुरोध करें।'
   },
   'id': {
     'skip': 'Loncat ke konten',
@@ -2034,7 +2058,7 @@ var I18N = {
     'home.faq4a': 'iPhone (iOS 17 atau lebih baru) dan Mac. Antarmuka punya 13 bahasa. Apple ID yang sama dapat memulihkan buka kunci.',
     'home.consent': 'Rekam, transkrip, atau ringkas hanya jika sah dan Anda punya persetujuan yang diperlukan. Saran balasan bisa salah dan bukan nasihat profesional.',
     'privacy.h1': 'Kebijakan Privasi',
-    'privacy.updated': 'Terakhir diperbarui: 2026-10-08',
+    'privacy.updated': 'Terakhir diperbarui: 2026-10-09',
     'privacy.p1': 'Dictation Notes (听写笔记) adalah asisten transkripsi dan AI untuk iPhone dan Mac dengan kunci API milik Anda. Kami tidak menjalankan backend untuk aplikasi ini, dan tidak mengumpulkan, menjual, atau melacak data pribadi dari aplikasi.',
     'privacy.hWho': 'Siapa yang menerbitkan aplikasi',
     'privacy.pWho': 'Aplikasi diterbitkan di App Store oleh Shanghai Qishan Cultural Communication Co., Ltd. Hak cipta ditandai © 2026 Zhichao Wei. Pertanyaan privasi: 281916057@qq.com.',
@@ -2049,7 +2073,7 @@ var I18N = {
     'privacy.hPurchase': 'Pembelian',
     'privacy.pPurchase': 'Buka kunci seumur hidup diproses Apple melalui App Store. Kami tidak menerima atau menyimpan informasi kartu pembayaran. Apple dapat memproses tanda terima pembelian menurut kebijakan privasinya. Ini pembelian sekali yang tidak habis pakai, bukan langganan perpanjangan otomatis.',
     'privacy.hStore': 'Label privasi App Store',
-    'privacy.pStore': 'Pengembang tidak menerima audio, transkrip, instruksi AI, atau data kartu pembayaran. Layanan pilihan Anda memproses data menurut kebijakannya sendiri. Lihat halaman produk App Store untuk label privasi dan layanan terkait untuk pemrosesan serta penyimpanan data.',
+    'privacy.pStore': 'Label App Store mencakup pengumpulan opsional oleh penyedia cloud atas audio, konten lain, ID pengguna, serta data penggunaan, diagnostik, dan jaringan. Data dapat terkait dengan akun Anda. Pengembang tidak menerima audio, transkrip, prompt AI, atau rincian kartu pembayaran.',
     'privacy.hSite': 'Situs ini',
     'privacy.pSite': 'Halaman ini adalah berkas statis yang dihosting di GitHub Pages. Kami tidak menjalankan analitik, iklan, atau SDK pelacakan di sini. Peramban Anda mungkin menyimpan preferensi bahasa di localStorage. GitHub dapat memproses log server standar, misalnya alamat IP, menurut kebijakan privasi GitHub.',
     'privacy.hRights': 'Kontrol yang sudah Anda miliki',
@@ -2107,7 +2131,9 @@ var I18N = {
     'notfound.lead': 'Situs publik Dictation Notes hanya berisi produk, privasi, dukungan, dan ketentuan.',
     'notfound.back': 'Kembali ke halaman produk',
     'privacy.hApple': 'Pengenalan suara Apple',
-    'privacy.pApple': 'Di Mac, dikte gratis mengutamakan pengenalan di perangkat. iPhone dapat memakai pengenalan lokal atau layanan suara Apple. Jika model offline Mac tidak tersedia atau gagal, audio juga dapat dikirim ke Apple. Apple memproses audio yang diterima menurut kebijakan privasinya. Aplikasi menjelaskan kemungkinan pemrosesan oleh Apple sebelum mulai mendengarkan dan meminta izin pengenalan suara sistem. Mikrofon dan pengambilan audio sistem Mac opsional juga memerlukan izin sistem.'
+    'privacy.pApple': 'Di Mac, dikte gratis mengutamakan pengenalan di perangkat. iPhone dapat memakai pengenalan lokal atau layanan suara Apple. Jika model offline Mac tidak tersedia atau gagal, audio juga dapat dikirim ke Apple. Apple memproses audio yang diterima menurut kebijakan privasinya. Aplikasi menjelaskan kemungkinan pemrosesan oleh Apple sebelum mulai mendengarkan dan meminta izin pengenalan suara sistem. Mikrofon dan pengambilan audio sistem Mac opsional juga memerlukan izin sistem.',
+    'privacy.pCloudData': 'Penyedia cloud dapat menyimpan audio dan konten pengguna lainnya setelah permintaan, beserta pengenal akun API, waktu dan jumlah permintaan, penggunaan token, log kesalahan dan pelacakan, serta informasi jaringan seperti alamat IP. Data dapat terkait dengan akun Anda untuk autentikasi, transkripsi, fitur AI, keamanan, dan operasi layanan. Sebagian penyedia juga menganalisis penggunaan atau memakai konten untuk perbaikan dan pelatihan model sesuai ketentuan dan pengaturan akun. Aplikasi tidak mengirim pengenal iklan atau menggunakan permintaan ini untuk pelacakan iklan.',
+    'privacy.pRetention': 'Kami tidak menjamin tanpa penyimpanan atau tanpa pelatihan untuk semua layanan. Alibaba Cloud Model Studio biasanya menyimpan masukan dan keluaran hingga 30 hari, dengan pengecualian hukum atau keamanan; OpenAI API berbeda menurut endpoint dan kontrol data yang disetujui. Gemini gratis dan layanan individu ElevenLabs dapat memakai konten untuk perbaikan model. Periksa kebijakan terbaru dan pengaturan sebelum mengirim materi sensitif. Penghapusan lokal atau pencabutan izin menghentikan pengiriman berikutnya, tetapi tidak menghapus salinan penyedia; mintalah penghapusan langsung kepadanya.'
   }
 };
 

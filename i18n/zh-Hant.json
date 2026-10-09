@@ -84,7 +84,7 @@
   "home.faq4a": "iPhone（iOS 17 或更高）與 Mac。介面有 13 種語言。同一 Apple ID 可恢復買斷。",
   "home.consent": "請只在合法並取得必要同意時錄音、轉錄或總結。建議回覆可能不準確，不能替代專業意見。",
   "privacy.h1": "隱私權政策",
-  "privacy.updated": "最後更新：2026-10-08",
+  "privacy.updated": "最後更新：2026-10-09",
   "privacy.p1": "聽寫筆記（Dictation Notes）是一款使用者自帶 API Key 的對話轉錄與 AI 輔助應用，適用於 iPhone 與 Mac。我們不為這個應用營運後端，也不會從應用裡收集、出售或追蹤個人資料。",
   "privacy.hWho": "發布方",
   "privacy.pWho": "本應用由 Shanghai Qishan Cultural Communication Co., Ltd. 在 App Store 發布。版權標註為 © 2026 Zhichao Wei。隱私問題請寫到 281916057@qq.com。",
@@ -99,7 +99,7 @@
   "privacy.hPurchase": "購買",
   "privacy.pPurchase": "一次性買斷由 Apple 透過 App Store 處理。我們不會接收或保存支付卡資訊。Apple 可能按自己的隱私權政策處理購買收據。這是非消耗型一次性買斷，不是自動續期訂閱。",
   "privacy.hStore": "App Store 隱私標籤",
-  "privacy.pStore": "開發者不接收音訊、轉錄、AI 提示詞或支付卡資訊。你選擇的服務商依其政策處理資料。隱私標籤請參閱 App Store 商品頁；資料處理與保留方式請參閱對應服務商的說明。",
+  "privacy.pStore": "App Store 標籤包括可選雲端服務商對音訊、其他使用者內容、使用者 ID、用量、診斷及網路資訊的收集。這些資料可能關聯到你的服務商帳號。開發者不接收音訊、轉錄、AI 提示詞或付款卡詳情。",
   "privacy.hSite": "本網站",
   "privacy.pSite": "這些頁面是放在 GitHub Pages 上的靜態檔案。我們不在本站執行分析、廣告或追蹤 SDK。瀏覽器可能把語言偏好存在 localStorage。GitHub 可能按自己的政策處理造訪紀錄（例如 IP 位址）。",
   "privacy.hRights": "你能自己做的控制",
@@ -157,5 +157,7 @@
   "notfound.lead": "聽寫筆記的公開站只有產品、隱私、支援、條款這幾頁。",
   "notfound.back": "回到產品頁",
   "privacy.hApple": "Apple 語音辨識",
-  "privacy.pApple": "Mac 免費聽寫優先在裝置上辨識；iPhone 可能使用本機辨識或 Apple 語音服務。Mac 離線模型不可用或辨識失敗時，音訊也可能傳給 Apple 語音服務。Apple 依其隱私政策處理收到的音訊。應用會在開始聽寫前說明可能由 Apple 處理，並請求系統語音辨識權限。麥克風及可選的 Mac 系統音訊擷取也需要系統授權。"
+  "privacy.pApple": "Mac 免費聽寫優先在裝置上辨識；iPhone 可能使用本機辨識或 Apple 語音服務。Mac 離線模型不可用或辨識失敗時，音訊也可能傳給 Apple 語音服務。Apple 依其隱私政策處理收到的音訊。應用會在開始聽寫前說明可能由 Apple 處理，並請求系統語音辨識權限。麥克風及可選的 Mac 系統音訊擷取也需要系統授權。",
+  "privacy.pCloudData": "雲端服務商可能在請求結束後保留音訊、其他使用者內容，以及 API 帳號識別碼、請求時間與次數、Token 用量、錯誤與追蹤記錄、IP 位址等網路資訊。這些資料可能關聯到你的服務商帳號，用於驗證、轉錄、AI 功能、安全及服務運作。部分服務商也會依其條款和帳號設定分析用量，或將提交內容用於模型改進與訓練。應用程式不傳送廣告識別碼，也不將這些請求用於廣告追蹤。",
+  "privacy.pRetention": "我們不統一承諾所有服務都零保留或不訓練。例如，阿里雲百煉通常保留輸入和輸出最多 30 天，法律及安全需求有例外；OpenAI API 的保留規則依端點及核准的資料控制而異。Gemini 免費服務和 ElevenLabs 個人服務可能使用提交內容改進模型。傳送敏感內容前，請核對服務商最新政策和帳號設定。刪除本機內容或撤回同意會停止後續傳送，但不會刪除服務商副本；請向服務商提出刪除要求。"
 }

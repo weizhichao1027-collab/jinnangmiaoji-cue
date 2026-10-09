@@ -84,7 +84,7 @@
   "home.faq4a": "iPhone (iOS 17 atau lebih baru) dan Mac. Antarmuka punya 13 bahasa. Apple ID yang sama dapat memulihkan buka kunci.",
   "home.consent": "Rekam, transkrip, atau ringkas hanya jika sah dan Anda punya persetujuan yang diperlukan. Saran balasan bisa salah dan bukan nasihat profesional.",
   "privacy.h1": "Kebijakan Privasi",
-  "privacy.updated": "Terakhir diperbarui: 2026-10-08",
+  "privacy.updated": "Terakhir diperbarui: 2026-10-09",
   "privacy.p1": "Dictation Notes (听写笔记) adalah asisten transkripsi dan AI untuk iPhone dan Mac dengan kunci API milik Anda. Kami tidak menjalankan backend untuk aplikasi ini, dan tidak mengumpulkan, menjual, atau melacak data pribadi dari aplikasi.",
   "privacy.hWho": "Siapa yang menerbitkan aplikasi",
   "privacy.pWho": "Aplikasi diterbitkan di App Store oleh Shanghai Qishan Cultural Communication Co., Ltd. Hak cipta ditandai © 2026 Zhichao Wei. Pertanyaan privasi: 281916057@qq.com.",
@@ -99,7 +99,7 @@
   "privacy.hPurchase": "Pembelian",
   "privacy.pPurchase": "Buka kunci seumur hidup diproses Apple melalui App Store. Kami tidak menerima atau menyimpan informasi kartu pembayaran. Apple dapat memproses tanda terima pembelian menurut kebijakan privasinya. Ini pembelian sekali yang tidak habis pakai, bukan langganan perpanjangan otomatis.",
   "privacy.hStore": "Label privasi App Store",
-  "privacy.pStore": "Pengembang tidak menerima audio, transkrip, instruksi AI, atau data kartu pembayaran. Layanan pilihan Anda memproses data menurut kebijakannya sendiri. Lihat halaman produk App Store untuk label privasi dan layanan terkait untuk pemrosesan serta penyimpanan data.",
+  "privacy.pStore": "Label App Store mencakup pengumpulan opsional oleh penyedia cloud atas audio, konten lain, ID pengguna, serta data penggunaan, diagnostik, dan jaringan. Data dapat terkait dengan akun Anda. Pengembang tidak menerima audio, transkrip, prompt AI, atau rincian kartu pembayaran.",
   "privacy.hSite": "Situs ini",
   "privacy.pSite": "Halaman ini adalah berkas statis yang dihosting di GitHub Pages. Kami tidak menjalankan analitik, iklan, atau SDK pelacakan di sini. Peramban Anda mungkin menyimpan preferensi bahasa di localStorage. GitHub dapat memproses log server standar, misalnya alamat IP, menurut kebijakan privasi GitHub.",
   "privacy.hRights": "Kontrol yang sudah Anda miliki",
@@ -157,5 +157,7 @@
   "notfound.lead": "Situs publik Dictation Notes hanya berisi produk, privasi, dukungan, dan ketentuan.",
   "notfound.back": "Kembali ke halaman produk",
   "privacy.hApple": "Pengenalan suara Apple",
-  "privacy.pApple": "Di Mac, dikte gratis mengutamakan pengenalan di perangkat. iPhone dapat memakai pengenalan lokal atau layanan suara Apple. Jika model offline Mac tidak tersedia atau gagal, audio juga dapat dikirim ke Apple. Apple memproses audio yang diterima menurut kebijakan privasinya. Aplikasi menjelaskan kemungkinan pemrosesan oleh Apple sebelum mulai mendengarkan dan meminta izin pengenalan suara sistem. Mikrofon dan pengambilan audio sistem Mac opsional juga memerlukan izin sistem."
+  "privacy.pApple": "Di Mac, dikte gratis mengutamakan pengenalan di perangkat. iPhone dapat memakai pengenalan lokal atau layanan suara Apple. Jika model offline Mac tidak tersedia atau gagal, audio juga dapat dikirim ke Apple. Apple memproses audio yang diterima menurut kebijakan privasinya. Aplikasi menjelaskan kemungkinan pemrosesan oleh Apple sebelum mulai mendengarkan dan meminta izin pengenalan suara sistem. Mikrofon dan pengambilan audio sistem Mac opsional juga memerlukan izin sistem.",
+  "privacy.pCloudData": "Penyedia cloud dapat menyimpan audio dan konten pengguna lainnya setelah permintaan, beserta pengenal akun API, waktu dan jumlah permintaan, penggunaan token, log kesalahan dan pelacakan, serta informasi jaringan seperti alamat IP. Data dapat terkait dengan akun Anda untuk autentikasi, transkripsi, fitur AI, keamanan, dan operasi layanan. Sebagian penyedia juga menganalisis penggunaan atau memakai konten untuk perbaikan dan pelatihan model sesuai ketentuan dan pengaturan akun. Aplikasi tidak mengirim pengenal iklan atau menggunakan permintaan ini untuk pelacakan iklan.",
+  "privacy.pRetention": "Kami tidak menjamin tanpa penyimpanan atau tanpa pelatihan untuk semua layanan. Alibaba Cloud Model Studio biasanya menyimpan masukan dan keluaran hingga 30 hari, dengan pengecualian hukum atau keamanan; OpenAI API berbeda menurut endpoint dan kontrol data yang disetujui. Gemini gratis dan layanan individu ElevenLabs dapat memakai konten untuk perbaikan model. Periksa kebijakan terbaru dan pengaturan sebelum mengirim materi sensitif. Penghapusan lokal atau pencabutan izin menghentikan pengiriman berikutnya, tetapi tidak menghapus salinan penyedia; mintalah penghapusan langsung kepadanya."
 }

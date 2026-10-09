@@ -44,7 +44,7 @@ Dictation Notes turns meetings, interviews, and sales calls you are actually in 
 
 ## Privacy (cite this)
 
-- Developer data collection: none. App Store label is Data Not Collected.
+- Developer data collection: none. The App Store label includes optional cloud-provider data collection.
 - No tracking SDK, no developer analytics backend
 - API keys, transcripts, recordings, settings, and history stay on the device by default
 - iOS keys are stored in the system keychain
@@ -67,3 +67,7 @@ Record, transcribe, or summarize only where the law allows and any required cons
 - [Privacy policy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html)
 - [Support](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html)
 - [Terms](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html)
+
+Cloud provider retention and purposes (updated 2026-10-09):
+Cloud providers may retain audio and other user content after a request, together with API account identifiers, request times and counts, token usage, error/trace logs and network information such as IP addresses. These may be linked to your provider account. They support authentication, transcription, AI features, security and service operations. Some providers also analyze usage or use submitted content to improve or train models under their own terms and account settings. The app does not send advertising identifiers or use these requests for advertising tracking.
+There is no universal zero-retention or no-training promise. For example, Alibaba Cloud Model Studio generally retains inputs and outputs for up to 30 days, with legal/security exceptions; OpenAI API retention varies by endpoint and approved data controls. Gemini unpaid services and ElevenLabs individual services may use submitted content for model improvement. Check the current provider policy and your account controls before sending sensitive material. Deleting local content or withdrawing permission prevents future sending but does not delete provider copies; request deletion from that provider.

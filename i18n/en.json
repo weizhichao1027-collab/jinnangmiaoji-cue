@@ -84,7 +84,7 @@
   "home.faq4a": "iPhone (iOS 17 or later) and Mac. The interface has 13 languages. The same Apple ID can restore the unlock.",
   "home.consent": "Record, transcribe, or summarize only where it is legal and you have any required consent. Suggested replies can be wrong and are not professional advice.",
   "privacy.h1": "Privacy Policy",
-  "privacy.updated": "Last updated: 2026-10-08",
+  "privacy.updated": "Last updated: 2026-10-09",
   "privacy.p1": "Dictation Notes (听写笔记) is a bring-your-own-API-key transcription and AI assistant for iPhone and Mac. We do not operate a backend for this app, and we do not collect, sell, or track personal data from the app.",
   "privacy.hWho": "Who publishes the app",
   "privacy.pWho": "The app is published on the App Store by Shanghai Qishan Cultural Communication Co., Ltd. Copyright is marked © 2026 Zhichao Wei. Privacy questions: 281916057@qq.com.",
@@ -99,7 +99,7 @@
   "privacy.hPurchase": "Purchases",
   "privacy.pPurchase": "The lifetime unlock is processed by Apple through the App Store. We do not receive or store payment card information. Apple may process purchase receipts under its own privacy policy. This is a non-consumable one-time purchase, not an auto-renewing subscription.",
   "privacy.hStore": "App Store privacy label",
-  "privacy.pStore": "The developer does not receive audio, transcripts, AI prompts or payment card details. Providers you select process data according to their own policies. Consult the App Store product page for its privacy label and the chosen provider for its data handling and retention.",
+  "privacy.pStore": "The App Store label includes optional cloud-provider collection of audio, other user content, user IDs, usage, diagnostic and network data. Data may be linked to your provider account. The developer does not receive audio, transcripts, AI prompts or payment card details.",
   "privacy.hSite": "This website",
   "privacy.pSite": "These pages are static files hosted on GitHub Pages. We do not run analytics, ads, or a tracking SDK here. Your browser may store a language preference in localStorage. GitHub may process standard server logs, such as IP addresses, under GitHub’s privacy policy.",
   "privacy.hRights": "Controls you already have",
@@ -157,5 +157,7 @@
   "notfound.lead": "The public Dictation Notes site only has product, privacy, support, and terms.",
   "notfound.back": "Back to the product page",
   "privacy.hApple": "Apple speech recognition",
-  "privacy.pApple": "On Mac, free dictation prefers recognition on the device. iPhone may use on-device recognition or Apple speech services. If a Mac offline model is unavailable or fails, audio may also be sent to Apple speech services. Apple processes received audio under its privacy policy. The app explains possible Apple processing before listening and requests system speech recognition permission. Microphone and optional Mac system audio capture also require system permission."
+  "privacy.pApple": "On Mac, free dictation prefers recognition on the device. iPhone may use on-device recognition or Apple speech services. If a Mac offline model is unavailable or fails, audio may also be sent to Apple speech services. Apple processes received audio under its privacy policy. The app explains possible Apple processing before listening and requests system speech recognition permission. Microphone and optional Mac system audio capture also require system permission.",
+  "privacy.pCloudData": "Cloud providers may retain audio and other user content after a request, together with API account identifiers, request times and counts, token usage, error/trace logs and network information such as IP addresses. These may be linked to your provider account. They support authentication, transcription, AI features, security and service operations. Some providers also analyze usage or use submitted content to improve or train models under their own terms and account settings. The app does not send advertising identifiers or use these requests for advertising tracking.",
+  "privacy.pRetention": "There is no universal zero-retention or no-training promise. For example, Alibaba Cloud Model Studio generally retains inputs and outputs for up to 30 days, with legal/security exceptions; OpenAI API retention varies by endpoint and approved data controls. Gemini unpaid services and ElevenLabs individual services may use submitted content for model improvement. Check the current provider policy and your account controls before sending sensitive material. Deleting local content or withdrawing permission prevents future sending but does not delete provider copies; request deletion from that provider."
 }

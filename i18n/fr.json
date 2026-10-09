@@ -84,7 +84,7 @@
   "home.faq4a": "iPhone (iOS 17 ou version ultérieure) et Mac. L'interface a 13 langues. Le même Apple ID peut restaurer le déverrouillage.",
   "home.consent": "Enregistrez, transcrivez ou résumez seulement là où c'est légal et où vous avez le consentement requis. Les réponses suggérées peuvent être fausses et ne constituent pas un conseil professionnel.",
   "privacy.h1": "Politique de confidentialité",
-  "privacy.updated": "Dernière mise à jour : 2026-10-08",
+  "privacy.updated": "Dernière mise à jour : 2026-10-09",
   "privacy.p1": "Dictation Notes (听写笔记) est un assistant de transcription et d'IA avec votre propre clé API, pour iPhone et Mac. Nous n'exploitons pas de backend pour cette app, et nous ne collectons, ne vendons ni ne suivons de données personnelles depuis l'app.",
   "privacy.hWho": "Qui publie l'app",
   "privacy.pWho": "L'app est publiée sur l'App Store par Shanghai Qishan Cultural Communication Co., Ltd. Le copyright est indiqué © 2026 Zhichao Wei. Questions de confidentialité : 281916057@qq.com.",
@@ -99,7 +99,7 @@
   "privacy.hPurchase": "Achats",
   "privacy.pPurchase": "Le déverrouillage à vie est traité par Apple via l'App Store. Nous ne recevons ni ne stockons d'informations de carte de paiement. Apple peut traiter les reçus d'achat selon sa propre politique de confidentialité. Il s'agit d'un achat unique non consommable, pas d'un abonnement à renouvellement automatique.",
   "privacy.hStore": "Libellé de confidentialité de l'App Store",
-  "privacy.pStore": "Le développeur ne reçoit ni audio, transcriptions, instructions IA, ni données de carte bancaire. Les fournisseurs choisis appliquent leurs propres politiques. Consultez la fiche App Store pour l’étiquette de confidentialité et le fournisseur pour le traitement et la conservation des données.",
+  "privacy.pStore": "L’étiquette App Store inclut la collecte facultative par les fournisseurs cloud : audio, autres contenus, identifiants utilisateur et données d’usage, de diagnostic et de réseau. Ces données peuvent être liées à votre compte. Le développeur ne reçoit ni audio, ni transcriptions, ni requêtes IA, ni données de carte bancaire.",
   "privacy.hSite": "Ce site",
   "privacy.pSite": "Ces pages sont des fichiers statiques hébergés sur GitHub Pages. Nous n'y faisons tourner ni analyse, ni publicité, ni SDK de suivi. Votre navigateur peut stocker une préférence de langue dans localStorage. GitHub peut traiter des journaux serveur habituels, par exemple des adresses IP, selon la politique de confidentialité de GitHub.",
   "privacy.hRights": "Contrôles déjà à votre disposition",
@@ -157,5 +157,7 @@
   "notfound.lead": "Le site public Dictation Notes n'a que le produit, la confidentialité, l'assistance et les conditions.",
   "notfound.back": "Retour à la page produit",
   "privacy.hApple": "Reconnaissance vocale Apple",
-  "privacy.pApple": "Sur Mac, la dictée gratuite privilégie la reconnaissance sur l’appareil. L’iPhone peut utiliser la reconnaissance locale ou les services vocaux Apple. Si le modèle hors ligne du Mac est indisponible ou échoue, l’audio peut aussi être envoyé à Apple. Apple traite l’audio reçu selon sa politique de confidentialité. L’app explique ce traitement possible avant l’écoute et demande l’autorisation système de reconnaissance vocale. Le micro et la capture facultative de l’audio système du Mac nécessitent aussi une autorisation."
+  "privacy.pApple": "Sur Mac, la dictée gratuite privilégie la reconnaissance sur l’appareil. L’iPhone peut utiliser la reconnaissance locale ou les services vocaux Apple. Si le modèle hors ligne du Mac est indisponible ou échoue, l’audio peut aussi être envoyé à Apple. Apple traite l’audio reçu selon sa politique de confidentialité. L’app explique ce traitement possible avant l’écoute et demande l’autorisation système de reconnaissance vocale. Le micro et la capture facultative de l’audio système du Mac nécessitent aussi une autorisation.",
+  "privacy.pCloudData": "Les fournisseurs cloud peuvent conserver l’audio et d’autres contenus après une requête, ainsi que les identifiants de compte API, dates et nombres de requêtes, volumes de tokens, journaux d’erreurs et de traces et informations réseau comme l’adresse IP. Ces données peuvent être liées à votre compte pour l’authentification, la transcription, les fonctions IA, la sécurité et le fonctionnement du service. Certains fournisseurs analysent aussi l’usage ou utilisent les contenus pour améliorer ou entraîner des modèles selon leurs conditions et vos réglages. L’app n’envoie pas d’identifiants publicitaires et n’utilise pas ces requêtes pour le suivi publicitaire.",
+  "privacy.pRetention": "Nous ne garantissons pas une absence de conservation ou d’entraînement pour tous les services. Alibaba Cloud Model Studio conserve généralement les entrées et sorties jusqu’à 30 jours, avec des exceptions légales ou de sécurité ; OpenAI API varie selon le point d’accès et les contrôles approuvés. Gemini gratuit et ElevenLabs pour particuliers peuvent utiliser les contenus pour améliorer leurs modèles. Vérifiez les règles en vigueur et vos réglages avant d’envoyer des données sensibles. La suppression locale ou le retrait du consentement arrête les futurs envois mais ne supprime pas les copies du fournisseur ; contactez-le directement."
 }

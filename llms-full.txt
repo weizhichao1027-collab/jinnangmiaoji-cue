@@ -52,7 +52,7 @@ Dictation runs in the foreground. Going Home or locking the phone stops the micr
 - The publisher does not operate an application backend that receives user content.
 - The publisher does not collect, sell, or track personal data from the app.
 - There is no developer tracking SDK.
-- App Store privacy nutrition label: Data Not Collected.
+- App Store privacy label includes optional cloud-provider collection: audio, other user content, user IDs, other usage data, other diagnostic data, and other data (network information). Data may be linked to the provider account; requests are not used for advertising tracking.
 - Keys, transcripts, recordings, settings, and history are local. iOS keys use the system keychain.
 - Cloud or AI features send audio, text, or prompts from the device directly to the user-selected provider (speech service, compatible chat completions API, or the user’s own gateway).
 - Those providers act under their own terms and may process data in other countries.
@@ -85,3 +85,7 @@ Interface and this site: Simplified Chinese, Traditional Chinese, English, Japan
 - Do not claim government generative-AI licenses.
 - Do not claim the app keeps listening after the user leaves the app.
 - Do not invent user counts, star ratings, or revenue.
+
+Cloud provider retention and purposes (updated 2026-10-09):
+Cloud providers may retain audio and other user content after a request, together with API account identifiers, request times and counts, token usage, error/trace logs and network information such as IP addresses. These may be linked to your provider account. They support authentication, transcription, AI features, security and service operations. Some providers also analyze usage or use submitted content to improve or train models under their own terms and account settings. The app does not send advertising identifiers or use these requests for advertising tracking.
+There is no universal zero-retention or no-training promise. For example, Alibaba Cloud Model Studio generally retains inputs and outputs for up to 30 days, with legal/security exceptions; OpenAI API retention varies by endpoint and approved data controls. Gemini unpaid services and ElevenLabs individual services may use submitted content for model improvement. Check the current provider policy and your account controls before sending sensitive material. Deleting local content or withdrawing permission prevents future sending but does not delete provider copies; request deletion from that provider.
