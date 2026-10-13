@@ -39,6 +39,8 @@ Simplified Chinese keeps the existing root URLs. Other languages use `/en/`, `/z
 
 When publishing a new app version, also update version references in localized copy, policy dates where appropriate, screenshots and the app's handoff. Requirements in `site-config.json` describe the app; visible platform comparison copy must agree.
 
+Bump `assetVersion` when shared CSS, JavaScript or sharing artwork changes, so returning visitors receive the current files. Keep the 404 asset query in sync.
+
 ## Assets
 
 `shots/mac/<locale>/` contains three 1280 × 800 JPEGs per language, derived from the application's real localized Mac screenshot sources in `docs/mac-store-artwork/v1/raw/`. `shots/iphone/<locale>/` contains three 660 × 1434 JPEGs per language from the corresponding retained App Store previews. The displayed conversations and AI responses are demonstration content. Older screenshot URLs remain available for compatibility.

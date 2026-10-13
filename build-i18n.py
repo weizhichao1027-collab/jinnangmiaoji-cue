@@ -74,6 +74,7 @@ def structured_data(config, data, page, code):
 def render(config, tables, page, code):
     data = tables[code]
     base, asset = config['baseUrl'], config['basePath']
+    revision = config['assetVersion']
     url = page_url(config, page, code)
     esc = lambda s: html.escape(str(s), quote=True)
     title, desc = data[f'meta.{page}Title'], data[f'meta.{page}Desc']
@@ -116,21 +117,21 @@ def render(config, tables, page, code):
   <meta property="og:description" content="{esc(desc)}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{url}">
-  <meta property="og:image" content="{base}og.png">
+  <meta property="og:image" content="{base}og.png?v={revision}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dictation Notes · Mac &amp; iPhone">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{esc(title)}">
   <meta name="twitter:description" content="{esc(desc)}">
-  <meta name="twitter:image" content="{base}og.png">
+  <meta name="twitter:image" content="{base}og.png?v={revision}">
   <link rel="icon" href="{asset}favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="{asset}apple-touch-icon.png">
 {preload}
-  <link rel="stylesheet" href="{asset}fonts/fonts.css">
-  <link rel="stylesheet" href="{asset}styles.css">
+  <link rel="stylesheet" href="{asset}fonts/fonts.css?v={revision}">
+  <link rel="stylesheet" href="{asset}styles.css?v={revision}">
   <script type="application/ld+json">{structured_data(config, data, page, code)}</script>
-  <script src="{asset}site.js" defer></script>
+  <script src="{asset}site.js?v={revision}" defer></script>
 </head>
 <body data-page="{page}" data-base="{asset}">
   <a class="skip" href="#main">{esc(data['skip'])}</a>
