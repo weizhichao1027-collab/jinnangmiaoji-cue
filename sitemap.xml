@@ -1,39 +1,939 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+  </url>
   <url>
     <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/</loc>
-    <lastmod>2026-09-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
   </url>
   <url>
     <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html</loc>
-    <lastmod>2026-09-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
   </url>
   <url>
     <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html</loc>
-    <lastmod>2026-09-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
   </url>
   <url>
     <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html</loc>
-    <lastmod>2026-09-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
   </url>
   <url>
-    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/llms.txt</loc>
-    <lastmod>2026-09-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
   </url>
   <url>
-    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/llms-full.txt</loc>
-    <lastmod>2026-09-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/zh-Hant/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ko/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/pt-BR/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ru/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/hi/terms.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/id/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html" />
   </url>
 </urlset>

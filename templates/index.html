@@ -1,0 +1,72 @@
+<main id="main" class="wrap">
+  <section class="hero">
+    <div>
+      <p class="release-line">Mac {{mac.version}} · iPhone {{iphone.version}}</p>
+      <h1>{{home.h1}}</h1>
+      <p class="lead">{{home.lead}}</p>
+      <div class="cta-row">
+        <a class="btn" href="{{mac.store}}">{{home.macCta}}</a>
+        <a class="btn secondary" href="{{iphone.store}}">{{home.iphoneCta}}</a>
+        <a class="text-link" href="{{url.support}}">{{home.help}}</a>
+      </div>
+      <p class="fine">{{home.available}}</p>
+    </div>
+    <figure class="hero-shot">
+      <a href="{{mac.hero}}"><img src="{{mac.hero}}" width="1280" height="800" fetchpriority="high" alt="{{home.macShot1}}"></a>
+      <figcaption>{{home.sampleNote}}</figcaption>
+    </figure>
+  </section>
+  <dl class="facts">
+    <div><dt>{{home.factFreeK}}</dt><dd>{{home.factFreeV}}</dd></div>
+    <div><dt>{{home.factTrialK}}</dt><dd>{{home.factTrialV}}</dd></div>
+    <div><dt>{{home.factPayK}}</dt><dd>{{home.factPayV}}</dd></div>
+    <div><dt>{{home.factOsK}}</dt><dd>{{home.factOsV}}</dd></div>
+  </dl>
+  <section class="feature-section" id="mac">
+    <div class="section-intro"><h2>{{home.macTitle}}</h2><p>{{home.macBody}}</p></div>
+    <ul class="feature-list"><li>{{home.macBullet1}}</li><li>{{home.macBullet2}}</li><li>{{home.macBullet3}}</li></ul>
+    <div class="desktop-gallery">
+      <figure><a href="{{mac.notes}}"><img src="{{mac.notes}}" width="1280" height="800" loading="lazy" decoding="async" alt="{{home.macShot2}}"></a><figcaption>{{home.macShot2}}</figcaption></figure>
+      <figure><a href="{{mac.history}}"><img src="{{mac.history}}" width="1280" height="800" loading="lazy" decoding="async" alt="{{home.macShot3}}"></a><figcaption>{{home.macShot3}}</figcaption></figure>
+    </div>
+  </section>
+  <section class="platform-section" id="platforms">
+    <h2>{{home.platforms}}</h2><p class="note">{{home.platformsBody}}</p>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="{{home.platforms}}">
+      <table><caption>{{home.platforms}}</caption><thead><tr><th scope="col">{{home.compareFeature}}</th><th scope="col">Mac</th><th scope="col">iPhone</th></tr></thead>
+        <tbody><tr><th scope="row">{{support.li2}}</th><td>{{mac.version}}</td><td>{{iphone.version}}</td></tr><tr><th scope="row">{{home.compareSystem}}</th><td>macOS 14+ · Apple Silicon / Intel</td><td>iOS 17+</td></tr><tr><th scope="row">{{home.compareInput}}</th><td>{{home.macCapture}}</td><td>{{home.iphoneCapture}}</td></tr></tbody>
+      </table>
+    </div>
+    <p class="note">{{home.faq5a}}</p>
+  </section>
+  <section class="pair">
+    <div><h2>{{home.localTitle}}</h2><p>{{home.localBody}}</p><a class="text-link" href="{{url.privacy}}#apple-speech">{{privacy.hApple}}</a></div>
+    <div><h2>{{home.notTitle}}</h2><p>{{home.notBody}}</p></div>
+  </section>
+  <section class="how">
+    <div><h2>{{home.howTitle}}</h2><p class="note">{{home.howLead}}</p></div>
+    <dl class="receipt"><dt>{{home.howListenT}}</dt><dd>{{home.howListenB}}</dd><dt>{{home.howAskT}}</dt><dd>{{home.howAskB}}</dd><dt>{{home.howKeepT}}</dt><dd>{{home.howKeepB}}</dd></dl>
+  </section>
+  <section class="how" id="pricing">
+    <div><h2>{{home.priceTitle}}</h2><p class="note">{{home.priceLead}}</p></div>
+    <dl class="receipt"><dt>{{home.freeTitle}}</dt><dd>{{home.freeBody}}</dd><dt>{{home.paidTitle}}</dt><dd>{{home.paidBody}}</dd><dt>{{home.byokTitle}}</dt><dd>{{home.byokBody}}</dd></dl>
+  </section>
+  <section class="shots" id="iphone">
+    <h2>iPhone · {{home.shotsTitle}}</h2>
+    <div class="rail">
+      <figure><a href="{{iphone.hero}}"><img src="{{iphone.hero}}" width="660" height="1434" loading="lazy" decoding="async" alt="{{home.shot1}}"></a><figcaption>{{home.shot1}}</figcaption></figure>
+      <figure><a href="{{iphone.transcript}}"><img src="{{iphone.transcript}}" width="660" height="1434" loading="lazy" decoding="async" alt="{{home.shot2}}"></a><figcaption>{{home.shot2}}</figcaption></figure>
+      <figure><a href="{{iphone.reply}}"><img src="{{iphone.reply}}" width="660" height="1434" loading="lazy" decoding="async" alt="{{home.shot3}}"></a><figcaption>{{home.shot3}}</figcaption></figure>
+    </div>
+  </section>
+  <section class="faq" id="faq" aria-labelledby="faq-title">
+    <h2 id="faq-title">{{home.faqTitle}}</h2>
+    <article><h3>{{home.faq1q}}</h3><p>{{home.faq1a}}</p></article>
+    <article><h3>{{home.faq2q}}</h3><p>{{home.faq2a}}</p></article>
+    <article><h3>{{home.faq3q}}</h3><p>{{home.faq3a}}</p></article>
+    <article><h3>{{home.faq4q}}</h3><p>{{home.faq4a}}</p></article>
+    <article><h3>{{home.faq5q}}</h3><p>{{home.faq5a}}</p></article>
+    <article><h3>{{home.faq6q}}</h3><p>{{home.faq6a}}</p></article>
+  </section>
+  <p class="consent">{{home.consent}}</p>
+</main>

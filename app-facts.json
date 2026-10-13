@@ -1,0 +1,63 @@
+{
+  "baseUrl": "https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/",
+  "basePath": "/jinnangmiaoji-cue/",
+  "updated": "2026-10-13",
+  "publisher": "Shanghai Qishan Cultural Communication Co., Ltd.",
+  "supportEmail": "281916057@qq.com",
+  "platforms": {
+    "mac": {
+      "version": "1.1.0",
+      "operatingSystem": "macOS 14.0 or later",
+      "architectures": [
+        "Apple Silicon",
+        "Intel"
+      ],
+      "storeUrl": "https://apps.apple.com/app/id6783130548?platform=mac",
+      "status": "released"
+    },
+    "iphone": {
+      "version": "1.0.1",
+      "operatingSystem": "iOS 17.0 or later",
+      "storeUrl": "https://apps.apple.com/app/id6783130548?platform=iphone",
+      "status": "released"
+    }
+  },
+  "interfaceLanguages": [
+    "en",
+    "zh-Hans",
+    "zh-Hant",
+    "ja",
+    "ko",
+    "es",
+    "fr",
+    "de",
+    "pt-BR",
+    "ru",
+    "ar",
+    "hi",
+    "id"
+  ],
+  "historySync": false,
+  "downloadPriceUSD": 0,
+  "lifetimeUnlock": {
+    "productId": "com.wzc.jinnangmiaoji.lifetime",
+    "type": "non-consumable",
+    "trialUses": 20,
+    "subscription": false,
+    "providerFeesIncluded": false
+  },
+  "summary": {
+    "en": "Live meeting text, notes and a useful next reply, on Mac and iPhone.",
+    "zh-Hans": "在 Mac 与 iPhone 上，把现场对话变成文字、纪要和下一句回应。"
+  },
+  "privacy": {
+    "privacy.p1": "Dictation Notes (听写笔记) provides transcription and AI help on Mac and iPhone. We do not operate an application content backend. Apple and your selected providers may process data; support emails are handled as described below.",
+    "privacy.pLocal": "API keys use the system Keychain on iPhone and Mac. Recordings, transcripts, session history and settings are stored on the device; there is no developer content server or automatic history synchronization. Exports go to the destination you choose. Clear history and keys in the app before uninstalling if you want to remove them.",
+    "privacy.pApple": "On Mac, free dictation prefers recognition on the device. iPhone may use on-device recognition or Apple speech services. If a Mac offline model is unavailable or fails, audio may also be sent to Apple speech services. Apple processes received audio under its privacy policy. The app explains possible Apple processing before listening and requests system speech recognition permission. Microphone and optional Mac system audio capture also require system permission.",
+    "privacy.pProviders": "After your permission, cloud transcription sends audio to your chosen speech provider. AI replies, translation and summaries send transcripts, questions, conversation history and any background you enter to your chosen AI provider. On Mac, permission identifies the provider and endpoint; changing the recipient requires new permission. Each provider determines its own processing, retention and international transfers. A model running on this Mac receives text locally.",
+    "privacy.pCloudData": "Cloud providers may retain audio and other user content after a request, together with API account identifiers, request times and counts, token usage, error/trace logs and network information such as IP addresses. These may be linked to your provider account. They support authentication, transcription, AI features, security and service operations. Some providers also analyze usage or use submitted content to improve or train models under their own terms and account settings. The app does not send advertising identifiers or use these requests for advertising tracking.",
+    "privacy.pRetention": "Retention, model training and international processing depend on the provider, endpoint, plan and account settings. We do not promise universal zero retention or no training. Check the linked current provider policies before sending sensitive content. Local deletion or revoking permission stops future sending but does not erase data already received by a provider; request deletion from that provider.",
+    "privacy.pRights": "You can delete sessions, recordings and keys in the app. On Mac, Settings also lets you revoke data sharing permission and stop current requests. Deleting the Mac app alone may leave local data; clear history and keys in the app before uninstalling. Copies you exported or shared must be deleted at their destination.",
+    "privacy.pSupport": "If you email support, we receive your email address, message and any diagnostics or attachments you choose to send. We use them to answer and investigate your request. You can contact 281916057@qq.com to request deletion, subject to applicable retention requirements. Do not include API keys, private recordings or sensitive transcripts."
+  }
+}

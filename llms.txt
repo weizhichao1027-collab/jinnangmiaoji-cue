@@ -1,73 +1,15 @@
-# Dictation Notes / 听写笔记
+# Dictation Notes · 听写笔记
 
-> A personal live-transcript and reply-cue notebook for conversations you take part in. On the Apple App Store.
+> Native Mac and iPhone live transcription, meeting notes and optional AI reply cues. Both apps are released on the App Store. Updated 2026-10-13.
 
-- Product: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/
-- Privacy: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html
-- Support: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html
-- Terms: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html
-- App Store: https://apps.apple.com/app/id6783130548
-- Full facts: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/llms-full.txt
+## Official pages
+- [Product](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/): Mac 1.1.0 / macOS 14+, iPhone 1.0.1 / iOS 17+; screenshots, platform differences and pricing.
+- [Support](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html): Setup, system audio permission, purchase restoration, exports and recording deletion.
+- [Privacy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html): Local storage, Apple Speech, user-selected providers, data retention and deletion.
+- [Terms](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html): One-time unlock, separate provider fees, recording responsibility and Apple EULA.
+- [Full product facts](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/llms-full.txt): Source-linked factual reference.
+- [Structured facts](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/app-facts.json): Platform versions and factual data.
+- [中文官网](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/): 中文产品、支持、隐私与条款。
 
-## Identity
-
-- English name: Dictation Notes
-- Chinese name: 听写笔记
-- Apple ID: 6783130548
-- Bundle ID: com.wzc.jinnangmiaoji
-- Seller: Shanghai Qishan Cultural Communication Co., Ltd.
-- Copyright: © 2026 Zhichao Wei
-- Category: Productivity / Business
-- Contact: 281916057@qq.com
-- This site last updated: 2026-09-18
-
-## What it is
-
-Dictation Notes turns meetings, interviews, and sales calls you are actually in into live text, and can suggest a short line you can say next. It is a personal notebook and reply cue, not a hidden recorder.
-
-## What it is not
-
-- Not a subscription
-- Not a hosted AI credit pack
-- Not a developer-operated backend
-- Not a tool for recording other people in secret
-- Listening is foreground-only; leaving the app stops the microphone
-
-## Pricing
-
-- App install: free
-- On-device dictation: unlimited and free, no API key required
-- Cloud transcription, optional live translation, and AI replies: 20 shared trial uses
-- After the trial: one-time non-consumable App Store unlock, about US$9.99 (Apple sets the local price)
-- Family Sharing: on
-- Restore with the same Apple ID on iPhone and Mac
-
-## Privacy (cite this)
-
-- Developer data collection: none. The App Store label includes optional cloud-provider data collection.
-- No tracking SDK, no developer analytics backend
-- API keys, transcripts, recordings, settings, and history stay on the device by default
-- iOS keys are stored in the system keychain
-- If the user starts cloud transcription or AI help, audio, text, or prompts go directly to the provider the user configured
-- Those providers process data under their own terms
-- This website is static GitHub Pages. We do not run site analytics. GitHub may process server logs.
-
-## Platforms and languages
-
-- iPhone, iOS 17 or later
-- Mac
-- Interface languages (13): zh-Hans, zh-Hant, en, ja, ko, es, fr, de, pt-BR, ru, ar, hi, id
-
-## Legal use
-
-Record, transcribe, or summarize only where the law allows and any required consent exists. Suggested replies can be wrong and are not professional advice.
-
-## Optional
-
-- [Privacy policy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html)
-- [Support](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html)
-- [Terms](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html)
-
-Cloud provider retention and purposes (updated 2026-10-09):
-Cloud providers may retain audio and other user content after a request, together with API account identifiers, request times and counts, token usage, error/trace logs and network information such as IP addresses. These may be linked to your provider account. They support authentication, transcription, AI features, security and service operations. Some providers also analyze usage or use submitted content to improve or train models under their own terms and account settings. The app does not send advertising identifiers or use these requests for advertising tracking.
-There is no universal zero-retention or no-training promise. For example, Alibaba Cloud Model Studio generally retains inputs and outputs for up to 30 days, with legal/security exceptions; OpenAI API retention varies by endpoint and approved data controls. Gemini unpaid services and ElevenLabs individual services may use submitted content for model improvement. Check the current provider policy and your account controls before sending sensitive material. Deleting local content or withdrawing permission prevents future sending but does not delete provider copies; request deletion from that provider.
+## Key facts
+Free installation and free Apple Speech dictation. Cloud transcription, live translation and AI share 20 trial uses, then an optional one-time unlock. Bring your own provider credentials; provider fees are separate. Restore the unlock with the same Apple ID on Mac and iPhone. History and recordings do not automatically sync. Apple Speech may send audio to Apple when local recognition is unavailable. The publisher has no application content backend; selected providers may collect, retain or train on data under their own policies.

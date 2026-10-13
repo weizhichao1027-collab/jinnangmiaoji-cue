@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dictation Notes sharing artwork source</title>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <style>
+    :root { --canvas: #f8faff; --ink: #17243b; --muted: #52627a; --accent: #185fc6; --line: #dce5f1; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--canvas); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", system-ui, sans-serif; }
+    main { width: 1200px; height: 630px; padding: 64px 56px; display: grid; grid-template-columns: 384px 1fr; gap: 32px; align-items: center; }
+    .brand { display: flex; align-items: center; gap: 16px; color: var(--accent); font: 18px "Atkinson Hyperlegible", sans-serif; margin-bottom: 32px; }
+    .brand img { width: 48px; height: 48px; border-radius: 8px; }
+    h1 { font-size: 56px; line-height: 1.3; letter-spacing: -0.04em; margin: 0 0 12px; }
+    .name { font: 28px "Atkinson Hyperlegible", sans-serif; margin: 0 0 24px; }
+    .lead { font-size: 24px; line-height: 1.7; color: var(--muted); margin: 0; }
+    .platforms { color: var(--accent); font: 18px "Atkinson Hyperlegible", sans-serif; margin: 32px 0 0; }
+    .brand, .name, .platforms { font-family: "Atkinson Hyperlegible", sans-serif; }
+    .screen { width: 100%; height: auto; display: block; border: 1px solid var(--line); border-radius: 8px; }
+    .note { margin-top: 16px; color: var(--muted); font-size: 14px; }
+    figure { margin: 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <div>
+      <div class="brand"><img src="app-icon.png" width="48" height="48" alt="">Mac + iPhone</div>
+      <h1>听写笔记</h1>
+      <p class="name">Dictation Notes</p>
+      <p class="lead">现场转录、会议纪要<br>和下一句回应。</p>
+      <p class="platforms">macOS 14+ · iOS 17+</p>
+    </div>
+    <figure><img class="screen" src="shots/mac/zh-Hans/01-transcript-ai.jpg" width="1280" height="800" alt="真实 Mac 转录与 AI 工作区"><figcaption class="note">真实应用界面 · 演示会话</figcaption></figure>
+  </main>
+</body>
+</html>
