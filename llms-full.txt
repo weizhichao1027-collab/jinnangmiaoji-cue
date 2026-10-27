@@ -191,9 +191,9 @@ Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/
 
 ## How to connect your own API
 
-On Mac, open Settings, choose an AI or transcription provider, enter the required credentials and select Save configuration. Then select Test connection and authorize the displayed recipient. AI tests send a fixed connectivity prompt; cloud transcription tests send one second of synthetic silence. They do not use private notes or microphone audio, but provider charges may apply. iPhone has its own provider setup controls. Free Apple Speech dictation needs no transcription key.
+On Mac, open Settings, choose an AI or transcription provider, enter the required credentials and select Save configuration. Then select Test connection and follow any prompt to authorize the recipient. A loopback AI model running on this Mac does not need cloud sending consent. AI tests send a fixed connectivity prompt; cloud transcription tests send one second of synthetic silence. They do not use private notes or microphone audio, but provider charges may apply. iPhone has its own provider setup controls. Free Apple Speech dictation needs no transcription key.
 
-Mac 在设置中选择 AI 或转录服务商，填写所需凭据，先点“保存配置”，再点“测试连接”并同意显示的接收方。AI 测试发送固定连通性提示；云转录测试发送一秒合成静音，不使用私人笔记或麦克风内容，但可能产生服务商费用。iPhone 使用各自的服务设置入口。免费 Apple 语音识别无需转录 Key。
+Mac 在设置中选择 AI 或转录服务商，填写所需凭据，先点“保存配置”，再点“测试连接”，按提示授权接收方（如有）。本机回环地址运行的 AI 模型无需云端发送确认。AI 测试发送固定连通性提示；云转录测试发送一秒合成静音，不使用私人笔记或麦克风内容，但可能产生服务商费用。iPhone 使用各自的服务设置入口。免费 Apple 语音识别无需转录 Key。
 
 Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#api-setup), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#api-setup).
 
