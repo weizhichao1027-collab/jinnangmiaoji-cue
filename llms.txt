@@ -1,10 +1,12 @@
 # Dictation Notes · 听写笔记
 
-> Native Mac and iPhone live transcription, meeting notes and optional AI reply cues. Both apps are released on the App Store. Updated 2026-10-13.
+> Native Mac and iPhone live transcription, meeting notes and optional AI reply cues. Both apps are released on the App Store. Updated 2026-10-28.
 
 ## Official pages
-- [Product](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/): Mac 1.1.0 / macOS 14+, iPhone 1.0.1 / iOS 17+; screenshots, platform differences and pricing.
-- [Support](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html): Setup, system audio permission, purchase restoration, exports and recording deletion.
+- [Product](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/): Mac 1.2.0 / macOS 14.0 or later, iPhone 1.0.1 / iOS 17.0 or later; screenshots, platform differences and pricing.
+- [Mac App Store](https://apps.apple.com/app/id6783130548?platform=mac): Official Mac download and current storefront details.
+- [iPhone App Store](https://apps.apple.com/app/id6783130548?platform=iphone): Official iPhone download and current storefront details.
+- [Support](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html): Setup, recording controls and recovery, system audio permission, purchase restoration and exports.
 - [Privacy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html): Local storage, Apple Speech, user-selected providers, data retention and deletion.
 - [Terms](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html): One-time unlock, separate provider fees, recording responsibility and Apple EULA.
 - [Full product facts](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/llms-full.txt): Source-linked factual reference.
@@ -13,3 +15,7 @@
 
 ## Key facts
 Free installation and free Apple Speech dictation. Cloud transcription, live translation and AI share 20 trial uses, then an optional one-time unlock. Bring your own provider credentials; provider fees are separate. Restore the unlock with the same Apple ID on Mac and iPhone. History and recordings do not automatically sync. Apple Speech may send audio to Apple when local recognition is unavailable. The publisher has no application content backend; selected providers may collect, retain or train on data under their own policies.
+
+Sources: [Pricing](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#pricing), [Platform differences](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#platforms), [Privacy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html).
+
+These files are supplementary factual references, not special requirements for AI search. Search indexing, rich results and AI citations are not guaranteed.

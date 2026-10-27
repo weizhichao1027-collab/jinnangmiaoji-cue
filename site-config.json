@@ -1,15 +1,18 @@
 {
   "baseUrl": "https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/",
   "basePath": "/jinnangmiaoji-cue/",
-  "updated": "2026-10-13",
-  "assetVersion": "20261013-light-1",
+  "updated": "2026-10-28",
+  "assetVersion": "20261028-release-1",
   "publisher": "Shanghai Qishan Cultural Communication Co., Ltd.",
   "supportEmail": "281916057@qq.com",
   "platforms": {
     "mac": {
-      "version": "1.1.0",
+      "version": "1.2.0",
       "operatingSystem": "macOS 14.0 or later",
-      "architectures": ["Apple Silicon", "Intel"],
+      "architectures": [
+        "Apple Silicon",
+        "Intel"
+      ],
       "storeUrl": "https://apps.apple.com/app/id6783130548?platform=mac",
       "status": "released"
     },

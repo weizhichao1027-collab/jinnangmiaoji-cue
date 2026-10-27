@@ -20,6 +20,45 @@ PAGES = {'home': 'index.html', 'support': 'support.html', 'privacy': 'privacy.ht
 TOKEN = re.compile(r'\{\{([\w.-]+)\}\}')
 
 
+def faq_pairs(page):
+    """Use only questions present in the maintained page, in reading order."""
+    if page not in ('home', 'support'):
+        return []
+    template = (ROOT / 'templates' / PAGES[page]).read_text(encoding='utf-8')
+    pattern = r'home\.faq\d+q' if page == 'home' else r'support\.q\d+'
+    pairs = {}
+    for article in re.findall(r'<article\b[^>]*>(.*?)</article>', template, re.S):
+        for question in re.findall(r'\{\{(' + pattern + r')\}\}', article):
+            answer = question[:-1] + 'a' if page == 'home' else question.replace('.q', '.a')
+            if '{{' + answer + '}}' not in article:
+                raise ValueError(f'{page}: FAQ {question} is missing its visible answer')
+            pairs[question] = answer
+    return list(pairs.items())
+
+
+def fact_source(config, key, code='en'):
+    """Point assistant-readable facts at their corresponding visible section."""
+    page = 'support' if key.startswith('support.') else 'privacy' if key.startswith('privacy.') else 'home'
+    template = (ROOT / 'templates' / PAGES[page]).read_text(encoding='utf-8')
+    if page == 'support':
+        for anchor, body in re.findall(r'<article\s+id="([^"]+)"[^>]*>(.*?)</article>', template, re.S):
+            if '{{' + key + '}}' in body:
+                return page_url(config, page, code) + '#' + anchor
+    anchors = {
+        'home.platformsBody': 'platforms', 'home.macBody': 'mac',
+        'home.freeBody': 'pricing', 'home.paidBody': 'pricing',
+        'home.faq5a': 'faq', 'home.faq3a': 'faq',
+        'privacy.pLocal': 'local-storage', 'privacy.pApple': 'apple-speech',
+        'privacy.pCloudData': 'providers', 'privacy.pRetention': 'providers',
+        'privacy.pProviders': 'providers', 'privacy.pRights': 'controls',
+        'privacy.pSupport': 'support-data', 'privacy.pCapture': 'capture',
+        'privacy.pSync': 'sync',
+        'privacy.pRecovery': 'recovery-copies',
+        'home.updateBody': 'whats-new',
+    }
+    return page_url(config, page, code) + ('#' + anchors[key] if key in anchors else '')
+
+
 def read_data():
     config = json.loads((ROOT / 'site-config.json').read_text(encoding='utf-8'))
     tables = {code: json.loads((ROOT / 'i18n' / f'{code}.json').read_text(encoding='utf-8')) for code in LOCALES}
@@ -47,7 +86,7 @@ def structured_data(config, data, page, code):
     site = {'@type': 'WebSite', '@id': site_id, 'url': base, 'name': '听写笔记 · Dictation Notes',
             'inLanguage': LOCALES, 'publisher': {'@id': org_id}}
     apps = []
-    for platform, facts in config['platforms'].items():
+    for platform, facts in config['platforms'].items() if page == 'home' else []:
         apps.append({'@type': 'SoftwareApplication', '@id': base + '#' + platform + '-app',
                      'name': 'Dictation Notes', 'alternateName': '听写笔记', 'applicationCategory': 'BusinessApplication',
                      'operatingSystem': facts['operatingSystem'], 'softwareVersion': facts['version'],
@@ -55,7 +94,7 @@ def structured_data(config, data, page, code):
                      'downloadUrl': facts['storeUrl'], 'installUrl': facts['storeUrl'], 'sameAs': facts['storeUrl'],
                      'image': base + 'og.png', 'publisher': {'@id': org_id},
                      'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD', 'url': facts['storeUrl'], 'description': data['home.available']},
-                     'featureList': [data['home.factFreeV'], data['home.factTrialV'], data['home.paidBody']]})
+                     'featureList': [data[f'home.macBullet{i}'] for i in range(1, 4)] if platform == 'mac' else [data['home.freeBody'], data['home.shot1'], data['home.shot3']]})
     webpage = {'@type': 'ContactPage' if page == 'support' else 'WebPage', '@id': url + '#page',
                'url': url, 'name': data[f'meta.{page}Title'], 'description': data[f'meta.{page}Desc'],
                'dateModified': config['updated'], 'inLanguage': code, 'isPartOf': {'@id': site_id},
@@ -63,10 +102,17 @@ def structured_data(config, data, page, code):
     crumbs = [{'@type': 'ListItem', 'position': 1, 'name': data['nav.home'], 'item': page_url(config, 'home', code)}]
     if page != 'home':
         crumbs.append({'@type': 'ListItem', 'position': 2, 'name': data[f'nav.{page}'], 'item': url})
-    graph = [org, site, *apps, webpage, {'@type': 'BreadcrumbList', '@id': url + '#breadcrumbs', 'itemListElement': crumbs}]
+    if page == 'home':
+        webpage['mainEntity'] = [{'@id': app['@id']} for app in apps]
+    graph = [org, site, *apps, webpage]
+    if page != 'home':
+        webpage['breadcrumb'] = {'@id': url + '#breadcrumbs'}
+        graph.append({'@type': 'BreadcrumbList', '@id': url + '#breadcrumbs', 'itemListElement': crumbs})
     if page in ['home', 'support']:
-        pairs = [(f'home.faq{i}q', f'home.faq{i}a') for i in range(1, 7)] if page == 'home' else [(f'support.q{i}', f'support.a{i}') for i in range(1, 15)]
-        graph.append({'@type': 'FAQPage', '@id': url + '#faq', 'mainEntity': [
+        pairs = faq_pairs(page)
+        webpage['hasPart'] = {'@id': url + '#faq'}
+        graph.append({'@type': 'FAQPage', '@id': url + '#faq', 'url': url + '#faq',
+                      'inLanguage': code, 'isPartOf': {'@id': url + '#page'}, 'mainEntity': [
             {'@type': 'Question', 'name': data[q], 'acceptedAnswer': {'@type': 'Answer', 'text': data[a]}} for q, a in pairs]})
     return json.dumps({'@context': 'https://schema.org', '@graph': graph}, ensure_ascii=False, indent=2).replace('<', '\\u003c')
 
@@ -82,8 +128,8 @@ def render(config, tables, page, code):
     links = '\n'.join(f'<a lang="{lang}" hreflang="{lang}" href="{asset}{path_for(page, lang)}"' + (' aria-current="true"' if lang == code else '') + f'>{LANG_NAMES[lang]}</a>' for lang in LOCALES)
     nav = '\n'.join(f'<a href="{asset}{path_for(target, code)}"' + (' aria-current="page"' if target == page else '') + f'>{esc(data[f"nav.{target}"])}</a>' for target in PAGES)
     special = {'asset': asset, 'mac.version': config['platforms']['mac']['version'], 'iphone.version': config['platforms']['iphone']['version'],
-               'mac.hero': f'{asset}shots/mac/{code}/01-transcript-ai.jpg',
-               'mac.notes': f'{asset}shots/mac/{code}/02-meeting-notes.jpg', 'mac.history': f'{asset}shots/mac/{code}/03-history.jpg',
+               'mac.hero': f'{asset}shots/mac/{code}/01-transcript-ai.jpg?v={revision}',
+               'mac.notes': f'{asset}shots/mac/{code}/02-meeting-notes.jpg?v={revision}', 'mac.history': f'{asset}shots/mac/{code}/03-history.jpg?v={revision}',
                'iphone.hero': f'{asset}shots/iphone/{code}/01-hero.jpg', 'iphone.transcript': f'{asset}shots/iphone/{code}/02-transcript.jpg',
                'iphone.reply': f'{asset}shots/iphone/{code}/03-ai-reply.jpg',
                'mac.store': config['platforms']['mac']['storeUrl'], 'iphone.store': config['platforms']['iphone']['storeUrl'],
@@ -165,19 +211,34 @@ def build_outputs(config, tables):
                 ET.SubElement(node, f'{{{xhtml}}}link', {'rel': 'alternate', 'hreflang': lang, 'href': page_url(config, page, 'zh-Hans' if lang == 'x-default' else lang)})
     ET.indent(urlset)
     outputs['sitemap.xml'] = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(urlset, encoding='unicode') + '\n'
-    facts = {**config, 'interfaceLanguages': LOCALES, 'historySync': False,
-             'downloadPriceUSD': 0, 'lifetimeUnlock': {'productId': 'com.wzc.jinnangmiaoji.lifetime', 'type': 'non-consumable', 'trialUses': 20, 'subscription': False, 'providerFeesIncluded': False},
-             'summary': {lang: tables[lang]['home.lead'] for lang in ['en', 'zh-Hans']},
-             'privacy': {key: tables['en'][key] for key in ['privacy.p1', 'privacy.pLocal', 'privacy.pApple', 'privacy.pProviders', 'privacy.pCloudData', 'privacy.pRetention', 'privacy.pRights', 'privacy.pSupport']}}
-    outputs['app-facts.json'] = json.dumps(facts, ensure_ascii=False, indent=2) + '\n'
     base = config['baseUrl']
+    sections = [('Platforms', 'home.platformsBody'), ('Mac workflow', 'home.macBody'), ('Recording controls', 'home.notBody'), ('Free features', 'home.freeBody'), ('Purchase and provider fees', 'home.paidBody'), ('Restore purchases', 'support.a8'), ('History and sync', 'home.faq5a'), ('Audio and privacy', 'home.faq3a'), ('Mac system audio', 'support.a9'), ('Export and playback', 'support.a10'), ('Delete a recording', 'support.a11'), ('Revoke permission', 'support.a12'), ('Legacy history', 'support.a13'), ('Local AI', 'support.a14'), ('Cloud collection', 'privacy.pCloudData'), ('Provider retention', 'privacy.pRetention'), ('Local controls', 'privacy.pRights'), ('Support email data', 'privacy.pSupport'), ('Website', 'privacy.pSite')]
+    sections += [(heading, key) for heading, key in [('Mac release highlights', 'home.updateBody'), ('Local recovery copies', 'privacy.pRecovery')] if key in tables['en']]
+    # Newly added support topics remain discoverable without another hardcoded count.
+    existing_keys = {key for _, key in sections}
+    sections += [(tables['en'][question], answer) for question, answer in faq_pairs('support') if answer not in existing_keys]
+    topics = [{'topic': heading,
+               'text': {lang: tables[lang][key] for lang in ['en', 'zh-Hans']},
+               'sources': {lang: fact_source(config, key, lang) for lang in ['en', 'zh-Hans']}}
+              for heading, key in sections]
+    facts = {**config, 'appStoreId': '6783130548', 'interfaceLanguages': LOCALES, 'historySync': False,
+             'downloadPriceUSD': 0, 'lifetimeUnlock': {'productId': 'com.wzc.jinnangmiaoji.lifetime', 'type': 'non-consumable', 'trialUses': 20, 'subscription': False, 'providerFeesIncluded': False},
+             'summary': {lang: tables[lang]['home.lead'] for lang in LOCALES},
+             'officialPages': {lang: {page: page_url(config, page, lang) for page in PAGES} for lang in LOCALES},
+             'topics': topics,
+             'privacy': {key: tables['en'][key] for key in ['privacy.p1', 'privacy.pLocal', 'privacy.pApple', 'privacy.pProviders', 'privacy.pCloudData', 'privacy.pRetention', 'privacy.pRights', 'privacy.pSupport']},
+             'accuracyNotes': 'Visible official pages are authoritative. Provider availability, regional prices and processing policies can change. Publication does not guarantee search indexing or AI citations.'}
+    outputs['app-facts.json'] = json.dumps(facts, ensure_ascii=False, indent=2) + '\n'
+    mac, iphone = config['platforms']['mac'], config['platforms']['iphone']
     outputs['llms.txt'] = f'''# Dictation Notes · 听写笔记
 
 > Native Mac and iPhone live transcription, meeting notes and optional AI reply cues. Both apps are released on the App Store. Updated {config['updated']}.
 
 ## Official pages
-- [Product]({base}en/): Mac 1.1.0 / macOS 14+, iPhone 1.0.1 / iOS 17+; screenshots, platform differences and pricing.
-- [Support]({base}en/support.html): Setup, system audio permission, purchase restoration, exports and recording deletion.
+- [Product]({base}en/): Mac {mac['version']} / {mac['operatingSystem']}, iPhone {iphone['version']} / {iphone['operatingSystem']}; screenshots, platform differences and pricing.
+- [Mac App Store]({mac['storeUrl']}): Official Mac download and current storefront details.
+- [iPhone App Store]({iphone['storeUrl']}): Official iPhone download and current storefront details.
+- [Support]({base}en/support.html): Setup, recording controls and recovery, system audio permission, purchase restoration and exports.
 - [Privacy]({base}en/privacy.html): Local storage, Apple Speech, user-selected providers, data retention and deletion.
 - [Terms]({base}en/terms.html): One-time unlock, separate provider fees, recording responsibility and Apple EULA.
 - [Full product facts]({base}llms-full.txt): Source-linked factual reference.
@@ -186,16 +247,19 @@ def build_outputs(config, tables):
 
 ## Key facts
 Free installation and free Apple Speech dictation. Cloud transcription, live translation and AI share 20 trial uses, then an optional one-time unlock. Bring your own provider credentials; provider fees are separate. Restore the unlock with the same Apple ID on Mac and iPhone. History and recordings do not automatically sync. Apple Speech may send audio to Apple when local recognition is unavailable. The publisher has no application content backend; selected providers may collect, retain or train on data under their own policies.
+
+Sources: [Pricing]({base}en/#pricing), [Platform differences]({base}en/#platforms), [Privacy]({base}en/privacy.html).
+
+These files are supplementary factual references, not special requirements for AI search. Search indexing, rich results and AI citations are not guaranteed.
 '''
-    sections = [('Platforms', 'home.platformsBody'), ('Mac workflow', 'home.macBody'), ('Recording controls', 'home.notBody'), ('Free features', 'home.freeBody'), ('Purchase and provider fees', 'home.paidBody'), ('Restore purchases', 'support.a8'), ('History and sync', 'home.faq5a'), ('Audio and privacy', 'home.faq3a'), ('Mac system audio', 'support.a9'), ('Export and playback', 'support.a10'), ('Delete a recording', 'support.a11'), ('Revoke permission', 'support.a12'), ('Legacy history', 'support.a13'), ('Local AI', 'support.a14'), ('Cloud collection', 'privacy.pCloudData'), ('Provider retention', 'privacy.pRetention'), ('Local controls', 'privacy.pRights'), ('Support email data', 'privacy.pSupport'), ('Website', 'privacy.pSite')]
-    blocks = [f'# Dictation Notes · 听写笔记\n\nLast verified: {config["updated"]}. Official app id: 6783130548. Publisher: {config["publisher"]}. Contact: {config["supportEmail"]}.',
-              f'## Distribution\n\nMac: {config["platforms"]["mac"]["storeUrl"]}\niPhone: {config["platforms"]["iphone"]["storeUrl"]}\nMac 1.1.0: macOS 14+, Apple Silicon and Intel. iPhone 1.0.1: iOS 17+.\nInterface and website: {", ".join(LOCALES)}.\nProduct: {base}en/\nSupport: {base}en/support.html\nPrivacy: {base}en/privacy.html\nTerms: {base}en/terms.html']
+    blocks = [f'# Dictation Notes · 听写笔记\n\nUpdated: {config["updated"]}. Official app id: 6783130548. Publisher: {config["publisher"]}. Contact: {config["supportEmail"]}.',
+              f'## Distribution\n\nMac: {mac["storeUrl"]}\niPhone: {iphone["storeUrl"]}\nMac {mac["version"]}: {mac["operatingSystem"]}, {", ".join(mac["architectures"])}. iPhone {iphone["version"]}: {iphone["operatingSystem"]}.\nInterface and website: {", ".join(LOCALES)}.\nProduct: {base}en/\nSupport: {base}en/support.html\nPrivacy: {base}en/privacy.html\nTerms: {base}en/terms.html']
     for heading, key in sections:
-        blocks.append(f'## {heading}\n\n{tables["en"][key]}\n\n{tables["zh-Hans"][key]}')
+        blocks.append(f'## {heading}\n\n{tables["en"][key]}\n\n{tables["zh-Hans"][key]}\n\nSources: [English]({fact_source(config, key)}), [简体中文]({fact_source(config, key, "zh-Hans")}).')
     blocks.append('## Accuracy boundaries\n\nUse the name Dictation Notes or 听写笔记. Cite the official product, support or privacy page for the corresponding fact. Say 20 trial uses and a one-time unlock. Keep Mac recording controls separate from iPhone foreground restrictions. Do not infer history sync from purchase restoration. Do not describe Apple Speech as guaranteed offline or providers as universally zero-retention. Do not invent ratings, adoption, prices for other storefronts or unverified performance claims. The privacy page is the authoritative policy; this reference summarizes it.')
     outputs['llms-full.txt'] = '\n\n'.join(blocks) + '\n'
     # Project robots.txt is not an origin-root crawler directive on GitHub Pages.
-    outputs['robots.txt'] = f'User-agent: *\nAllow: /jinnangmiaoji-cue/\n\nSitemap: {base}sitemap.xml\n'
+    outputs['robots.txt'] = f'User-agent: *\nAllow: {config["basePath"]}\n\nSitemap: {base}sitemap.xml\n'
     return outputs
 
 

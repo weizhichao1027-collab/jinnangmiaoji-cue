@@ -1,6 +1,6 @@
 # Dictation Notes website
 
-Official GitHub Pages for the released **听写笔记 / Dictation Notes** Mac and iPhone apps. Updated 2026-10-13 for Mac 1.1.0 (macOS 14+, Apple Silicon / Intel) and iPhone 1.0.1 (iOS 17+).
+Official GitHub Pages for the released **听写笔记 / Dictation Notes** Mac and iPhone apps. Updated 2026-10-28 for Mac 1.2.0 (macOS 14+, Apple Silicon / Intel) and iPhone 1.0.1 (iOS 17+).
 
 - [Product](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/)
 - [Support](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html)
@@ -29,6 +29,7 @@ Run from this directory with Python 3 and Node.js:
 python3 build-i18n.py
 python3 build-i18n.py --check
 python3 verify-site.py
+python3 test-site-builder.py
 node --check site.js
 git diff --check
 ```
@@ -37,13 +38,13 @@ The build uses only Python's standard library. Commit the generated HTML, sitema
 
 Simplified Chinese keeps the existing root URLs. Other languages use `/en/`, `/zh-Hant/`, `/ja/`, `/ko/`, `/es/`, `/fr/`, `/de/`, `/pt-BR/`, `/ru/`, `/ar/`, `/hi/` and `/id/`. Each has all four pages, totaling 52 static pages. Links and language navigation work without JavaScript. The former `?lang=en-US` and other regional language tags redirect only when explicitly requested in the URL; the fragment is preserved. There is no browser-language redirect, preference storage or client-side translation payload.
 
-When publishing a new app version, also update version references in localized copy, policy dates where appropriate, screenshots and the app's handoff. Requirements in `site-config.json` describe the app; visible platform comparison copy must agree.
+When publishing a new app version, also update version references in localized copy, policy dates where appropriate, screenshots and the app's handoff. Mac 1.2.0 adds pause/resume, save feedback and recovery, transcript find, playback speeds, session-with-audio export, four persistent AI actions and verified library migration. Requirements in `site-config.json` describe the app; visible platform comparison copy must agree.
 
 Bump `assetVersion` when shared CSS, JavaScript or sharing artwork changes, so returning visitors receive the current files. Keep the 404 asset query in sync.
 
 ## Assets
 
-`shots/mac/<locale>/` contains three 1280 × 800 JPEGs per language, derived from the application's real localized Mac screenshot sources in `docs/mac-store-artwork/v1/raw/`. `shots/iphone/<locale>/` contains three 660 × 1434 JPEGs per language from the corresponding retained App Store previews. The displayed conversations and AI responses are demonstration content. Older screenshot URLs remain available for compatibility.
+`shots/mac/<locale>/` contains three 1280 × 800 JPEGs per language, derived from the application's real localized Mac screenshot sources in `docs/mac-store-artwork/v2/raw/`. `shots/iphone/<locale>/` contains three 660 × 1434 JPEGs per language from the corresponding retained App Store previews. The displayed conversations and AI responses are demonstration content. Older screenshot URLs remain available for compatibility.
 
 Fonts are self-hosted WOFF2: Atkinson Hyperlegible (400/700) and IBM Plex Mono (400), with a system sans-serif display. Their OFL licenses are in `fonts/`. No fonts, analytics or tracking scripts load from a third party.
 
@@ -60,3 +61,9 @@ Each page has a localized title and description, a self-canonical URL, 13 recipr
 `llms.txt`, `llms-full.txt` and `app-facts.json` give linked, consistent product facts. They distinguish Mac controls from iPhone foreground restrictions, purchase restoration from history sync, Apple processing from selected providers, and app purchase from provider charges. These files support accurate retrieval; publication does not guarantee indexing, rich results or AI citations.
 
 Guidance: [Google multilingual sites](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites), [robots.txt location](https://developers.google.com/search/docs/crawling-indexing/robots/intro).
+
+## 2026-10-28 release update
+
+The 13 languages now share 222 maintained keys and 52 generated pages. Support has 19 questions, including save recovery, pause/resume, library backups and transcript search. Privacy covers connection tests, selected folders, retained originals and the scope of deletion. 39 Mac screenshots now come from the actual 1.2.0 interface; iPhone screenshots are unchanged. Mac screenshot URLs include the asset revision for cache refresh.
+
+Assistant facts link each English and Chinese statement to the corresponding visible section, and include localized summaries and official page URLs for all 13 languages. FAQ markup is discovered from visible template articles; adding a question updates schema and machine facts together. SoftwareApplication offers appear on product pages, with child-page breadcrumbs on support and legal pages. There are no maintained user reviews or ratings, so do not claim Google software rich-result eligibility. [Google AI search guidance](https://developers.google.com/search/docs/appearance/ai-features) requires ordinary crawlable, helpful content and does not require a special AI file or schema.

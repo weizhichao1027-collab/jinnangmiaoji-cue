@@ -36,4 +36,4 @@ Readable body text, WCAG AA text contrast, visible keyboard focus, 44px navigati
 
 ## Source of context
 
-Existing README, i18n copy and CSS; Mac 1.1.0 store metadata and shipped source; the user's 2026-10-13 confirmation of the Mac release. This is an update to the established website.
+Existing README, i18n copy and CSS; Mac 1.2.0 store metadata, public App Store verification and shipped source; the user's 2026-10-28 confirmation of successful publication. This is an update to the established website.
