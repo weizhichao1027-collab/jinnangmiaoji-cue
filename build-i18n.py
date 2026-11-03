@@ -81,7 +81,7 @@ def structured_data(config, data, page, code):
     base, url = config['baseUrl'], page_url(config, page, code)
     org_id, site_id = base + '#org', base + '#site'
     org = {'@type': 'Organization', '@id': org_id, 'name': config['publisher'], 'url': base,
-           'logo': base + 'app-icon.png', 'email': config['supportEmail'],
+           'logo': base + 'app-icon.png?v=' + config['assetVersion'], 'email': config['supportEmail'],
            'contactPoint': {'@type': 'ContactPoint', 'contactType': 'technical support', 'email': config['supportEmail'], 'availableLanguage': LOCALES}}
     site = {'@type': 'WebSite', '@id': site_id, 'url': base, 'name': '听写笔记 · Dictation Notes',
             'inLanguage': LOCALES, 'publisher': {'@id': org_id}}
@@ -171,8 +171,8 @@ def render(config, tables, page, code):
   <meta name="twitter:title" content="{esc(title)}">
   <meta name="twitter:description" content="{esc(desc)}">
   <meta name="twitter:image" content="{base}og.png?v={revision}">
-  <link rel="icon" href="{asset}favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="{asset}apple-touch-icon.png">
+  <link rel="icon" href="{asset}favicon.svg?v={revision}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{asset}apple-touch-icon.png?v={revision}">
 {preload}
   <link rel="stylesheet" href="{asset}fonts/fonts.css?v={revision}">
   <link rel="stylesheet" href="{asset}styles.css?v={revision}">
@@ -182,7 +182,7 @@ def render(config, tables, page, code):
 <body data-page="{page}" data-base="{asset}">
   <a class="skip" href="#main">{esc(data['skip'])}</a>
   <header class="wrap site-header">
-    <a class="brand" href="{asset}{path_for('home', code)}"><img class="brand-icon" src="{asset}app-icon.png" width="32" height="32" alt=""><span class="brand-name">{esc(data['brand'])}</span></a>
+    <a class="brand" href="{asset}{path_for('home', code)}"><img class="brand-icon" src="{asset}app-icon.png?v={revision}" width="32" height="32" alt=""><span class="brand-name">{esc(data['brand'])}</span></a>
     <nav class="nav" aria-label="{esc(data['nav.label'])}">{nav}</nav>
     <details class="language-menu"><summary>{esc(data['lang.label'])} · {LANG_NAMES[code]}</summary><nav aria-label="{esc(data['lang.label'])}">{links}</nav></details>
   </header>
