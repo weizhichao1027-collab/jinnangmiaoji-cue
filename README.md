@@ -2,7 +2,7 @@
 
 ## 2026-11-03 F2 icon refresh
 
-All current brand assets use the approved F2 flowing ribbon: app icon, embedded-image SVG favicon, PNG favicon, Apple touch icon, social image, screenshot brand marks, and legacy hero image URLs. The 52 pages use asset revision `20261103-icon-f2`. The app workspace's `docs/branding/AppIcon-F2-master.png` is the canonical source. Mac screenshot derivatives update only the icon over retained UI captures; they do not imply a new UI capture or App Store release. Original capture and release archives remain unchanged.
+Current icon assets use the approved F2 flowing ribbon: app icon, embedded-image SVG favicon, PNG favicon, Apple touch icon, and the brand mark in the social image. The 52 pages use asset revision `20261103-icon-f2`. The app workspace's `docs/branding/AppIcon-F2-master.png` is the canonical source. The user excluded the 13-language promotional images; screenshot replacements were withdrawn and remain for the user to regenerate. Original capture and release archives remain unchanged.
 
 Official GitHub Pages for the released **听写笔记 / Dictation Notes** Mac and iPhone apps. Updated 2026-10-28 for Mac 1.2.0 (macOS 14+, Apple Silicon / Intel) and iPhone 1.0.1 (iOS 17+).
 
