@@ -175,7 +175,10 @@ def verify():
         actual = {link.attrib['hreflang']: link.attrib['href'] for link in node.findall('x:link', ns)}
         assert actual == expected, f'{location}: sitemap hreflang'
     facts = json.loads((ROOT / 'app-facts.json').read_text())
-    assert facts['historySync'] is False and facts['lifetimeUnlock']['trialUses'] == 20
+    assert facts['historySync'] is False and 'trialUses' not in facts['lifetimeUnlock']
+    assert facts['trialPolicies']['mac']['uses'] == 20
+    assert facts['trialPolicies']['ios']['days'] == 7 and facts['trialPolicies']['ios']['autoCharge'] is False
+    assert facts['trialPolicies']['ios']['releasedTrialUses'] == 20 and facts['trialPolicies']['ios']['fromVersion'] == '1.1.0'
     assert facts['platforms'] == config['platforms']
     assert facts['updated'] == config['updated'] and facts['appStoreId'] == '6783130548'
     assert set(facts['summary']) == set(builder.LOCALES)

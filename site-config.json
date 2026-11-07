@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/",
   "basePath": "/jinnangmiaoji-cue/",
-  "updated": "2026-10-28",
+  "updated": "2026-11-07",
   "assetVersion": "20261103-icon-f2",
   "publisher": "Shanghai Qishan Cultural Communication Co., Ltd.",
   "supportEmail": "281916057@qq.com",
@@ -14,13 +14,15 @@
         "Intel"
       ],
       "storeUrl": "https://apps.apple.com/app/id6783130548?platform=mac",
-      "status": "released"
+      "status": "released",
+      "upcomingVersion": "1.2.1"
     },
     "iphone": {
       "version": "1.0.1",
       "operatingSystem": "iOS 17.0 or later",
       "storeUrl": "https://apps.apple.com/app/id6783130548?platform=iphone",
-      "status": "released"
+      "status": "released",
+      "upcomingVersion": "1.1.0"
     }
   }
 }

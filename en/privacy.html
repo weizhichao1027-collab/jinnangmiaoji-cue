@@ -106,7 +106,7 @@
       "url": "https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html",
       "name": "Privacy Policy | Dictation Notes",
       "description": "How Dictation Notes handles Apple Speech, chosen AI providers, connection tests, local libraries, recordings, exports, backups and deletion.",
-      "dateModified": "2026-10-28",
+      "dateModified": "2026-11-07",
       "inLanguage": "en",
       "isPartOf": {
         "@id": "https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#site"
@@ -172,7 +172,7 @@
   </header>
   <main id="main" class="wrap page doc">
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: 2026-10-28</p>
+    <p class="updated">Last updated: 2026-11-07</p>
     <p>Dictation Notes (听写笔记) provides transcription and AI help on Mac and iPhone. We do not operate an application content backend. Apple and your selected providers may process data; support emails are handled as described below.</p>
 
     <nav class="toc" aria-label="Jump to a topic"><a href="#local-storage">What stays on your device</a><a href="#apple-speech">Apple speech recognition</a><a href="#capture">Mac microphone and system audio</a><a href="#providers">Providers you configure</a><a href="#recovery-copies">Library copies, recovery and deletion</a><a href="#controls">Controls you already have</a></nav>
@@ -183,7 +183,7 @@
     <p>There is no developer server receiving accounts, analytics events, advertising IDs, or crash dossiers. The app does not embed a tracking SDK and does not track across apps.</p>
 
     <h2 id="local-storage">What stays on your device</h2>
-    <p>API credentials use the system Keychain on iPhone and Mac. Recordings, transcripts, session history and settings are stored on the device. On Mac you can select a library folder, including an external drive; moving the library copies and verifies data and retains the original. There is no developer content server or automatic history sync. Only audio captured with Save recordings enabled is retained for playback. Exports go to your chosen destination.</p>
+    <p>Mac / iOS 1.0.1: API credentials use the system Keychain on iPhone and Mac. Recordings, transcripts, session history and settings are stored on the device. On Mac you can select a library folder, including an external drive; moving the library copies and verifies data and retains the original. There is no developer content server or automatic history sync. Only audio captured with Save recordings enabled is retained for playback. Exports go to your chosen destination.<br><br>iOS 1.1.0: user-started phone and Watch recordings can continue while the screen is locked or the app is in the background. Stop and save to finish. Live dictation stops when you leave its screen. Watch Pro is activated on the paired iPhone. This describes the new version; check App Store availability.</p>
 
     <h2 id="apple-speech">Apple speech recognition</h2>
     <p>On Mac, free dictation prefers recognition on the device. iPhone may use on-device recognition or Apple speech services. If a Mac offline model is unavailable or fails, audio may also be sent to Apple speech services. Apple processes received audio under its privacy policy. The app explains possible Apple processing before listening and requests system speech recognition permission. Microphone and optional Mac system audio capture also require system permission.</p>
@@ -196,7 +196,7 @@
     <p><a href="https://www.alibabacloud.com/help/en/model-studio/data-retention-policy" rel="noopener">Alibaba Cloud Model Studio</a> · <a href="https://developers.openai.com/api/docs/guides/your-data" rel="noopener">OpenAI API</a> · <a href="https://ai.google.dev/gemini-api/terms" rel="noopener">Gemini API</a> · <a href="https://elevenlabs.io/privacy-policy" rel="noopener">ElevenLabs</a></p>
 
     <h2 id="capture">Mac microphone and system audio</h2>
-    <p>Mac can capture a microphone, system audio or mixed input. System capture requires the macOS screen and system audio recording permission. ScreenCaptureKit supplies audio to the chosen recognition path and, when enabled, a local M4A or WAV recording. The app does not save screen video. Audio may include other participants or sounds from other apps.</p>
+    <p>Mac can capture a microphone, system audio or mixed input. System capture requires the macOS screen and system audio recording permission. ScreenCaptureKit supplies audio to the chosen recognition path and, when enabled, a local M4A or WAV recording. The app does not save screen video. Audio may include other participants or sounds from other apps.<br><br>iOS 1.1.0+: Apple speech recognition prefers on-device processing; unavailable languages or offline models may use Apple’s speech service. Notes and recordings are stored on your device; inclusion in system backups depends on your device settings. API credentials are stored in Keychain. Optional cloud and AI requests send the required audio or text to your chosen provider after recipient disclosure and consent. Obtain required consent before recording and check AI results. Watch recording requires Pro activation on the paired iPhone; no fixed battery life is promised. Supports iPhone, iPad and 13 interface languages.</p>
     <h2 id="sync">Device history, exports and backups</h2>
     <p>The app does not automatically synchronize Mac and iPhone history or recordings. Purchase restoration restores the unlock only. Exporting, sharing or an operating-system backup may create copies at your chosen destination; that destination or backup service has its own privacy policy. Deleting the original does not delete these copies.</p>
     <h2 id="recovery-copies">Library copies, recovery and deletion</h2>

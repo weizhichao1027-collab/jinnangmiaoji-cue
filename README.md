@@ -1,3 +1,7 @@
+# 2026-11-07 platform-specific trial clarification
+
+The 13-language product, support and terms pages distinguish upcoming iOS 1.1.0 (one optional 7-day Pro trial, no automatic charge) from Mac (20 shared API trial uses). Current released version numbers remain 1.0.1 and 1.2.0 until the App Store makes the updates available. Existing lifetime purchase, Family Sharing and provider fees are unchanged. Platform trial policies are also explicit in generated machine-readable facts. Phone/Watch recording and backup handling are clarified in privacy copy. Promotional screenshots are unchanged on the website.
+
 # Dictation Notes website
 
 ## 2026-11-03 F2 icon refresh

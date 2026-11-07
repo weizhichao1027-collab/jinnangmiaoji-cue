@@ -1,6 +1,6 @@
 # Dictation Notes · 听写笔记
 
-> Native Mac and iPhone live transcription, meeting notes and optional AI reply cues. Both apps are released on the App Store. Updated 2026-10-28.
+> Native Mac and iPhone live transcription, meeting notes and optional AI reply cues. Both apps are released on the App Store. Updated 2026-11-07.
 
 ## Official pages
 - [Product](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/): Mac 1.2.0 / macOS 14.0 or later, iPhone 1.0.1 / iOS 17.0 or later; screenshots, platform differences and pricing.
@@ -14,7 +14,7 @@
 - [中文官网](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/): 中文产品、支持、隐私与条款。
 
 ## Key facts
-Free installation and free Apple Speech dictation. Cloud transcription, live translation and AI share 20 trial uses, then an optional one-time unlock. Bring your own provider credentials; provider fees are separate. Restore the unlock with the same Apple ID on Mac and iPhone. History and recordings do not automatically sync. Apple Speech may send audio to Apple when local recognition is unavailable. The publisher has no application content backend; selected providers may collect, retain or train on data under their own policies.
+Free installation and free Apple Speech dictation. Mac cloud transcription, live translation and AI share 20 trial uses, then an optional one-time unlock. iOS 1.1.0 introduces one optional 7-day Pro trial with no automatic charge; it is being prepared for release and App Store availability controls when it applies. Released iOS 1.0.1 retains its 20-use rule. Reinstalling or restoring does not restart the iOS timed trial. Existing valid lifetime purchases remain recognized. Bring your own provider credentials; provider fees are separate. Restore the unlock with the same Apple ID on Mac and iPhone. History and recordings do not automatically sync. Apple Speech may send audio to Apple when local recognition is unavailable. The publisher has no application content backend; selected providers may collect, retain or train on data under their own policies.
 
 Sources: [Pricing](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#pricing), [Platform differences](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#platforms), [Privacy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html).
 

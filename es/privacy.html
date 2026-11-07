@@ -106,7 +106,7 @@
       "url": "https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/es/privacy.html",
       "name": "Política de privacidad | Dictation Notes",
       "description": "Cómo gestiona Dictation Notes Apple Speech, los proveedores de IA elegidos, las pruebas de conexión, bibliotecas locales, grabaciones, exportaciones, copias y borrado.",
-      "dateModified": "2026-10-28",
+      "dateModified": "2026-11-07",
       "inLanguage": "es",
       "isPartOf": {
         "@id": "https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#site"
@@ -172,7 +172,7 @@
   </header>
   <main id="main" class="wrap page doc">
     <h1>Política de privacidad</h1>
-    <p class="updated">Última actualización: 2026-10-28</p>
+    <p class="updated">Última actualización: 2026-11-07</p>
     <p>Dictation Notes (听写笔记) ofrece transcripción y ayuda de IA en Mac y iPhone; no operamos un servidor de contenido de la app. Apple y los proveedores elegidos pueden tratar datos; los emails de soporte se gestionan como se indica abajo.</p>
 
     <nav class="toc" aria-label="Ir a un tema"><a href="#local-storage">Qué se queda en tu dispositivo</a><a href="#apple-speech">Reconocimiento de voz de Apple</a><a href="#capture">Micrófono y audio del sistema en Mac</a><a href="#providers">Proveedores que configuras</a><a href="#recovery-copies">Copias de la biblioteca, recuperación y borrado</a><a href="#controls">Controles que ya tienes</a></nav>
@@ -183,7 +183,7 @@
     <p>No hay un servidor de desarrollador que reciba cuentas, eventos de analítica, identificadores publicitarios ni informes de fallos. La app no incluye un SDK de seguimiento y no rastrea entre apps.</p>
 
     <h2 id="local-storage">Qué se queda en tu dispositivo</h2>
-    <p>Las credenciales API usan el Llavero del sistema en iPhone y Mac. Las grabaciones, transcripciones, historial y ajustes se guardan en el dispositivo. En Mac puedes elegir una carpeta para la biblioteca, incluso en una unidad externa; la migración copia y verifica los datos y conserva el original. No hay servidor de contenidos del desarrollador ni sincronización automática del historial. Solo se conserva para reproducir después el audio capturado con Guardar grabación activado. Las exportaciones van al destino que elijas.</p>
+    <p>Mac / iOS 1.0.1: Las credenciales API usan el Llavero del sistema en iPhone y Mac. Las grabaciones, transcripciones, historial y ajustes se guardan en el dispositivo. En Mac puedes elegir una carpeta para la biblioteca, incluso en una unidad externa; la migración copia y verifica los datos y conserva el original. No hay servidor de contenidos del desarrollador ni sincronización automática del historial. Solo se conserva para reproducir después el audio capturado con Guardar grabación activado. Las exportaciones van al destino que elijas.<br><br>iOS 1.1.0: la grabación iniciada por el usuario en iPhone y Watch puede continuar con la pantalla bloqueada o en segundo plano. Detén y guarda al terminar. El dictado en directo se detiene al salir de su pantalla. Watch Pro se activa en el iPhone enlazado. Consulta la disponibilidad en App Store.</p>
 
     <h2 id="apple-speech">Reconocimiento de voz de Apple</h2>
     <p>En Mac, el dictado gratuito prioriza el reconocimiento en el dispositivo. El iPhone puede usar reconocimiento local o los servicios de voz de Apple. Si el modelo sin conexión del Mac no está disponible o falla, el audio también puede enviarse a Apple. Apple trata el audio recibido según su política de privacidad. La app explica el posible tratamiento por Apple antes de escuchar y solicita el permiso de reconocimiento de voz del sistema. El micrófono y la captura opcional de audio del sistema del Mac también requieren permiso.</p>
@@ -196,7 +196,7 @@
     <p><a href="https://www.alibabacloud.com/help/en/model-studio/data-retention-policy" rel="noopener">Alibaba Cloud Model Studio</a> · <a href="https://developers.openai.com/api/docs/guides/your-data" rel="noopener">OpenAI API</a> · <a href="https://ai.google.dev/gemini-api/terms" rel="noopener">Gemini API</a> · <a href="https://elevenlabs.io/privacy-policy" rel="noopener">ElevenLabs</a></p>
 
     <h2 id="capture">Micrófono y audio del sistema en Mac</h2>
-    <p>Mac captura micrófono, audio del sistema o mezcla. El sistema requiere permiso de grabación de pantalla y audio. ScreenCaptureKit entrega audio al reconocimiento elegido y, si lo activas, a un archivo local M4A o WAV; no se guarda vídeo de pantalla. Puede incluir voces de participantes y sonidos de otras apps.</p>
+    <p>Mac captura micrófono, audio del sistema o mezcla. El sistema requiere permiso de grabación de pantalla y audio. ScreenCaptureKit entrega audio al reconocimiento elegido y, si lo activas, a un archivo local M4A o WAV; no se guarda vídeo de pantalla. Puede incluir voces de participantes y sonidos de otras apps.<br><br>iOS 1.1.0+: El reconocimiento de Apple prioriza el dispositivo; puede usar sus servidores si el idioma o modelo sin conexión no está disponible. Los datos se guardan en el dispositivo; las copias del sistema dependen de tus ajustes. Las claves API se guardan en el llavero. La nube y la IA envían el audio o texto necesario al proveedor elegido tras informarte del destinatario y obtener consentimiento. Obtén el consentimiento necesario para grabar y revisa los resultados de IA. El Watch requiere activar Pro en el iPhone enlazado; no se promete una autonomía fija. Para iPhone y iPad, con 13 idiomas de interfaz.</p>
     <h2 id="sync">Historial, exportaciones y copias de seguridad</h2>
     <p>No hay sincronización automática de historial o audio entre Mac y iPhone. Restaurar compras solo restaura el desbloqueo. Exportar, compartir o hacer una copia del sistema puede crear copias en el destino elegido, sujeto a su propia política. Borrar el original no borra esas copias.</p>
     <h2 id="recovery-copies">Copias de la biblioteca, recuperación y borrado</h2>

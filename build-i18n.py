@@ -138,7 +138,8 @@ def render(config, tables, page, code):
         key = match.group(1)
         if key not in data and key not in special:
             raise ValueError(f'Unknown template key {key}')
-        return esc(special[key] if key in special else data[key])
+        value = esc(special[key] if key in special else data[key])
+        return value.replace('\n\n', '<br><br>') if key in ('support.a3', 'support.a7', 'terms.pIap', 'privacy.pCapture', 'privacy.pLocal') else value
     body = TOKEN.sub(replace_token, (ROOT / 'templates' / PAGES[page]).read_text(encoding='utf-8'))
     preload = f'  <link rel="preload" as="image" href="{special["mac.hero"]}" fetchpriority="high">' if page == 'home' else ''
     return f'''<!DOCTYPE html>
@@ -222,7 +223,8 @@ def build_outputs(config, tables):
                'sources': {lang: fact_source(config, key, lang) for lang in ['en', 'zh-Hans']}}
               for heading, key in sections]
     facts = {**config, 'appStoreId': '6783130548', 'interfaceLanguages': LOCALES, 'historySync': False,
-             'downloadPriceUSD': 0, 'lifetimeUnlock': {'productId': 'com.wzc.jinnangmiaoji.lifetime', 'type': 'non-consumable', 'trialUses': 20, 'subscription': False, 'providerFeesIncluded': False},
+             'downloadPriceUSD': 0, 'lifetimeUnlock': {'productId': 'com.wzc.jinnangmiaoji.lifetime', 'type': 'non-consumable', 'subscription': False, 'providerFeesIncluded': False},
+             'trialPolicies': {'mac': {'model': 'usage', 'uses': 20}, 'ios': {'releasedVersion': '1.0.1', 'releasedTrialUses': 20, 'fromVersion': '1.1.0', 'newVersionStatus': 'preparing-release', 'model': 'optional-timed', 'days': 7, 'autoCharge': False, 'restartsOnRestore': False, 'productId': 'com.wzc.jinnangmiaoji.ios.trial7days'}},
              'summary': {lang: tables[lang]['home.lead'] for lang in LOCALES},
              'officialPages': {lang: {page: page_url(config, page, lang) for page in PAGES} for lang in LOCALES},
              'topics': topics,
@@ -246,7 +248,7 @@ def build_outputs(config, tables):
 - [中文官网]({base}): 中文产品、支持、隐私与条款。
 
 ## Key facts
-Free installation and free Apple Speech dictation. Cloud transcription, live translation and AI share 20 trial uses, then an optional one-time unlock. Bring your own provider credentials; provider fees are separate. Restore the unlock with the same Apple ID on Mac and iPhone. History and recordings do not automatically sync. Apple Speech may send audio to Apple when local recognition is unavailable. The publisher has no application content backend; selected providers may collect, retain or train on data under their own policies.
+Free installation and free Apple Speech dictation. Mac cloud transcription, live translation and AI share 20 trial uses, then an optional one-time unlock. iOS 1.1.0 introduces one optional 7-day Pro trial with no automatic charge; it is being prepared for release and App Store availability controls when it applies. Released iOS 1.0.1 retains its 20-use rule. Reinstalling or restoring does not restart the iOS timed trial. Existing valid lifetime purchases remain recognized. Bring your own provider credentials; provider fees are separate. Restore the unlock with the same Apple ID on Mac and iPhone. History and recordings do not automatically sync. Apple Speech may send audio to Apple when local recognition is unavailable. The publisher has no application content backend; selected providers may collect, retain or train on data under their own policies.
 
 Sources: [Pricing]({base}en/#pricing), [Platform differences]({base}en/#platforms), [Privacy]({base}en/privacy.html).
 

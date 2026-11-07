@@ -106,7 +106,7 @@
       "url": "https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html",
       "name": "听写笔记隐私政策",
       "description": "了解听写笔记的 Apple 语音识别、自选 AI 服务、连接测试、本机资料库、录音、导出、备份与删除范围。",
-      "dateModified": "2026-10-28",
+      "dateModified": "2026-11-07",
       "inLanguage": "zh-Hans",
       "isPartOf": {
         "@id": "https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#site"
@@ -172,7 +172,7 @@
   </header>
   <main id="main" class="wrap page doc">
     <h1>隐私政策</h1>
-    <p class="updated">最后更新：2026-10-28</p>
+    <p class="updated">最后更新：2026-11-07</p>
     <p>听写笔记（Dictation Notes）提供 Mac 与 iPhone 转录及 AI 辅助。我们不运营接收应用内容的后端。Apple 与你选择的服务商可能处理数据；支持邮件的处理方式见下文。</p>
 
     <nav class="toc" aria-label="跳转到相关说明"><a href="#local-storage">保存在你设备上的内容</a><a href="#apple-speech">Apple 语音识别</a><a href="#capture">Mac 麦克风与系统音频</a><a href="#providers">你配置的服务商</a><a href="#recovery-copies">资料库副本、恢复与删除范围</a><a href="#controls">你能自己做的控制</a></nav>
@@ -183,7 +183,7 @@
     <p>我们没有开发者服务器来接收账号、分析事件、广告标识符或崩溃档案。应用本身不内置追踪 SDK，也不做跨应用追踪。</p>
 
     <h2 id="local-storage">保存在你设备上的内容</h2>
-    <p>iPhone 与 Mac 的 API 凭据使用系统钥匙串；录音、逐字稿、历史与设置保存在设备上。Mac 可以自选资料库文件夹，包括外置盘；迁移会复制、校验并保留原库。没有开发者内容服务器，也不自动同步历史。只有启用“保存录音”时采集的音频才保留供回听；导出保存到你选择的位置。</p>
+    <p>Mac / iOS 1.0.1: iPhone 与 Mac 的 API 凭据使用系统钥匙串；录音、逐字稿、历史与设置保存在设备上。Mac 可以自选资料库文件夹，包括外置盘；迁移会复制、校验并保留原库。没有开发者内容服务器，也不自动同步历史。只有启用“保存录音”时采集的音频才保留供回听；导出保存到你选择的位置。<br><br>iOS 1.1.0：主动开始的手机与 Watch 录音可在锁屏或后台继续，结束时请停止并保存。实时听写在离开其页面时停止。Watch 专业权限在配对 iPhone 激活。本段适用于新版，请以 App Store 可用版本为准。</p>
 
     <h2 id="apple-speech">Apple 语音识别</h2>
     <p>Mac 免费听写优先在设备上识别；iPhone 可能使用本机识别或 Apple 语音服务。Mac 离线模型不可用或识别失败时，音频也可能发送给 Apple 语音服务。Apple 按其隐私政策处理接收到的音频。应用会在开始听写前说明可能由 Apple 处理，并请求系统语音识别权限。麦克风及可选的 Mac 系统音频采集也需要系统授权。</p>
@@ -196,7 +196,7 @@
     <p><a href="https://www.alibabacloud.com/help/en/model-studio/data-retention-policy" rel="noopener">Alibaba Cloud Model Studio</a> · <a href="https://developers.openai.com/api/docs/guides/your-data" rel="noopener">OpenAI API</a> · <a href="https://ai.google.dev/gemini-api/terms" rel="noopener">Gemini API</a> · <a href="https://elevenlabs.io/privacy-policy" rel="noopener">ElevenLabs</a></p>
 
     <h2 id="capture">Mac 麦克风与系统音频</h2>
-    <p>Mac 可采集麦克风、系统音频或混音。系统音频需要 macOS 的屏幕与系统音频录制权限；ScreenCaptureKit 将音频交给你选择的识别方式，启用保存录音后也写入本机 M4A / WAV 文件。应用不保存屏幕视频。声音可能包含其他参会人和其他应用的音频。</p>
+    <p>Mac 可采集麦克风、系统音频或混音。系统音频需要 macOS 的屏幕与系统音频录制权限；ScreenCaptureKit 将音频交给你选择的识别方式，启用保存录音后也写入本机 M4A / WAV 文件。应用不保存屏幕视频。声音可能包含其他参会人和其他应用的音频。<br><br>iOS 1.1.0+: Apple 语音识别优先使用本机；语言或离线模型不可用时可能使用 Apple 服务。音频与笔记保存在设备上；系统备份是否包含资料取决于你的设备备份设置。API 密钥保存在钥匙串。可选云端转写与 AI 会将所需音频或文字发送给你选择的服务商，发送前会说明接收方并征求同意。录音前请取得必要同意，AI 内容请核查。Watch 录音需配对 iPhone 激活专业权限，不承诺固定续航时长。支持 iPhone、iPad 和 13 种界面语言。</p>
     <h2 id="sync">设备历史、导出与备份</h2>
     <p>应用不会自动同步 Mac 与 iPhone 的历史或录音；恢复购买仅恢复买断权益。导出、分享或系统备份可能在你选择的位置产生副本，目标位置或备份服务有自己的隐私政策。删除原文件不会同时删除这些副本。</p>
     <h2 id="recovery-copies">资料库副本、恢复与删除范围</h2>
