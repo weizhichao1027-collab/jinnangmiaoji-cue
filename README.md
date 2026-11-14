@@ -1,37 +1,29 @@
-# 2026-11-07 platform-specific trial clarification
-
-The 13-language product, support and terms pages distinguish upcoming iOS 1.1.0 (one optional 7-day Pro trial, no automatic charge) from Mac (20 shared API trial uses). Current released version numbers remain 1.0.1 and 1.2.0 until the App Store makes the updates available. Existing lifetime purchase, Family Sharing and provider fees are unchanged. Platform trial policies are also explicit in generated machine-readable facts. Phone/Watch recording and backup handling are clarified in privacy copy. Promotional screenshots are unchanged on the website.
-
 # Dictation Notes website
 
-## 2026-11-03 F2 icon refresh
-
-Current icon assets use the approved F2 flowing ribbon: app icon, embedded-image SVG favicon, PNG favicon, Apple touch icon, and the brand mark in the social image. The 52 pages use asset revision `20261103-icon-f2`. The app workspace's `docs/branding/AppIcon-F2-master.png` is the canonical source. The user excluded the 13-language promotional images; screenshot replacements were withdrawn and remain for the user to regenerate. Original capture and release archives remain unchanged.
-
-Official GitHub Pages for the released **听写笔记 / Dictation Notes** Mac and iPhone apps. Updated 2026-10-28 for Mac 1.2.0 (macOS 14+, Apple Silicon / Intel) and iPhone 1.0.1 (iOS 17+).
+Updated on 2026-11-14 for the released Mac **1.2.2** and iOS **1.1.1** apps. The mobile app supports iPhone, iPad and companion Apple Watch recording. This repository maintains the official product, support, privacy and terms pages in 13 languages.
 
 - [Product](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/)
 - [Support](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html)
 - [Privacy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html)
 - [Terms](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/terms.html)
-- [Mac download](https://apps.apple.com/app/id6783130548?platform=mac) / [iPhone download](https://apps.apple.com/app/id6783130548?platform=iphone)
+- [Mac download](https://apps.apple.com/app/id6783130548?platform=mac) and [iPhone / iPad download](https://apps.apple.com/app/id6783130548?platform=iphone)
 
-## Content and generation
+## Maintained sources
 
-This is a separate repository, `weizhichao1027-collab/jinnangmiaoji-cue`; the app repository ignores `store-site/`. Commit and push each repository separately. GitHub Pages publishes `main` from the repository root; `.nojekyll` keeps these generated files intact.
-
-Edit the maintained sources:
+This is the independent repository `weizhichao1027-collab/jinnangmiaoji-cue`. The product repository ignores `store-site/`. Commit and push the website separately. GitHub Pages publishes `main` from the repository root. Preserve `.nojekyll` for the static output.
 
 | Source | Purpose |
 | --- | --- |
 | `templates/*.html` | Product, support, privacy and terms layouts |
-| `i18n/*.json` | Complete copy in all 13 languages, including page titles and descriptions |
-| `site-config.json` | Public URLs, platform versions, requirements, publisher and update date |
-| `styles.css` | Responsive light/blue brand, focus styles and RTL layout |
-| `site.js` | Compatibility for old explicit `?lang=` links and Escape on the language menu |
-| `PRODUCT.md` | Brand, factual and accessibility requirements |
+| `i18n/*.json` | All 13 localized texts and metadata |
+| `site-config.json` | Public URLs, released versions, requirements, publisher and date |
+| `build-i18n.py` | HTML, JSON-LD, sitemap and source-linked factual references |
+| `styles.css`, `site.js` | Responsive layout, RTL, focus and legacy language links |
+| `prepare-release-assets.py` | Reproducible conversion of approved promotional PNGs |
+| `shots/release-20261114/manifest.json` | Provenance and output hashes for 104 current JPEGs |
+| `social-preview.html` | 1200 × 630 sharing-image source, rendered to `og.png` |
 
-Run from this directory with Python 3 and Node.js:
+Run from this directory with Python 3 and Node.js.
 
 ```sh
 python3 build-i18n.py
@@ -42,36 +34,34 @@ node --check site.js
 git diff --check
 ```
 
-The build uses only Python's standard library. Commit the generated HTML, sitemap and facts along with their sources. `--check` compares output without writing. `verify-site.py` checks metadata, language alternatives, local links and anchors, image dimensions, product facts, and FAQ answers against visible text. It does not certify search indexing or complete accessibility conformance.
+The site builder uses Python's standard library. Screenshot preparation additionally requires Pillow. From the complete product workspace, run `python3 prepare-release-assets.py`. From a standalone site checkout, pass `--source-root` pointing to the product workspace's `docs/designs/store-previews-2026-11-12/` directory. Originals stay in that product archive. The manifest records relative source paths, dimensions, SHA-256 and output byte counts.
 
-Simplified Chinese keeps the existing root URLs. Other languages use `/en/`, `/zh-Hant/`, `/ja/`, `/ko/`, `/es/`, `/fr/`, `/de/`, `/pt-BR/`, `/ru/`, `/ar/`, `/hi/` and `/id/`. Each has all four pages, totaling 52 static pages. Links and language navigation work without JavaScript. The former `?lang=en-US` and other regional language tags redirect only when explicitly requested in the URL; the fragment is preserved. There is no browser-language redirect, preference storage or client-side translation payload.
+Commit generated HTML, sitemap, factual references and webpage assets with their maintained sources. `--check` compares output without writing. The verifier checks metadata, language alternatives, internal links and anchors, image dimensions, platform facts and FAQ answers against visible text.
 
-When publishing a new app version, also update version references in localized copy, policy dates where appropriate, screenshots and the app's handoff. Mac 1.2.0 adds pause/resume, save feedback and recovery, transcript find, playback speeds, session-with-audio export, four persistent AI actions and verified library migration. Requirements in `site-config.json` describe the app; visible platform comparison copy must agree.
+## Release content
 
-Bump `assetVersion` when shared CSS, JavaScript or sharing artwork changes, so returning visitors receive the current files. Keep the 404 asset query in sync.
+The current pages cover mobile recording, pause/resume, later transcription, precise playback, daily reviews, highlight collections, passage-based AI work and source checking. Watch help covers Pro activation on the paired iPhone, transfers, safe receipt and retained originals. iPad receives Watch material through manual backup transfer from the paired iPhone. Mac retains its native microphone/system-audio workflow, save recovery, transcript search, audio export and verified library migration.
 
-## Assets
+iOS offers one optional 7-day Pro trial lasting 168 consecutive hours. Mac has 20 shared cloud transcription, AI and translation trial uses. A lifetime purchase unlocks Pro. Existing valid purchases and qualifying legacy rights remain recognized. Provider credentials and charges are supplied separately by the user. The current App Store determines local prices.
 
-`shots/mac/<locale>/` contains three 1280 × 800 JPEGs per language, derived from the application's real localized Mac screenshot sources in `docs/mac-store-artwork/v2/raw/`. `shots/iphone/<locale>/` contains three 660 × 1434 JPEGs per language from the corresponding retained App Store previews. The displayed conversations and AI responses are demonstration content. Older screenshot URLs remain available for compatibility.
+Privacy describes selected text and titles sent for review, local source snapshots, Watch copies, provider consent, Apple Speech, Keychain, system backups and deletion scope. Purchase restoration restores access. Each device keeps its own library, with Watch-to-paired-iPhone transfer described separately.
 
-Fonts are self-hosted WOFF2: Atkinson Hyperlegible (400/700) and IBM Plex Mono (400), with a system sans-serif display. Their OFL licenses are in `fonts/`. No fonts, analytics or tracking scripts load from a third party.
+## URLs and language behavior
 
-`social-preview.html` is a non-indexed 1200 × 630 sharing artwork source; render it at that viewport to update `og.png`. The artwork uses the same light palette and a real Mac image.
+Simplified Chinese keeps the existing root URLs. Other languages use `/en/`, `/zh-Hant/`, `/ja/`, `/ko/`, `/es/`, `/fr/`, `/de/`, `/pt-BR/`, `/ru/`, `/ar/`, `/hi/` and `/id/`. Each has all four pages, totaling 52 static pages. Links and language navigation work without JavaScript. Explicit legacy `?lang=` links redirect to their language path and preserve fragments. Browser language does not trigger a redirect.
 
-For local browser QA, serve this checkout at the real project path `/jinnangmiaoji-cue/`, for example with a temporary parent directory containing a `jinnangmiaoji-cue` symlink to this checkout. Opening files directly does not emulate Pages paths. Check 375/768/1440px, Arabic RTL, keyboard focus, language switching and old query links.
+Fonts are self-hosted Atkinson Hyperlegible and IBM Plex Mono WOFF2 with licenses in `fonts/`. The F2 ribbon icon and light blue branding continue across all pages. Current device screenshots come from the approved November 12–13 artwork. Their conversations, AI answers and displayed durations are examples. Earlier screenshot URLs stay available for existing links.
 
-## SEO and assistant facts
+Bump `assetVersion` when shared assets change and keep `404.html` in sync. To render `og.png`, open `social-preview.html` at 1200 × 630 and capture the viewport after fonts and images load.
 
-Each page has a localized title and description, a self-canonical URL, 13 reciprocal `hreflang` alternatives plus `x-default`, social metadata and JSON-LD. Software applications describe the two released platform versions. The zero-price offer describes free installation; cloud/AI unlocking and provider fees remain explicit in visible copy. There are no fabricated ratings, reviews or usage statistics. Homepage/support FAQ data matches the displayed answers.
+For browser QA, serve this checkout at the actual project path `/jinnangmiaoji-cue/`, using a temporary parent directory with a matching symlink. Check 375/768/1440px, Arabic RTL, keyboard focus, language switching, old query links and a JavaScript-disabled page.
 
-`sitemap.xml` lists all 52 canonical URLs and language alternatives. GitHub Pages hosts this project under a path: the project's `robots.txt` is **not** the origin-root crawler policy. Crawlers look for `https://weizhichao1027-collab.github.io/robots.txt`; use a verified Search Console property to submit the sitemap if desired. No Search Console verification or submission was performed by this update.
+## SEO and factual retrieval
 
-`llms.txt`, `llms-full.txt` and `app-facts.json` give linked, consistent product facts. They distinguish Mac controls from iPhone foreground restrictions, purchase restoration from history sync, Apple processing from selected providers, and app purchase from provider charges. These files support accurate retrieval; publication does not guarantee indexing, rich results or AI citations.
+Each page has a localized title and description, self-canonical, 13 reciprocal `hreflang` alternatives and `x-default`, social metadata and JSON-LD. Product pages describe the two software applications, current versions and device screenshots. Support and legal pages provide breadcrumbs. FAQ structured answers come from visible page content. Free-install offers describe the download price, with Pro and provider terms in visible copy.
 
-Guidance: [Google multilingual sites](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites), [robots.txt location](https://developers.google.com/search/docs/crawling-indexing/robots/intro).
+`sitemap.xml` lists all 52 canonical URLs and their language alternatives. `app-facts.json` contains 42 factual topics with text and matching visible source links in all 13 languages. `llms.txt` and `llms-full.txt` provide additional source-linked references. Page heads link to the sitemap and facts. The release verifier checks the iOS timed trial and Mac usage policy independently.
 
-## 2026-10-28 release update
+GitHub Pages hosts this project under a path. Crawlers use `https://weizhichao1027-collab.github.io/robots.txt` for origin policy. The project's own `robots.txt` provides a useful sitemap reference at the project URL. Submit `sitemap.xml` through a verified Search Console property when account access is available. Site publication and automated checks establish deployment and content consistency. Search engines control indexing, ranking, rich results and AI citations.
 
-The 13 languages now share 222 maintained keys and 52 generated pages. Support has 19 questions, including save recovery, pause/resume, library backups and transcript search. Privacy covers connection tests, selected folders, retained originals and the scope of deletion. 39 Mac screenshots now come from the actual 1.2.0 interface; iPhone screenshots are unchanged. Mac screenshot URLs include the asset revision for cache refresh.
-
-Assistant facts link each English and Chinese statement to the corresponding visible section, and include localized summaries and official page URLs for all 13 languages. FAQ markup is discovered from visible template articles; adding a question updates schema and machine facts together. SoftwareApplication offers appear on product pages, with child-page breadcrumbs on support and legal pages. There are no maintained user reviews or ratings, so do not claim Google software rich-result eligibility. [Google AI search guidance](https://developers.google.com/search/docs/appearance/ai-features) requires ordinary crawlable, helpful content and does not require a special AI file or schema.
+Google's guidance for AI features uses crawlable, helpful text and structured data that agrees with visible content. It requires no special AI file or schema. The source-linked files here help retrieval and factual consistency. [Google AI features](https://developers.google.com/search/docs/appearance/ai-features), [multilingual sites](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites), [robots.txt location](https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt).

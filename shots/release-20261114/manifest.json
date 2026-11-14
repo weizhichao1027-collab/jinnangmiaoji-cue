@@ -1,0 +1,2021 @@
+{
+  "schemaVersion": 1,
+  "releaseDate": "2026-11-14",
+  "sourceRoot": "docs/designs/store-previews-2026-11-12",
+  "sourcePathConvention": "Each source is relative to sourceRoot in the product workspace.",
+  "outputPathConvention": "Each output is relative to this manifest's directory.",
+  "generator": "prepare-release-assets.py",
+  "pillowVersion": "12.3.0",
+  "resampling": "LANCZOS, proportional resize of the complete image",
+  "jpeg": {
+    "quality": 90,
+    "subsampling": 0,
+    "progressive": true,
+    "optimize": true
+  },
+  "locales": [
+    "zh-Hans",
+    "zh-Hant",
+    "en",
+    "ja",
+    "ko",
+    "es",
+    "fr",
+    "de",
+    "pt-BR",
+    "ru",
+    "ar",
+    "hi",
+    "id"
+  ],
+  "imageCount": 104,
+  "totalBytes": 12295255,
+  "evidenceStatement": {
+    "zh-Hans": "沿用最新商店宣传成品及实际应用组件画面，笔记、纪要、录音时长、重点和接收状态含合成示例。画面用于展示界面与功能，不构成识别准确率、模型质量、设备间传输或电池续航实测。",
+    "en": "These promotional images reuse the latest store artwork and captured app components. Notes, summaries, durations, highlights and receipt states include synthetic examples. They demonstrate the interface and features and provide no measured recognition accuracy, model quality, device-transfer or battery-life results."
+  },
+  "sourceEvidence": [
+    "mac/README.md",
+    "watch/README.md",
+    "wide/README.md",
+    "evidence/button-refresh-20261112/README.md"
+  ],
+  "images": [
+    {
+      "platform": "mac",
+      "locale": "zh-Hans",
+      "theme": "01-hero",
+      "source": "mac/screenshots/zh-Hans/01-hero.png",
+      "sourceSha256": "b913f115d233c65270245fa42d48e1d77c2bd4ec02d6918c05001adb48b30384",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 934089,
+      "output": "mac/zh-Hans/01.jpg",
+      "outputSha256": "6d259755494a1b5c7cde18cd00d9075cdaf6ea5b43e0ccde2b91c38c9d7a7ca5",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 119095
+    },
+    {
+      "platform": "mac",
+      "locale": "zh-Hans",
+      "theme": "02-notes",
+      "source": "mac/screenshots/zh-Hans/02-notes.png",
+      "sourceSha256": "de9349dd3540e050ea27592452b8c7bbf63efd51d3ba3e0f2ede957c72369523",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 997544,
+      "output": "mac/zh-Hans/02.jpg",
+      "outputSha256": "0db8d4f81e8a61c8a8855f188ea5e4db940457d23762f05086cb48695ed026f7",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 127878
+    },
+    {
+      "platform": "mac",
+      "locale": "zh-Hans",
+      "theme": "03-history",
+      "source": "mac/screenshots/zh-Hans/03-history.png",
+      "sourceSha256": "14f96f0427115154ed23aae0cb690aedbf2930e136734a0c663128a8b0591213",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 635975,
+      "output": "mac/zh-Hans/03.jpg",
+      "outputSha256": "d144fbfbe3a583dec1df00a6799e8093452f5aef8b017d8648dfde7c979bb455",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 86027
+    },
+    {
+      "platform": "iphone",
+      "locale": "zh-Hans",
+      "theme": "03-record",
+      "source": "iphone/exports/zh-Hans/03-record-zh-Hans.png",
+      "sourceSha256": "694cf6f8e6b401da308cfdd004ea18661880ccb092aca4c917af2f03ba56f3b0",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1444222,
+      "output": "iphone/zh-Hans/01.jpg",
+      "outputSha256": "4e74f572eaa6ccfbd3b0862baba47374cbe632e2c493d6009e7aa5c52ec726f8",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 135504
+    },
+    {
+      "platform": "iphone",
+      "locale": "zh-Hans",
+      "theme": "04-replay",
+      "source": "iphone/exports/zh-Hans/04-replay-zh-Hans.png",
+      "sourceSha256": "4f8a03b971bb03bf07ccd0930ed5e8fc9491f329c0ddf1388c4b692f1b7b8451",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1524640,
+      "output": "iphone/zh-Hans/02.jpg",
+      "outputSha256": "e0fc004acde200cbced708423c7d11a7e548c7fe12a323768d51d8a3552c4395",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 145724
+    },
+    {
+      "platform": "iphone",
+      "locale": "zh-Hans",
+      "theme": "06-summary-export",
+      "source": "iphone/exports/zh-Hans/06-summary-export-zh-Hans.png",
+      "sourceSha256": "89cdc8cd5ea7eb3b4033fc48fe37789c7da62a7a4c474770e8806c7d90333a76",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1534444,
+      "output": "iphone/zh-Hans/03.jpg",
+      "outputSha256": "15ad740698860616dd4d93ca537f184ba83686c50b28387de6291748f558d46a",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 146623
+    },
+    {
+      "platform": "ipad",
+      "locale": "zh-Hans",
+      "theme": "06-summary-export",
+      "source": "wide/ipad/exports/zh-Hans/06-summary-export.png",
+      "sourceSha256": "d8cef1a45efc0da15499ca13853588dcd510913630ec05800e2b35bf2171e1bf",
+      "sourceDimensions": [
+        2752,
+        2064
+      ],
+      "sourceBytes": 1165362,
+      "output": "ipad/zh-Hans/01.jpg",
+      "outputSha256": "0ef0f70ddbb0fe0782e4fbf79a7a96e5845b959733670fee2122ab3442d3ac09",
+      "outputDimensions": [
+        1032,
+        774
+      ],
+      "outputBytes": 99758
+    },
+    {
+      "platform": "watch",
+      "locale": "zh-Hans",
+      "theme": "02-start",
+      "source": "watch/watch/exports/zh-Hans/02-start.png",
+      "sourceSha256": "20deffe579ca06ef1754f9311467fa9d37e547461adc0a539fe9c2230b88dc07",
+      "sourceDimensions": [
+        1248,
+        1488
+      ],
+      "sourceBytes": 1007009,
+      "output": "watch/zh-Hans/01.jpg",
+      "outputSha256": "341edf2952970afb03b1d382e6eaaf34f10765fb7eda7a7b6beab27adb3eb4d7",
+      "outputDimensions": [
+        416,
+        496
+      ],
+      "outputBytes": 38868
+    },
+    {
+      "platform": "mac",
+      "locale": "zh-Hant",
+      "theme": "01-hero",
+      "source": "mac/screenshots/zh-Hant/01-hero.png",
+      "sourceSha256": "4b538d64d8968f785e75fd68f939de61edcc475abe690a7fb9f329183d61bffb",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 890489,
+      "output": "mac/zh-Hant/01.jpg",
+      "outputSha256": "86a47b8b58b138e4f25c46194ea806117356985ebe2724e8ad1e12e9dfbd4409",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 114234
+    },
+    {
+      "platform": "mac",
+      "locale": "zh-Hant",
+      "theme": "02-notes",
+      "source": "mac/screenshots/zh-Hant/02-notes.png",
+      "sourceSha256": "1467a2e02eb72d6714b8b15ebb8f5863a847b2ac9b8a8ee8ca80ced4b7eba9e8",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 958067,
+      "output": "mac/zh-Hant/02.jpg",
+      "outputSha256": "cc081fc63818397daaea7dfb817a3f16d6a61e103e77a67e40133666c93f7820",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 122986
+    },
+    {
+      "platform": "mac",
+      "locale": "zh-Hant",
+      "theme": "03-history",
+      "source": "mac/screenshots/zh-Hant/03-history.png",
+      "sourceSha256": "8c7bb6ac1f7cbb41657e903eb2a69de2c97c0a2f5215e0d5da2a6527caaefba9",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 655017,
+      "output": "mac/zh-Hant/03.jpg",
+      "outputSha256": "70ad149c8e197d87234cc1999dcbd75f9f7467e18a60f5248c0885a8b72fc12a",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 87558
+    },
+    {
+      "platform": "iphone",
+      "locale": "zh-Hant",
+      "theme": "03-record",
+      "source": "iphone/exports/zh-Hant/03-record-zh-Hant.png",
+      "sourceSha256": "b4814d12c7228c947713bbd18c010de2eb4f16d26f24918ca7017014c37e801b",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1469393,
+      "output": "iphone/zh-Hant/01.jpg",
+      "outputSha256": "40e7f652c47268fe8ccea3a444b53da191c807d68a0abb8bb3fdcd74ae5b2919",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 136382
+    },
+    {
+      "platform": "iphone",
+      "locale": "zh-Hant",
+      "theme": "04-replay",
+      "source": "iphone/exports/zh-Hant/04-replay-zh-Hant.png",
+      "sourceSha256": "2f88981925dab388afafe31e8aceb2d633f47897989696f7d5da1406c1a7c4fc",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1533831,
+      "output": "iphone/zh-Hant/02.jpg",
+      "outputSha256": "45aaec55e28dd26b217c83d5a3119e71835926c31b2451747910914579c385f8",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 147330
+    },
+    {
+      "platform": "iphone",
+      "locale": "zh-Hant",
+      "theme": "06-summary-export",
+      "source": "iphone/exports/zh-Hant/06-summary-export-zh-Hant.png",
+      "sourceSha256": "0960a5af8dc8ca32df98c97f6ff9e323216952ea8483c39c9f9aba8ee5309706",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1551627,
+      "output": "iphone/zh-Hant/03.jpg",
+      "outputSha256": "808a2020dc7acb7fe6c8260d1c729c8a4a3ddf4dbcac88da07ec68460c49c8ff",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 148718
+    },
+    {
+      "platform": "ipad",
+      "locale": "zh-Hant",
+      "theme": "06-summary-export",
+      "source": "wide/ipad/exports/zh-Hant/06-summary-export.png",
+      "sourceSha256": "a3266ace98faa27cc7994d9ef14d5f2640f75dee6d0585e168224d5ae8d85bd6",
+      "sourceDimensions": [
+        2752,
+        2064
+      ],
+      "sourceBytes": 1183053,
+      "output": "ipad/zh-Hant/01.jpg",
+      "outputSha256": "57a74d5a933c43171e8b110616d816b92c6c5e2b01a0bd6cc0c0313d5b04a95c",
+      "outputDimensions": [
+        1032,
+        774
+      ],
+      "outputBytes": 100804
+    },
+    {
+      "platform": "watch",
+      "locale": "zh-Hant",
+      "theme": "02-start",
+      "source": "watch/watch/exports/zh-Hant/02-start.png",
+      "sourceSha256": "bbf3982e619f7ad5a00822bb0fe4027cc72ffa6d53a2812909da79eb0b755edb",
+      "sourceDimensions": [
+        1248,
+        1488
+      ],
+      "sourceBytes": 1013359,
+      "output": "watch/zh-Hant/01.jpg",
+      "outputSha256": "1242c51a573f8d00b51da5de460f0818edf4359122dd89b577a93453570519df",
+      "outputDimensions": [
+        416,
+        496
+      ],
+      "outputBytes": 39263
+    },
+    {
+      "platform": "mac",
+      "locale": "en",
+      "theme": "01-hero",
+      "source": "mac/screenshots/en/01-hero.png",
+      "sourceSha256": "7c2fb136a7425f8564e4c11608593ea317d1ed7f5e476d4956ea1a014343572f",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 936206,
+      "output": "mac/en/01.jpg",
+      "outputSha256": "cf0e5bdebd91acd2d1ab7963793ae192855a3a7d479ff7db9bfe45e5813e2928",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 122810
+    },
+    {
+      "platform": "mac",
+      "locale": "en",
+      "theme": "02-notes",
+      "source": "mac/screenshots/en/02-notes.png",
+      "sourceSha256": "8c29eb30034b4688bdac0358c28473a4d8c2cd57838f1f62ede792bfa448dd66",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 1012675,
+      "output": "mac/en/02.jpg",
+      "outputSha256": "d011ae5a51345633318dbdb87cf0e737b7d40a51ef4d4d1f2eb20006eba707ad",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 137493
+    },
+    {
+      "platform": "mac",
+      "locale": "en",
+      "theme": "03-history",
+      "source": "mac/screenshots/en/03-history.png",
+      "sourceSha256": "94f9b57b66288e892014b4112d7bf4a40b98fc417691a16a60cfb5ab757d8e7f",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 675938,
+      "output": "mac/en/03.jpg",
+      "outputSha256": "8c099013fa387dd4a97921cd938636bf36dc50081a11892d990bfd1a4ae6a6c9",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 95681
+    },
+    {
+      "platform": "iphone",
+      "locale": "en",
+      "theme": "03-record",
+      "source": "iphone/exports/en/03-record-en.png",
+      "sourceSha256": "bc1c41d1c6f8ed87b92d5ca25b8e767222d751ec8180b9e0cf965831f0cb7471",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1493225,
+      "output": "iphone/en/01.jpg",
+      "outputSha256": "a210088066f76848241c22a494a87daa8ea63b00f37c932129e1dae42e51f4a2",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 139205
+    },
+    {
+      "platform": "iphone",
+      "locale": "en",
+      "theme": "04-replay",
+      "source": "iphone/exports/en/04-replay-en.png",
+      "sourceSha256": "1404994291ed044f81e6ad47aa7a641929d29a556e64c6595bb6c03facc6f8a2",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1575767,
+      "output": "iphone/en/02.jpg",
+      "outputSha256": "124f9a678ce792d72346e85c3a5e887ff0602b733b04d8487f2b8a5f205d9731",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 149800
+    },
+    {
+      "platform": "iphone",
+      "locale": "en",
+      "theme": "06-summary-export",
+      "source": "iphone/exports/en/06-summary-export-en.png",
+      "sourceSha256": "dcebc3e050e1530d6d4a0f1522e35221025539e1ff0e66ebf605ce3b0cc20eae",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1588948,
+      "output": "iphone/en/03.jpg",
+      "outputSha256": "f7c51c8f22806081c94cf5da5e3a185104ac0ef34c487246fc5ea9098763fadb",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 163355
+    },
+    {
+      "platform": "ipad",
+      "locale": "en",
+      "theme": "06-summary-export",
+      "source": "wide/ipad/exports/en/06-summary-export.png",
+      "sourceSha256": "ad336e76b2967448a752ecf91f633abe8b0608d95de679f533cb462273b87bab",
+      "sourceDimensions": [
+        2752,
+        2064
+      ],
+      "sourceBytes": 1215655,
+      "output": "ipad/en/01.jpg",
+      "outputSha256": "e4290cbbbe7c0dfc78cce73c2bb95115956b63c89a684ec6c7fb1dd5c3efca29",
+      "outputDimensions": [
+        1032,
+        774
+      ],
+      "outputBytes": 108705
+    },
+    {
+      "platform": "watch",
+      "locale": "en",
+      "theme": "02-start",
+      "source": "watch/watch/exports/en/02-start.png",
+      "sourceSha256": "216495269554771a1f0c8e8c27c94dbc0968c2d4c5799c88a959561673d45c17",
+      "sourceDimensions": [
+        1248,
+        1488
+      ],
+      "sourceBytes": 1018768,
+      "output": "watch/en/01.jpg",
+      "outputSha256": "281fdcdf60bf0fe1c4cb9be6979f09a453bb0028272af6f9ad3982d455e53e36",
+      "outputDimensions": [
+        416,
+        496
+      ],
+      "outputBytes": 42009
+    },
+    {
+      "platform": "mac",
+      "locale": "ja",
+      "theme": "01-hero",
+      "source": "mac/screenshots/ja/01-hero.png",
+      "sourceSha256": "8c13ef520b3bd9a40f2aacaf0ce05aa05d7ff21e38acc10bee4e256d3b6333c0",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 965696,
+      "output": "mac/ja/01.jpg",
+      "outputSha256": "13c0346165ddf4c79756478b746644d32d93b6796d023cbb45aa7b247788f912",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 123230
+    },
+    {
+      "platform": "mac",
+      "locale": "ja",
+      "theme": "02-notes",
+      "source": "mac/screenshots/ja/02-notes.png",
+      "sourceSha256": "fefa63186bfe877ae3a6896cbda6de9e046096fd279a09823debe5094937c009",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 1008310,
+      "output": "mac/ja/02.jpg",
+      "outputSha256": "f191c664929ae19867fb0038b30f1397375caeaa2bd6428099afa25d115a8842",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 133544
+    },
+    {
+      "platform": "mac",
+      "locale": "ja",
+      "theme": "03-history",
+      "source": "mac/screenshots/ja/03-history.png",
+      "sourceSha256": "c557e7d57e82a25439af39b3616b13e87738154c701d65394a4bac41b05fecd4",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 700255,
+      "output": "mac/ja/03.jpg",
+      "outputSha256": "30a74fea215477b2c9fd0181bae5390e217c023636626f901ff8347f006568d3",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 97379
+    },
+    {
+      "platform": "iphone",
+      "locale": "ja",
+      "theme": "03-record",
+      "source": "iphone/exports/ja/03-record-ja.png",
+      "sourceSha256": "12e1448ddce368978a78540d81219982717dd0088517fde8339130861ff9f20e",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1500322,
+      "output": "iphone/ja/01.jpg",
+      "outputSha256": "210bd8df7d34d67881ef06064cb0732f32430fb674e86dd4e78fede8f4532c03",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 139151
+    },
+    {
+      "platform": "iphone",
+      "locale": "ja",
+      "theme": "04-replay",
+      "source": "iphone/exports/ja/04-replay-ja.png",
+      "sourceSha256": "9690a3595c35a5268168245514e78b2612395ee1dacaff45cb13f057e50a69ac",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1559751,
+      "output": "iphone/ja/02.jpg",
+      "outputSha256": "af3e4ff6763719e3b6f85165a7b12f11270c059d616d801d69c274cda2f2522d",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 149424
+    },
+    {
+      "platform": "iphone",
+      "locale": "ja",
+      "theme": "06-summary-export",
+      "source": "iphone/exports/ja/06-summary-export-ja.png",
+      "sourceSha256": "8c5c00b9acb3733dcfbdba0f94ed9d19d2ce7529efd9903f26cd0bfff23da6ce",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1570972,
+      "output": "iphone/ja/03.jpg",
+      "outputSha256": "4f261891f81afb56dcaa0fdaa7c1f7629a998792f89ce490a824ed9551e8a806",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 158385
+    },
+    {
+      "platform": "ipad",
+      "locale": "ja",
+      "theme": "06-summary-export",
+      "source": "wide/ipad/exports/ja/06-summary-export.png",
+      "sourceSha256": "6718fe8f756ea50cd36c4c156b174411204ed1948f880aef3aa994e4778a47e1",
+      "sourceDimensions": [
+        2752,
+        2064
+      ],
+      "sourceBytes": 1233991,
+      "output": "ipad/ja/01.jpg",
+      "outputSha256": "87d9f928e93aabad816cfd8035ab7be994b4770a9911b02f08cf1de8e29ae2cd",
+      "outputDimensions": [
+        1032,
+        774
+      ],
+      "outputBytes": 107883
+    },
+    {
+      "platform": "watch",
+      "locale": "ja",
+      "theme": "02-start",
+      "source": "watch/watch/exports/ja/02-start.png",
+      "sourceSha256": "d3ecd8802f77cad97e0eca48fdf259af7bd26c92d7bdfface4b5453f45a4db9b",
+      "sourceDimensions": [
+        1248,
+        1488
+      ],
+      "sourceBytes": 1036701,
+      "output": "watch/ja/01.jpg",
+      "outputSha256": "0c5e8fd581c5a0ce82810e5db749d0cf5c51ef02fb7b4b52ca0a96db883c98e5",
+      "outputDimensions": [
+        416,
+        496
+      ],
+      "outputBytes": 40915
+    },
+    {
+      "platform": "mac",
+      "locale": "ko",
+      "theme": "01-hero",
+      "source": "mac/screenshots/ko/01-hero.png",
+      "sourceSha256": "cc11f5994df854e3f91aca2b8c0303aa85ee28fdc2ff4817dae1f1e2d3f2076e",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 840264,
+      "output": "mac/ko/01.jpg",
+      "outputSha256": "f1ce4791fbc4403962ddcf7ec63a7d1d3785abe4f9efe81dc2fabca2606084e3",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 113260
+    },
+    {
+      "platform": "mac",
+      "locale": "ko",
+      "theme": "02-notes",
+      "source": "mac/screenshots/ko/02-notes.png",
+      "sourceSha256": "1a6096bc73178db55213eb2d1dd2c678c9882ce7b9ee5dd273df699a5c04f490",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 868285,
+      "output": "mac/ko/02.jpg",
+      "outputSha256": "07cea57747f69f6cb0cadbe8212a993e2fced3ca0ee3e20f9d95d9fcd89a7113",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 116789
+    },
+    {
+      "platform": "mac",
+      "locale": "ko",
+      "theme": "03-history",
+      "source": "mac/screenshots/ko/03-history.png",
+      "sourceSha256": "293f61ed3e28554e1c9ea799eea949debd74f75f84ccedee53ec829eec8dd469",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 615045,
+      "output": "mac/ko/03.jpg",
+      "outputSha256": "c25a0536c1648e0d5509a8a562bfc09146f87e8818a5fd4f4208bcda362abf9b",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 82745
+    },
+    {
+      "platform": "iphone",
+      "locale": "ko",
+      "theme": "03-record",
+      "source": "iphone/exports/ko/03-record-ko.png",
+      "sourceSha256": "a8a1e26707847b4f867af6a4076698b0ccca5e7d8e91cef5977ad8ed744602dc",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1414513,
+      "output": "iphone/ko/01.jpg",
+      "outputSha256": "cf283162a42575a8e875632d1d3a84a3dc8f35af1c7732005caf4eed672489b0",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 131003
+    },
+    {
+      "platform": "iphone",
+      "locale": "ko",
+      "theme": "04-replay",
+      "source": "iphone/exports/ko/04-replay-ko.png",
+      "sourceSha256": "4dbe8ec9efddc5c739527d10eb39429f3cf02ae3176e09fa96e27a8aa571a092",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1478156,
+      "output": "iphone/ko/02.jpg",
+      "outputSha256": "76173435d001eaa3cc6ea07d6e3310f6fcb13d1b70380f18d3cdcc6de956ef22",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 140499
+    },
+    {
+      "platform": "iphone",
+      "locale": "ko",
+      "theme": "06-summary-export",
+      "source": "iphone/exports/ko/06-summary-export-ko.png",
+      "sourceSha256": "9b31db8b537e24ce2ae0644f7bd2ee6a4fe584ae7711866835b3135a7e744562",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1473769,
+      "output": "iphone/ko/03.jpg",
+      "outputSha256": "e4733693e069715db38d68339f11cbbd4c933b165656a301c328431d06bcc386",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 140546
+    },
+    {
+      "platform": "ipad",
+      "locale": "ko",
+      "theme": "06-summary-export",
+      "source": "wide/ipad/exports/ko/06-summary-export.png",
+      "sourceSha256": "01f0338c67b1d263ce54920c30c41df3f2ee3602da1532048e1a81e400253a55",
+      "sourceDimensions": [
+        2752,
+        2064
+      ],
+      "sourceBytes": 1105620,
+      "output": "ipad/ko/01.jpg",
+      "outputSha256": "43d2a7d93c8aa010de3df7e8c91351f6f6c7401ea5fb9e2e23c9ed69a6d702c1",
+      "outputDimensions": [
+        1032,
+        774
+      ],
+      "outputBytes": 94839
+    },
+    {
+      "platform": "watch",
+      "locale": "ko",
+      "theme": "02-start",
+      "source": "watch/watch/exports/ko/02-start.png",
+      "sourceSha256": "6e7cd119a15cde838f689836eebaf1ac13eb0fc4e93d8271057ea9117800a380",
+      "sourceDimensions": [
+        1248,
+        1488
+      ],
+      "sourceBytes": 991021,
+      "output": "watch/ko/01.jpg",
+      "outputSha256": "9eeaad90a5156de579fdfb4a26a8851931f87e8e7b98beca09177e812ec02afb",
+      "outputDimensions": [
+        416,
+        496
+      ],
+      "outputBytes": 40560
+    },
+    {
+      "platform": "mac",
+      "locale": "es",
+      "theme": "01-hero",
+      "source": "mac/screenshots/es/01-hero.png",
+      "sourceSha256": "ec9f57ca6232445bc1a8252abb610c1b459eb129c8589373ba8a800f3801778e",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 1000809,
+      "output": "mac/es/01.jpg",
+      "outputSha256": "ccf451f965b9e19177e97daffae54ea7f2d9111007315c96858be571ded7da02",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 135523
+    },
+    {
+      "platform": "mac",
+      "locale": "es",
+      "theme": "02-notes",
+      "source": "mac/screenshots/es/02-notes.png",
+      "sourceSha256": "63c5807f98aff8d3a30edb72a4a4adefd95e011df55aaa8cc8b2f615c922559e",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 1055903,
+      "output": "mac/es/02.jpg",
+      "outputSha256": "b70db9c010afa2ed2382a28ad015f6861af9062cb7a5ce5823436d999f483697",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 143299
+    },
+    {
+      "platform": "mac",
+      "locale": "es",
+      "theme": "03-history",
+      "source": "mac/screenshots/es/03-history.png",
+      "sourceSha256": "b900837ba3d8849f1bbf944f4225108da6e4988f18ca5468b1881efa6b8eaa58",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 700230,
+      "output": "mac/es/03.jpg",
+      "outputSha256": "028fa9450f7e2082e9e101f13e8d07039a015f240a10605d2dd98594341fd4c9",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 97440
+    },
+    {
+      "platform": "iphone",
+      "locale": "es",
+      "theme": "03-record",
+      "source": "iphone/exports/es/03-record-es.png",
+      "sourceSha256": "8f386359bebc664df00264eb7b4f80d229187a426cb7364e3ac8a04f492f6fa2",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1518824,
+      "output": "iphone/es/01.jpg",
+      "outputSha256": "61ccfdf1202af34a2bd7206cb33e681857300da7fa35efeda1add99c565bcbf7",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 143653
+    },
+    {
+      "platform": "iphone",
+      "locale": "es",
+      "theme": "04-replay",
+      "source": "iphone/exports/es/04-replay-es.png",
+      "sourceSha256": "7ceb9cfc2a7c432cd65cd14cb6c62ac819862b8f582d45a95836b5f9bed58ae4",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1573479,
+      "output": "iphone/es/02.jpg",
+      "outputSha256": "94b3cb0175448822c9467a930adf000ce96398c3cf9378f2cfc7c38e7f867b71",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 152198
+    },
+    {
+      "platform": "iphone",
+      "locale": "es",
+      "theme": "06-summary-export",
+      "source": "iphone/exports/es/06-summary-export-es.png",
+      "sourceSha256": "b594a3e03b97af772b79d70de4889d3c630ebc563a70363c74c4c3e5d8d809d9",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1624836,
+      "output": "iphone/es/03.jpg",
+      "outputSha256": "4324a9f0d9c0356fdb7813e0a5286054dea6805cc137f27e3039d8e18af666ed",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 163044
+    },
+    {
+      "platform": "ipad",
+      "locale": "es",
+      "theme": "06-summary-export",
+      "source": "wide/ipad/exports/es/06-summary-export.png",
+      "sourceSha256": "8aadebef37fbc5a5a568e383ca1e631ebf8ffa2cf29c60593b7d0ed47ef4ddaa",
+      "sourceDimensions": [
+        2752,
+        2064
+      ],
+      "sourceBytes": 1244360,
+      "output": "ipad/es/01.jpg",
+      "outputSha256": "417beb8606ddd3bed24d9eae2391d083d161fe062fe12a64256e78df05566183",
+      "outputDimensions": [
+        1032,
+        774
+      ],
+      "outputBytes": 108435
+    },
+    {
+      "platform": "watch",
+      "locale": "es",
+      "theme": "02-start",
+      "source": "watch/watch/exports/es/02-start.png",
+      "sourceSha256": "4c993113c7457832f6b7fdf9841f2287d204c671dc24e78e355972155daa0610",
+      "sourceDimensions": [
+        1248,
+        1488
+      ],
+      "sourceBytes": 1014765,
+      "output": "watch/es/01.jpg",
+      "outputSha256": "1707918ced200ba8219843e1f79b184c0e79630fc53bc13750a599eebe0fbc95",
+      "outputDimensions": [
+        416,
+        496
+      ],
+      "outputBytes": 42048
+    },
+    {
+      "platform": "mac",
+      "locale": "fr",
+      "theme": "01-hero",
+      "source": "mac/screenshots/fr/01-hero.png",
+      "sourceSha256": "671eb6e530faba20076164ba3b6483cb064807a2e5a6a0ede19dfc0169d093e6",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 1000257,
+      "output": "mac/fr/01.jpg",
+      "outputSha256": "e4b4b2e691a5e65061bea1adc65e219e7c9496e9bed0463b3788eb6e3eb71809",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 139562
+    },
+    {
+      "platform": "mac",
+      "locale": "fr",
+      "theme": "02-notes",
+      "source": "mac/screenshots/fr/02-notes.png",
+      "sourceSha256": "1b6a8f5be6d45ecf51fb358eef96e3d14d280ca1bc9dbe286d7a9a4538733dbd",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 1041804,
+      "output": "mac/fr/02.jpg",
+      "outputSha256": "d7e2efb1cd5e0704a84bf4be9275fb227bc71f4562c31a5a44961255d1cdc735",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 142116
+    },
+    {
+      "platform": "mac",
+      "locale": "fr",
+      "theme": "03-history",
+      "source": "mac/screenshots/fr/03-history.png",
+      "sourceSha256": "17682f278f77efb80084f51474b7579418af2924426782251d60ad4068ac21d0",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 669928,
+      "output": "mac/fr/03.jpg",
+      "outputSha256": "e83eaa428935768865db31ea5190ee647da3586f4bedb988ed1f67040c16f057",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 99933
+    },
+    {
+      "platform": "iphone",
+      "locale": "fr",
+      "theme": "03-record",
+      "source": "iphone/exports/fr/03-record-fr.png",
+      "sourceSha256": "cfd0c3d9c9c5722a30864ea4ac5158d939479f880da4c061814768e792445b66",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1511598,
+      "output": "iphone/fr/01.jpg",
+      "outputSha256": "1e09b7ae4485af342a5075eb224cb4e4e98ea8161d6a0aac8a35adf263b7ccfe",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 147537
+    },
+    {
+      "platform": "iphone",
+      "locale": "fr",
+      "theme": "04-replay",
+      "source": "iphone/exports/fr/04-replay-fr.png",
+      "sourceSha256": "87dec1daaafa493bd722e8e1e6d0b69c9724f9cb4cda7b6b7c0b962de2bce3d7",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1578707,
+      "output": "iphone/fr/02.jpg",
+      "outputSha256": "5b780ff5dbe18dbc2c096cee7542b3514d7ae7b12c022e2e053b23204820a5c4",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 152955
+    },
+    {
+      "platform": "iphone",
+      "locale": "fr",
+      "theme": "06-summary-export",
+      "source": "iphone/exports/fr/06-summary-export-fr.png",
+      "sourceSha256": "06131365bcddb7cc90c053925ae593fa1c337fe58dc09d1c9b8c009ff1a0932a",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1627175,
+      "output": "iphone/fr/03.jpg",
+      "outputSha256": "c5452578401b55142f996e6e9376922604f68b89181ade0677dfcf5aad6743d2",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 167180
+    },
+    {
+      "platform": "ipad",
+      "locale": "fr",
+      "theme": "06-summary-export",
+      "source": "wide/ipad/exports/fr/06-summary-export.png",
+      "sourceSha256": "ca3fc76a6bc2b8ac63e3b08a46982cab981bca65d1becbbabf462b35015b215e",
+      "sourceDimensions": [
+        2752,
+        2064
+      ],
+      "sourceBytes": 1243581,
+      "output": "ipad/fr/01.jpg",
+      "outputSha256": "98871500b01ed1d74ce88b30775437b539672980f6d11e699f38edf37cc6630d",
+      "outputDimensions": [
+        1032,
+        774
+      ],
+      "outputBytes": 111993
+    },
+    {
+      "platform": "watch",
+      "locale": "fr",
+      "theme": "02-start",
+      "source": "watch/watch/exports/fr/02-start.png",
+      "sourceSha256": "154ff187150cbe8f84ccd1e688ffec3a07624b99f4bd4ebfa48667596ca39c9c",
+      "sourceDimensions": [
+        1248,
+        1488
+      ],
+      "sourceBytes": 1015807,
+      "output": "watch/fr/01.jpg",
+      "outputSha256": "88433530601709bb5af86522dd21bd28410196999cd2c56a6e6fa4646fa92e81",
+      "outputDimensions": [
+        416,
+        496
+      ],
+      "outputBytes": 42345
+    },
+    {
+      "platform": "mac",
+      "locale": "de",
+      "theme": "01-hero",
+      "source": "mac/screenshots/de/01-hero.png",
+      "sourceSha256": "d5d3f109f21d3dfade10e4b49dd52f18902b0f83bd1e2874fec30c1f2e95ed37",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 1033365,
+      "output": "mac/de/01.jpg",
+      "outputSha256": "0b3df4888e69cc9bb8fcd1e7679e6446f9ff653fa3a610207c407db186c4fd09",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 142467
+    },
+    {
+      "platform": "mac",
+      "locale": "de",
+      "theme": "02-notes",
+      "source": "mac/screenshots/de/02-notes.png",
+      "sourceSha256": "1702bcc628f22287c8bef166b85edc6a445f4ddcd8965bcd703341453715eb8a",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 1095790,
+      "output": "mac/de/02.jpg",
+      "outputSha256": "f8a06ba6da37e41bf33fa0b7389eff997155de006cc54194987fc69dff76599c",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 153300
+    },
+    {
+      "platform": "mac",
+      "locale": "de",
+      "theme": "03-history",
+      "source": "mac/screenshots/de/03-history.png",
+      "sourceSha256": "aa4374dee79e0bf6c1ca5796cd83e460584a782b4aa588dbb80004e73d53cb47",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 716232,
+      "output": "mac/de/03.jpg",
+      "outputSha256": "c4e5631d495944d264dff715813e5618ef8fbae00565deba58e00b6300609d0d",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 102862
+    },
+    {
+      "platform": "iphone",
+      "locale": "de",
+      "theme": "03-record",
+      "source": "iphone/exports/de/03-record-de.png",
+      "sourceSha256": "1470e535ce5dfe78ad376d8b1fe6655670a7b5f6826b9e90f19a5fade166984b",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1499100,
+      "output": "iphone/de/01.jpg",
+      "outputSha256": "3e90dc8a7edb0bf9e661754f36df060645a3e6f04d40281371886a14f71d76f6",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 149741
+    },
+    {
+      "platform": "iphone",
+      "locale": "de",
+      "theme": "04-replay",
+      "source": "iphone/exports/de/04-replay-de.png",
+      "sourceSha256": "0488bc1609599cf01f6d5fbfc73b2f1023c5fd3f627b6eaeb0cc4b9d5e618c2b",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1586731,
+      "output": "iphone/de/02.jpg",
+      "outputSha256": "45d854388eb0174e5641b6dbe815233af7b6be05bbecb34afcdd9fabd22b69be",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 157518
+    },
+    {
+      "platform": "iphone",
+      "locale": "de",
+      "theme": "06-summary-export",
+      "source": "iphone/exports/de/06-summary-export-de.png",
+      "sourceSha256": "2285a2b78d744feccfd23a564c7b01000b9b1ac50b2c596be6928248f51d5f55",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1604332,
+      "output": "iphone/de/03.jpg",
+      "outputSha256": "473644cb560d146384ab93982b2acdf90bc550c4f26c2be0588180cab34899b2",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 160546
+    },
+    {
+      "platform": "ipad",
+      "locale": "de",
+      "theme": "06-summary-export",
+      "source": "wide/ipad/exports/de/06-summary-export.png",
+      "sourceSha256": "2ff0ac242664f89618da0ff6bb7390280226deb406abc16ef23d145e5f5c3e7f",
+      "sourceDimensions": [
+        2752,
+        2064
+      ],
+      "sourceBytes": 1242244,
+      "output": "ipad/de/01.jpg",
+      "outputSha256": "6967a67d4aa9ecb16068a562e626f36375dd551aa077b523d18d27d597b3f930",
+      "outputDimensions": [
+        1032,
+        774
+      ],
+      "outputBytes": 108670
+    },
+    {
+      "platform": "watch",
+      "locale": "de",
+      "theme": "02-start",
+      "source": "watch/watch/exports/de/02-start.png",
+      "sourceSha256": "6e7f19fd4b19ab3b6c08805b238975782781f0fbdd72a73c376e79101345d4f4",
+      "sourceDimensions": [
+        1248,
+        1488
+      ],
+      "sourceBytes": 1015488,
+      "output": "watch/de/01.jpg",
+      "outputSha256": "a4db41a6525672bc02c7aa63af1e08a096c47acb6bae9f1e653c144c75d375e3",
+      "outputDimensions": [
+        416,
+        496
+      ],
+      "outputBytes": 43877
+    },
+    {
+      "platform": "mac",
+      "locale": "pt-BR",
+      "theme": "01-hero",
+      "source": "mac/screenshots/pt-BR/01-hero.png",
+      "sourceSha256": "3b73cc61aa06c029adfa23dce45175dff2cf6e1af12bad9abce16a99755caa4e",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 987073,
+      "output": "mac/pt-BR/01.jpg",
+      "outputSha256": "8bda4c3c404fb518ff4ccf7d5088f94128adf813ccc62306ac7b6c9512b9c311",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 134156
+    },
+    {
+      "platform": "mac",
+      "locale": "pt-BR",
+      "theme": "02-notes",
+      "source": "mac/screenshots/pt-BR/02-notes.png",
+      "sourceSha256": "47632249d5784f355c9c9511fc7f999e97a1ca8d50d63ce0cce2edad3c754237",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 1047399,
+      "output": "mac/pt-BR/02.jpg",
+      "outputSha256": "08d5045fa29eb3eee5419b791eb01371826424b7016fa68d7fa6d9a96ea05882",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 141627
+    },
+    {
+      "platform": "mac",
+      "locale": "pt-BR",
+      "theme": "03-history",
+      "source": "mac/screenshots/pt-BR/03-history.png",
+      "sourceSha256": "403c54c9c111045b71c7d4c83884573dc85ce1900638f1f57293aa0fa0792ff4",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 698619,
+      "output": "mac/pt-BR/03.jpg",
+      "outputSha256": "3b2e72fbca2235e696e5e882245ab761a09cf7e49b313633e8ec411b98601ee5",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 98148
+    },
+    {
+      "platform": "iphone",
+      "locale": "pt-BR",
+      "theme": "03-record",
+      "source": "iphone/exports/pt-BR/03-record-pt-BR.png",
+      "sourceSha256": "2016d6774866289528d59108d49ace7baa9a9cf3c0ef6a8a559b665b298815b8",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1509595,
+      "output": "iphone/pt-BR/01.jpg",
+      "outputSha256": "c17a4e1477625082b5539ebccdf79b3c7bdf43d31f09a89f6b5951a3a66fc2d8",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 138874
+    },
+    {
+      "platform": "iphone",
+      "locale": "pt-BR",
+      "theme": "04-replay",
+      "source": "iphone/exports/pt-BR/04-replay-pt-BR.png",
+      "sourceSha256": "40164a07ba4a2689cb6e0643d3bd692f6991c785882a9f4790b1f3cbd3359c4d",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1594896,
+      "output": "iphone/pt-BR/02.jpg",
+      "outputSha256": "c4d26de13c0bb074f6ac1b8bb3b2374ed2318e59033cbc69f242b4a53d94acdd",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 153461
+    },
+    {
+      "platform": "iphone",
+      "locale": "pt-BR",
+      "theme": "06-summary-export",
+      "source": "iphone/exports/pt-BR/06-summary-export-pt-BR.png",
+      "sourceSha256": "2be74d6bcbfeb7f84714e8190f71b378bd7c091acbbb85749e35586acb3fc9fa",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1601389,
+      "output": "iphone/pt-BR/03.jpg",
+      "outputSha256": "145acbfe09cf7fe4d436b90e8a817f252b8c884e1372945328cbace1d15f9830",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 162109
+    },
+    {
+      "platform": "ipad",
+      "locale": "pt-BR",
+      "theme": "06-summary-export",
+      "source": "wide/ipad/exports/pt-BR/06-summary-export.png",
+      "sourceSha256": "894a1e3c4d17484c95e2ace6f4e3ac711b5ab6235e235b1c52cc929be5f1c61d",
+      "sourceDimensions": [
+        2752,
+        2064
+      ],
+      "sourceBytes": 1221768,
+      "output": "ipad/pt-BR/01.jpg",
+      "outputSha256": "73660bd0f5e525ed99d355eb130abc1319159b526cb5008e8f89c9d3cfa3d53c",
+      "outputDimensions": [
+        1032,
+        774
+      ],
+      "outputBytes": 107664
+    },
+    {
+      "platform": "watch",
+      "locale": "pt-BR",
+      "theme": "02-start",
+      "source": "watch/watch/exports/pt-BR/02-start.png",
+      "sourceSha256": "1aa514b0ee23ef9e95d6887663cf4254a3790cb182fd1f2c04a20dda9fe417bb",
+      "sourceDimensions": [
+        1248,
+        1488
+      ],
+      "sourceBytes": 1016878,
+      "output": "watch/pt-BR/01.jpg",
+      "outputSha256": "b73532c22ec2bc80a0910972234694c80ee707f782e11681fb0ff12803a86803",
+      "outputDimensions": [
+        416,
+        496
+      ],
+      "outputBytes": 42058
+    },
+    {
+      "platform": "mac",
+      "locale": "ru",
+      "theme": "01-hero",
+      "source": "mac/screenshots/ru/01-hero.png",
+      "sourceSha256": "8847aabc4699e41c94f4c51b66ffee66df0a4779f4c616c2c75c998733253253",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 978801,
+      "output": "mac/ru/01.jpg",
+      "outputSha256": "ee4f5d3f1396fe53a3d6d1c26821a7e4247c054c24ebbb1e8402fafd8c8b7fc4",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 136516
+    },
+    {
+      "platform": "mac",
+      "locale": "ru",
+      "theme": "02-notes",
+      "source": "mac/screenshots/ru/02-notes.png",
+      "sourceSha256": "2ec626b2524f64fedabf04edda31aa3821ca6aa8676479d4f518fdb53e6724a6",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 1016662,
+      "output": "mac/ru/02.jpg",
+      "outputSha256": "04e955d0d2432f9d26bf2e4ca96ba945cb65ca54730e5696d6c84eadce995bb0",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 138323
+    },
+    {
+      "platform": "mac",
+      "locale": "ru",
+      "theme": "03-history",
+      "source": "mac/screenshots/ru/03-history.png",
+      "sourceSha256": "ab39e5125a08e65f3b7472b860c96eeac1165d37d9bddc070ab7b0b9010f62f6",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 715414,
+      "output": "mac/ru/03.jpg",
+      "outputSha256": "7807cf3c1f9e61be5a2f4f1decbaa75251342276fb903c2c181968b0cd4ca9a5",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 106160
+    },
+    {
+      "platform": "iphone",
+      "locale": "ru",
+      "theme": "03-record",
+      "source": "iphone/exports/ru/03-record-ru.png",
+      "sourceSha256": "2d71317bca871fe833abe7165a421605f4f0fb7b131a1c6a32bc166238143e0e",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1501461,
+      "output": "iphone/ru/01.jpg",
+      "outputSha256": "ea5a38b5f77b071d0beafc76000491c9e68c2747e1e4df283db5ad53dab25958",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 143046
+    },
+    {
+      "platform": "iphone",
+      "locale": "ru",
+      "theme": "04-replay",
+      "source": "iphone/exports/ru/04-replay-ru.png",
+      "sourceSha256": "0857d6accbd4d9399594803ee132e7871b65a1ec9b03b9afde071dd1e6ee986c",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1558505,
+      "output": "iphone/ru/02.jpg",
+      "outputSha256": "caf0ced3627ad52a9c8d0b3c47e156e2459afc128ee35b50fbb0c9886acae477",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 151696
+    },
+    {
+      "platform": "iphone",
+      "locale": "ru",
+      "theme": "06-summary-export",
+      "source": "iphone/exports/ru/06-summary-export-ru.png",
+      "sourceSha256": "781fd39a65726ee557e0dee1fb70ab6ea2b640e5776b4ccea6ed3f02ac040337",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1581608,
+      "output": "iphone/ru/03.jpg",
+      "outputSha256": "d6f0545f5c825f40f4017ba2b00a560374501b50ce27ba05ddf33c684fc41ba9",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 162151
+    },
+    {
+      "platform": "ipad",
+      "locale": "ru",
+      "theme": "06-summary-export",
+      "source": "wide/ipad/exports/ru/06-summary-export.png",
+      "sourceSha256": "c20e8bf97efa4825cfab0d91e368a16aa6015930055d71eb588990f56a8f3996",
+      "sourceDimensions": [
+        2752,
+        2064
+      ],
+      "sourceBytes": 1219405,
+      "output": "ipad/ru/01.jpg",
+      "outputSha256": "498ce0986ea3457845bb87e536bec08a757ccb46efa5f6471415978aff830160",
+      "outputDimensions": [
+        1032,
+        774
+      ],
+      "outputBytes": 107553
+    },
+    {
+      "platform": "watch",
+      "locale": "ru",
+      "theme": "02-start",
+      "source": "watch/watch/exports/ru/02-start.png",
+      "sourceSha256": "bbf1410e0f1c7a921c0e5006348b0f78023713045a5f3832077cb55edfd3f987",
+      "sourceDimensions": [
+        1248,
+        1488
+      ],
+      "sourceBytes": 1008734,
+      "output": "watch/ru/01.jpg",
+      "outputSha256": "e223e7703ba4bb662dfe7352d65507084893b589fbd06c5166096bd25b08da71",
+      "outputDimensions": [
+        416,
+        496
+      ],
+      "outputBytes": 43366
+    },
+    {
+      "platform": "mac",
+      "locale": "ar",
+      "theme": "01-hero",
+      "source": "mac/screenshots/ar/01-hero.png",
+      "sourceSha256": "002de167485a2e5ffaa0b958a0b7d874e3d85321b4e821b03fb7224c08a14bc3",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 895739,
+      "output": "mac/ar/01.jpg",
+      "outputSha256": "c42f41e7c346a79ded50c657e97bdb0cc923d12f9f425bd63f8cf7da8a16e247",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 118113
+    },
+    {
+      "platform": "mac",
+      "locale": "ar",
+      "theme": "02-notes",
+      "source": "mac/screenshots/ar/02-notes.png",
+      "sourceSha256": "a228d8434d282337a0a63de093a920da3d079c2f3343eb4116ba65d87dbdcdd2",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 935054,
+      "output": "mac/ar/02.jpg",
+      "outputSha256": "fe346e44f99df37251a0192795f545e04cc1c75dfbd3f073809a67546664477e",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 123146
+    },
+    {
+      "platform": "mac",
+      "locale": "ar",
+      "theme": "03-history",
+      "source": "mac/screenshots/ar/03-history.png",
+      "sourceSha256": "04521c43d4a5d8b30e63b9932986396c2d1b7e12c99b8370501742c7d9a4d0f6",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 607635,
+      "output": "mac/ar/03.jpg",
+      "outputSha256": "607ca75147fb738d2888f6f2ac2c762abcc745bf3dcde3bed0597cc6e3a5b4cc",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 83472
+    },
+    {
+      "platform": "iphone",
+      "locale": "ar",
+      "theme": "03-record",
+      "source": "iphone/exports/ar/03-record-ar.png",
+      "sourceSha256": "3e1f3796b104c683451183e04e4189cc2a7ca5886e33185e4369943b44e3a51f",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1473682,
+      "output": "iphone/ar/01.jpg",
+      "outputSha256": "71e9be2fef8434c2e14a51e69257b85f152cc9663e722679ab019fcb2364c571",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 128744
+    },
+    {
+      "platform": "iphone",
+      "locale": "ar",
+      "theme": "04-replay",
+      "source": "iphone/exports/ar/04-replay-ar.png",
+      "sourceSha256": "4ad4eec4e6c98b4de31d490f53387a31a9bc19ccf5cb1bb211340733436ffac5",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1545226,
+      "output": "iphone/ar/02.jpg",
+      "outputSha256": "70b86f390f294803e13c9495d6d5c2ce15690d6f65292dbc14f1cc723a6f1c7f",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 135185
+    },
+    {
+      "platform": "iphone",
+      "locale": "ar",
+      "theme": "06-summary-export",
+      "source": "iphone/exports/ar/06-summary-export-ar.png",
+      "sourceSha256": "99650fd812ecc5635a963f12c4e27953f5dfdb31fc84b70c158de9432eec6a84",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1547439,
+      "output": "iphone/ar/03.jpg",
+      "outputSha256": "334d82793bcce23e9c182daac6199d20da6616eadeef1f9f70ed05243e7bf245",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 144036
+    },
+    {
+      "platform": "ipad",
+      "locale": "ar",
+      "theme": "06-summary-export",
+      "source": "wide/ipad/exports/ar/06-summary-export.png",
+      "sourceSha256": "8a5d457a9854048b296a7219c11450a9c02968eb32543475f82c0d708ad7d90d",
+      "sourceDimensions": [
+        2752,
+        2064
+      ],
+      "sourceBytes": 1171227,
+      "output": "ipad/ar/01.jpg",
+      "outputSha256": "ee77fa37ac2bfd1315c609836441e91042d74f5a4a1504de727c531ffc6d9433",
+      "outputDimensions": [
+        1032,
+        774
+      ],
+      "outputBytes": 98494
+    },
+    {
+      "platform": "watch",
+      "locale": "ar",
+      "theme": "02-start",
+      "source": "watch/watch/exports/ar/02-start.png",
+      "sourceSha256": "7ce41a7432ae121b3dd37683039811d9c9f5d56df5f8294d88888e8491157acf",
+      "sourceDimensions": [
+        1248,
+        1488
+      ],
+      "sourceBytes": 1011065,
+      "output": "watch/ar/01.jpg",
+      "outputSha256": "3d8561dbc63ad2775af62cf9384efb6f93b8b0132523fbebc5b8e1672c546e64",
+      "outputDimensions": [
+        416,
+        496
+      ],
+      "outputBytes": 37617
+    },
+    {
+      "platform": "mac",
+      "locale": "hi",
+      "theme": "01-hero",
+      "source": "mac/screenshots/hi/01-hero.png",
+      "sourceSha256": "6dc316a6693217451c5a68db04ed1cef8c6318e953b5600db239c72015671698",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 901430,
+      "output": "mac/hi/01.jpg",
+      "outputSha256": "06cf1d49c77af0a5ade32e5942f25a0912f2a954623087fe838ca4303766d25b",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 118401
+    },
+    {
+      "platform": "mac",
+      "locale": "hi",
+      "theme": "02-notes",
+      "source": "mac/screenshots/hi/02-notes.png",
+      "sourceSha256": "de989b08e50ce3a7a9bc3b331b10a246accc3a0f93917602375e82423df45562",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 940845,
+      "output": "mac/hi/02.jpg",
+      "outputSha256": "73c75c54343dad9afc02cedb98663c46f0b48e973a68fd7cd5883241d97344c3",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 125173
+    },
+    {
+      "platform": "mac",
+      "locale": "hi",
+      "theme": "03-history",
+      "source": "mac/screenshots/hi/03-history.png",
+      "sourceSha256": "9e04fc0fd0ac7869817bd4bbeba9de5209c757e959a599ffaf6a8dc48689f15f",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 648461,
+      "output": "mac/hi/03.jpg",
+      "outputSha256": "cad0787343a259a0b939f4a0f21a89f11dfe948c054c51a19ebf6dd87a6a6464",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 89322
+    },
+    {
+      "platform": "iphone",
+      "locale": "hi",
+      "theme": "03-record",
+      "source": "iphone/exports/hi/03-record-hi.png",
+      "sourceSha256": "2fd5d8cf3e971727b92318f0d193dd93306832e6268ad02b3e279e562b2b4085",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1484229,
+      "output": "iphone/hi/01.jpg",
+      "outputSha256": "9b3e3a8b37913e5d82c8c0d46aeff821afd43d9fd593e4760c2acbfd1f527adc",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 134067
+    },
+    {
+      "platform": "iphone",
+      "locale": "hi",
+      "theme": "04-replay",
+      "source": "iphone/exports/hi/04-replay-hi.png",
+      "sourceSha256": "820250a6f25553aed725ee991ec9e21874b76cf2d1e56b59cbb165ef14c6cbe4",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1524718,
+      "output": "iphone/hi/02.jpg",
+      "outputSha256": "bea1fc44a1839f7b94f8eb39c88d77fb908b92e4075852390e718c1f4269b281",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 141236
+    },
+    {
+      "platform": "iphone",
+      "locale": "hi",
+      "theme": "06-summary-export",
+      "source": "iphone/exports/hi/06-summary-export-hi.png",
+      "sourceSha256": "403cddc28ee240c92a992acd181c76d6accdca0f75cbe7db0ccd3d86ba7251f3",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1549869,
+      "output": "iphone/hi/03.jpg",
+      "outputSha256": "be7a844cb198577fd981c7a414b09b5765ad6e69868247475eb64f74043b94b2",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 151775
+    },
+    {
+      "platform": "ipad",
+      "locale": "hi",
+      "theme": "06-summary-export",
+      "source": "wide/ipad/exports/hi/06-summary-export.png",
+      "sourceSha256": "88ede0c17c919bfca1194334bc6a602145970814ed29971c040b6bffdaf66cdb",
+      "sourceDimensions": [
+        2752,
+        2064
+      ],
+      "sourceBytes": 1177878,
+      "output": "ipad/hi/01.jpg",
+      "outputSha256": "d0afe2e820ea8bb35337bd42de7e63798fd7c2ce72aff53fc5874bc162069969",
+      "outputDimensions": [
+        1032,
+        774
+      ],
+      "outputBytes": 100165
+    },
+    {
+      "platform": "watch",
+      "locale": "hi",
+      "theme": "02-start",
+      "source": "watch/watch/exports/hi/02-start.png",
+      "sourceSha256": "9a459475193e47ae457bce6f1fb537f61a5b7f1acba134075baa9c8bdcf105d4",
+      "sourceDimensions": [
+        1248,
+        1488
+      ],
+      "sourceBytes": 1015166,
+      "output": "watch/hi/01.jpg",
+      "outputSha256": "7cb59eeeefe3be978ec38c181d00cc4fe8b351f8c0cd8d7cc4046073a9caaaf6",
+      "outputDimensions": [
+        416,
+        496
+      ],
+      "outputBytes": 38729
+    },
+    {
+      "platform": "mac",
+      "locale": "id",
+      "theme": "01-hero",
+      "source": "mac/screenshots/id/01-hero.png",
+      "sourceSha256": "3771cb73d536b540afa0273b04d2b7dc4023346c6d4acf9cd55d63212e816e32",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 979054,
+      "output": "mac/id/01.jpg",
+      "outputSha256": "a254bddfb37901d0d6873226f87fc3cff342605da8c9d27e3768b4f38a8d2e3b",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 134618
+    },
+    {
+      "platform": "mac",
+      "locale": "id",
+      "theme": "02-notes",
+      "source": "mac/screenshots/id/02-notes.png",
+      "sourceSha256": "8452df3b712c5f9bf23611044f02d8e803091baed9c85f17351fdaea1f1b150f",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 1017693,
+      "output": "mac/id/02.jpg",
+      "outputSha256": "c023923a2b1b2fa0bbe764a0f685ed74388b5c16852b49976f0aa627e5865865",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 140755
+    },
+    {
+      "platform": "mac",
+      "locale": "id",
+      "theme": "03-history",
+      "source": "mac/screenshots/id/03-history.png",
+      "sourceSha256": "5d431dde2ef0c299771a03b4c2f18e06a4f6d6c9166f5a3914b8e2276b73476a",
+      "sourceDimensions": [
+        2560,
+        1600
+      ],
+      "sourceBytes": 675540,
+      "output": "mac/id/03.jpg",
+      "outputSha256": "d6d04ace38ed1be9ccae899155ec718ae200158030b07b4c6abbdb7ea6d7e806",
+      "outputDimensions": [
+        1280,
+        800
+      ],
+      "outputBytes": 99897
+    },
+    {
+      "platform": "iphone",
+      "locale": "id",
+      "theme": "03-record",
+      "source": "iphone/exports/id/03-record-id.png",
+      "sourceSha256": "c524b659c8be35aa297b49cb0286c4d0484ebdfcbf116dd09c2936f5c3c327ac",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1503232,
+      "output": "iphone/id/01.jpg",
+      "outputSha256": "27b99723597c298cdcd555bf7e48f8e24f25b981a31376cb9699f2ac285f52ff",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 144650
+    },
+    {
+      "platform": "iphone",
+      "locale": "id",
+      "theme": "04-replay",
+      "source": "iphone/exports/id/04-replay-id.png",
+      "sourceSha256": "649f20f1ee8baf50d8e2e9bee4b0ba67443cb4e044196878c9f037e4b1fc82c2",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1569063,
+      "output": "iphone/id/02.jpg",
+      "outputSha256": "52d1078fb5626262e9443d216d2cb2141115499d6afdf62893eabd888946993c",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 152998
+    },
+    {
+      "platform": "iphone",
+      "locale": "id",
+      "theme": "06-summary-export",
+      "source": "iphone/exports/id/06-summary-export-id.png",
+      "sourceSha256": "dbb6a4f30a140a42c37821b47174498c13bde73641dce9384c8d8e7b3be808d1",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "sourceBytes": 1585770,
+      "output": "iphone/id/03.jpg",
+      "outputSha256": "449e98b6cad36bf4b917877c0c53054e36b7e94dde379ffbe142e34dc2c95e42",
+      "outputDimensions": [
+        660,
+        1434
+      ],
+      "outputBytes": 160346
+    },
+    {
+      "platform": "ipad",
+      "locale": "id",
+      "theme": "06-summary-export",
+      "source": "wide/ipad/exports/id/06-summary-export.png",
+      "sourceSha256": "d58266be706d0ba97859517e6a5091c122aa8507545d4e45527aac7b0fe20a35",
+      "sourceDimensions": [
+        2752,
+        2064
+      ],
+      "sourceBytes": 1223818,
+      "output": "ipad/id/01.jpg",
+      "outputSha256": "335aeed85ff6373d98b9d2fa0b0b4633fc513fa6c4016f187614132a914d37d4",
+      "outputDimensions": [
+        1032,
+        774
+      ],
+      "outputBytes": 110343
+    },
+    {
+      "platform": "watch",
+      "locale": "id",
+      "theme": "02-start",
+      "source": "watch/watch/exports/id/02-start.png",
+      "sourceSha256": "dd967e04308e949f2c643f1f16031f24d4622e524bceb46cefde6ec4c4564c2b",
+      "sourceDimensions": [
+        1248,
+        1488
+      ],
+      "sourceBytes": 1015192,
+      "output": "watch/id/01.jpg",
+      "outputSha256": "411b2148cbf9ee5da0fdbd1255c28b895debf3258ba6536dfd8bea7f17003418",
+      "outputDimensions": [
+        416,
+        496
+      ],
+      "outputBytes": 42861
+    }
+  ]
+}

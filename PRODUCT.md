@@ -6,11 +6,11 @@ brand
 
 ## Users
 
-Meeting participants, interviewers, students and people handling customer conversations who want live transcripts and useful reply cues. Visitors need the correct Mac or iPhone download, clear setup help, and an accurate explanation of data handling.
+Meeting participants, interviewers, students and people handling customer conversations who want live transcripts and useful reply cues. Visitors need the correct Mac or iOS download, clear setup help, and an accurate explanation of data handling.
 
 ## Product Purpose
 
-Introduce the released native Mac and iPhone apps, show their real interfaces, explain free dictation and the optional one-time cloud/AI unlock, and provide support and privacy information in all 13 supported languages.
+Introduce the released native Mac, iPhone and iPad apps, show their real interfaces, explain free dictation and the optional one-time cloud/AI unlock, and provide support and privacy information in all 13 supported languages.
 
 ## Brand Personality
 
@@ -36,4 +36,4 @@ Readable body text, WCAG AA text contrast, visible keyboard focus, 44px navigati
 
 ## Source of context
 
-Existing README, i18n copy and CSS; Mac 1.2.0 store metadata, public App Store verification and shipped source; the user's 2026-10-28 confirmation of successful publication. This is an update to the established website.
+Existing README, i18n copy and CSS; Mac 1.2.2 and iOS 1.1.1 approved metadata, the public App Store pages verified on 2026-11-14 and the shipped source. Apple Watch recording uses a paired iPhone. This is an update to the established website.

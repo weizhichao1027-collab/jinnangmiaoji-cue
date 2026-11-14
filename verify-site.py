@@ -69,6 +69,11 @@ class Document(HTMLParser):
 def verify():
     config, tables = builder.read_data()
     base = config['baseUrl']
+    assert all(platform['status'] == 'released' and 'upcomingVersion' not in platform for platform in config['platforms'].values())
+    assert config['platforms']['iphone']['devices'] == ['iPhone', 'iPad']
+    companion = config['platforms']['iphone']['watchCompanion']
+    assert companion['operatingSystem'] == 'watchOS 10.0 or later'
+    assert companion['requiresPairedIPhone'] and companion['requiresProActivation']
     documents = {}
     faq_answers = 0
     checked_dimensions = 0
@@ -93,7 +98,12 @@ def verify():
             meta = {attrs.get('name', attrs.get('property')): attrs.get('content') for tag, attrs in doc.nodes if tag == 'meta'}
             assert meta['description'] == tables[code][f'meta.{page}Desc']
             assert meta['og:url'] == url and meta['twitter:card'] == 'summary_large_image'
+            assert meta['og:description'] == meta['twitter:description'] == meta['description']
+            assert meta['og:image'] == meta['twitter:image'] == base + 'og.png?v=' + config['assetVersion']
+            assert meta['og:image:alt'] == meta['twitter:image:alt']
             assert meta['robots'].startswith('index,follow')
+            assert any(tag == 'link' and attrs.get('rel') == 'sitemap' and attrs['href'] == base + 'sitemap.xml' for tag, attrs in doc.nodes)
+            assert any(tag == 'link' and attrs.get('type') == 'application/json' and attrs['href'] == base + 'app-facts.json' for tag, attrs in doc.nodes)
             assert len(doc.jsonld) == 1, f'{path}: JSON-LD'
             graph = doc.jsonld[0]['@graph']
             ids = [node['@id'] for node in graph]
@@ -110,6 +120,16 @@ def verify():
                 assert app['downloadUrl'] == app['installUrl'] == app['offers']['url'] == platform_facts['storeUrl']
                 assert app['offers']['price'] == '0'
                 assert all(' '.join(feature.split()) in visible for feature in app['featureList']), f'{path}: feature not visible'
+                assert app['softwareHelp']['@id'] == builder.page_url(config, 'support', code) + '#page'
+                screenshots = [base + f'shots/release-20261114/{platform}/{code}/{number:02}.jpg' for number in range(1, 4)]
+                assert app['screenshot'] == screenshots, f'{path}: current screenshots'
+                for screenshot in screenshots:
+                    assert (ROOT / urlsplit(screenshot).path.removeprefix(config['basePath'])).is_file()
+                if platform == 'iphone':
+                    assert app['availableOnDevice'] == config['platforms']['iphone']['devices']
+            if page in ('home', 'support'):
+                assert all(platform['version'] in visible for platform in config['platforms'].values()), f'{path}: visible release versions'
+                assert 'watchOS 10+' in visible and 'iPadOS 17+' in visible, f'{path}: companion and tablet requirements'
             webpage = next(node for node in graph if node['@id'] == url + '#page')
             assert webpage['dateModified'] == config['updated'] and webpage['inLanguage'] == code
             crumbs = [node for node in graph if node['@type'] == 'BreadcrumbList']
@@ -178,12 +198,17 @@ def verify():
     assert facts['historySync'] is False and 'trialUses' not in facts['lifetimeUnlock']
     assert facts['trialPolicies']['mac']['uses'] == 20
     assert facts['trialPolicies']['ios']['days'] == 7 and facts['trialPolicies']['ios']['autoCharge'] is False
-    assert facts['trialPolicies']['ios']['releasedTrialUses'] == 20 and facts['trialPolicies']['ios']['fromVersion'] == '1.1.0'
+    ios_trial = facts['trialPolicies']['ios']
+    assert ios_trial['releasedVersion'] == config['platforms']['iphone']['version'] and ios_trial['status'] == 'released'
+    assert ios_trial['hours'] == 168 and ios_trial['fromVersion'] == '1.1.0'
+    assert ios_trial['restartsOnRestore'] is False
+    assert 'releasedTrialUses' not in ios_trial and 'newVersionStatus' not in ios_trial
     assert facts['platforms'] == config['platforms']
     assert facts['updated'] == config['updated'] and facts['appStoreId'] == '6783130548'
     assert set(facts['summary']) == set(builder.LOCALES)
     source_links = 0
     for topic in facts['topics']:
+        assert set(topic['text']) == set(topic['sources']) == set(builder.LOCALES), f'{topic["topic"]}: complete localized facts'
         for code, reference in topic['sources'].items():
             parsed = urlsplit(reference)
             canonical = parsed._replace(fragment='', query='').geturl()
@@ -197,6 +222,9 @@ def verify():
         assert config['updated'] in content
         assert f'Mac {config["platforms"]["mac"]["version"]}' in content
         assert f'iPhone {config["platforms"]["iphone"]["version"]}' in content
+        assert '168' in content and '7-day' in content and '20' in content
+        assert 'preparing-release' not in content and 'being prepared for release' not in content
+        assert 'Say 20 trial uses' not in content and 'iPhone foreground restrictions' not in content
         for reference in re.findall(r'\]\((https://[^)]+)\)', content):
             parsed = urlsplit(reference)
             if parsed.netloc != urlsplit(base).netloc:
@@ -216,7 +244,9 @@ def verify():
             'imageDimensionsChecked': checked_dimensions,
             'checks': ['static content', 'canonical and reciprocal hreflang', 'local links and anchors',
                        'page-specific JSON-LD and visible FAQ agreement', 'image dimensions and alt',
-                       'sitemap language alternatives and modification dates', 'source-linked product facts', 'dynamic platform versions']}
+                       'sitemap language alternatives and modification dates', '13-language source-linked product facts',
+                       'current released platform versions and screenshots', 'platform-specific trial policies',
+                       'iPad and Watch requirements']}
 
 
 if __name__ == '__main__':

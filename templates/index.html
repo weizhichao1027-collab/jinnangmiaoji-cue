@@ -13,7 +13,7 @@
     </div>
     <figure class="hero-shot">
       <a href="{{mac.hero}}"><img src="{{mac.hero}}" width="1280" height="800" fetchpriority="high" alt="{{home.macShot1}}"></a>
-      <figcaption>{{home.sampleNote}}</figcaption>
+
     </figure>
   </section>
   <dl class="facts">
@@ -22,6 +22,29 @@
     <div><dt>{{home.factPayK}}</dt><dd>{{home.factPayV}}</dd></div>
     <div><dt>{{home.factOsK}}</dt><dd>{{home.factOsV}}</dd></div>
   </dl>
+  <p class="gallery-note">{{home.sampleNote}}</p>
+  <section class="feature-section" id="iphone">
+    <div class="section-intro"><h2>{{home.mobileTitle}}</h2><p>{{home.mobileBody}}</p></div>
+    <ul class="feature-list"><li>{{home.mobileBullet1}}</li><li>{{home.mobileBullet2}}</li><li>{{home.mobileBullet3}}</li></ul>
+    <div class="rail">
+      <figure><a href="{{iphone.hero}}"><img src="{{iphone.hero}}" width="660" height="1434" loading="lazy" decoding="async" alt="{{home.shot1}}"></a><figcaption>{{home.shot1}}</figcaption></figure>
+      <figure><a href="{{iphone.transcript}}"><img src="{{iphone.transcript}}" width="660" height="1434" loading="lazy" decoding="async" alt="{{home.shot2}}"></a><figcaption>{{home.shot2}}</figcaption></figure>
+      <figure><a href="{{iphone.reply}}"><img src="{{iphone.reply}}" width="660" height="1434" loading="lazy" decoding="async" alt="{{home.shot3}}"></a><figcaption>{{home.shot3}}</figcaption></figure>
+    </div>
+    <a class="text-link" href="{{url.support}}#mobile-recordings">{{support.q20}}</a>
+  </section>
+  <section class="device-pair feature-section">
+    <div id="watch">
+      <h2>{{home.watchTitle}}</h2><p class="note">{{home.watchBody}}</p>
+      <figure class="watch-shot"><a href="{{watch.hero}}"><img src="{{watch.hero}}" width="416" height="496" loading="lazy" decoding="async" alt="{{home.watchTitle}}"></a><figcaption>{{watch.requirements}}</figcaption></figure>
+      <a class="text-link" href="{{url.support}}#watch-transfer">{{support.q21}}</a>
+    </div>
+    <div id="ipad">
+      <h2>iPad</h2><p class="note">{{iphone.requirements}}</p>
+      <figure class="ipad-shot"><a href="{{ipad.hero}}"><img src="{{ipad.hero}}" width="1032" height="774" loading="lazy" decoding="async" alt="{{home.shot3}} · iPad"></a></figure>
+      <a class="text-link" href="{{iphone.store}}">{{home.ipadCta}}</a>
+    </div>
+  </section>
   <section class="feature-section" id="mac">
     <div class="section-intro"><h2>{{home.macTitle}}</h2><p>{{home.macBody}}</p></div>
     <ul class="feature-list"><li>{{home.macBullet1}}</li><li>{{home.macBullet2}}</li><li>{{home.macBullet3}}</li></ul>
@@ -31,14 +54,14 @@
     </div>
   </section>
   <section class="how" id="whats-new">
-    <div><h2>{{home.updateTitle}}</h2><p class="note">{{home.updateBody}}</p><a class="text-link" href="{{url.support}}#shortcuts">{{support.shortcutsTitle}}</a></div>
-    <dl class="receipt"><dt>{{support.q15}}</dt><dd>{{support.a15}}</dd><dt>{{support.q16}}</dt><dd>{{support.a16}}</dd><dt>{{support.q18}}</dt><dd>{{support.a18}}</dd></dl>
+    <div><h2>{{home.updateTitle}}</h2><p class="note">{{home.updateBody}}</p></div>
+    <div><h3>{{support.q22}}</h3><p class="note">{{support.a22}}</p><a class="text-link" href="{{url.support}}#review-sources">{{home.help}}</a></div>
   </section>
   <section class="platform-section" id="platforms">
     <h2>{{home.platforms}}</h2><p class="note">{{home.platformsBody}}</p>
     <div class="table-scroll" tabindex="0" role="region" aria-label="{{home.platforms}}">
-      <table><caption>{{home.platforms}}</caption><thead><tr><th scope="col">{{home.compareFeature}}</th><th scope="col">Mac</th><th scope="col">iPhone</th></tr></thead>
-        <tbody><tr><th scope="row">{{support.li2}}</th><td>{{mac.version}}</td><td>{{iphone.version}}</td></tr><tr><th scope="row">{{home.compareSystem}}</th><td>macOS 14+ · Apple Silicon / Intel</td><td>iOS 17+</td></tr><tr><th scope="row">{{home.compareInput}}</th><td>{{home.macCapture}}</td><td>{{home.iphoneCapture}}</td></tr></tbody>
+      <table><caption>{{home.platforms}}</caption><thead><tr><th scope="col">{{home.compareFeature}}</th><th scope="col">Mac</th><th scope="col">iPhone / iPad</th></tr></thead>
+        <tbody><tr><th scope="row">{{support.li2}}</th><td>{{mac.version}}</td><td>{{iphone.version}}</td></tr><tr><th scope="row">{{home.compareSystem}}</th><td>macOS 14+ · Apple Silicon / Intel</td><td>iOS / iPadOS 17+<br>{{watch.requirements}}</td></tr><tr><th scope="row">{{home.compareInput}}</th><td>{{home.macCapture}}</td><td>{{home.iphoneCapture}}</td></tr></tbody>
       </table>
     </div>
     <p class="note">{{home.faq5a}}</p>
@@ -54,14 +77,6 @@
   <section class="how" id="pricing">
     <div><h2>{{home.priceTitle}}</h2><p class="note">{{home.priceLead}}</p></div>
     <dl class="receipt"><dt>{{home.freeTitle}}</dt><dd>{{home.freeBody}}</dd><dt>{{home.paidTitle}}</dt><dd>{{home.paidBody}}</dd><dt>{{home.byokTitle}}</dt><dd>{{home.byokBody}}</dd></dl>
-  </section>
-  <section class="shots" id="iphone">
-    <h2>iPhone · {{home.shotsTitle}}</h2>
-    <div class="rail">
-      <figure><a href="{{iphone.hero}}"><img src="{{iphone.hero}}" width="660" height="1434" loading="lazy" decoding="async" alt="{{home.shot1}}"></a><figcaption>{{home.shot1}}</figcaption></figure>
-      <figure><a href="{{iphone.transcript}}"><img src="{{iphone.transcript}}" width="660" height="1434" loading="lazy" decoding="async" alt="{{home.shot2}}"></a><figcaption>{{home.shot2}}</figcaption></figure>
-      <figure><a href="{{iphone.reply}}"><img src="{{iphone.reply}}" width="660" height="1434" loading="lazy" decoding="async" alt="{{home.shot3}}"></a><figcaption>{{home.shot3}}</figcaption></figure>
-    </div>
   </section>
   <section class="faq" id="faq" aria-labelledby="faq-title">
     <h2 id="faq-title">{{home.faqTitle}}</h2>

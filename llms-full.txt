@@ -1,57 +1,58 @@
 # Dictation Notes · 听写笔记
 
-Updated: 2026-11-07. Official app id: 6783130548. Publisher: Shanghai Qishan Cultural Communication Co., Ltd.. Contact: 281916057@qq.com.
+Updated on 2026-11-14. The official App Store ID is 6783130548. Published by Shanghai Qishan Cultural Communication Co., Ltd.. Contact 281916057@qq.com.
 
 ## Distribution
 
-Mac: https://apps.apple.com/app/id6783130548?platform=mac
-iPhone: https://apps.apple.com/app/id6783130548?platform=iphone
-Mac 1.2.0: macOS 14.0 or later, Apple Silicon, Intel. iPhone 1.0.1: iOS 17.0 or later.
-Interface and website: en, zh-Hans, zh-Hant, ja, ko, es, fr, de, pt-BR, ru, ar, hi, id.
-Product: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/
-Support: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html
-Privacy: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html
-Terms: https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html
+Mac 1.2.2 requires macOS 14.0 or later and supports Apple Silicon, Intel. iPhone 1.1.1 supports iOS 17.0 or later, iPadOS 17.0 or later. Apple Watch requires watchOS 10.0 or later and Pro activation on its paired iPhone.
+
+Install from the [Mac App Store](https://apps.apple.com/app/id6783130548?platform=mac) or [iPhone and iPad App Store](https://apps.apple.com/app/id6783130548?platform=iphone).
+
+The interface and website support en, zh-Hans, zh-Hant, ja, ko, es, fr, de, pt-BR, ru, ar, hi, id. Read [Product](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/), [Support](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html), [Privacy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html) and [Terms](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html).
 
 ## Platforms
 
-Mac 1.2.0 requires macOS 14+. iPhone 1.0.1 requires iOS 17+. Both offer 13 interface languages.
+Mac 1.2.2 requires macOS 14+ and supports Apple Silicon and Intel. iPhone and iPad 1.1.1 require iOS 17+. Apple Watch requires watchOS 10+ and Pro activation on the paired iPhone. The apps offer 13 interface languages.
 
-Mac 1.2.0 需要 macOS 14+；iPhone 1.0.1 需要 iOS 17+。两端均有 13 种界面语言。
+Mac 1.2.2 需要 macOS 14+，支持 Apple Silicon 与 Intel。iPhone 与 iPad 1.1.1 需要 iOS 17+。Apple Watch 需要 watchOS 10+，并在配对 iPhone 激活 Pro 权限。应用提供 13 种界面语言。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#platforms), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#platforms).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#platforms) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#platforms) sections.
 
 ## Mac workflow
 
-Mac 1.2.0 is available on the App Store. Keep history, editable transcripts and AI help together in a native Mac workspace. Requires macOS 14 or later; supports Apple Silicon and Intel.
+Mac 1.2.2 is available on the App Store. Keep history, editable transcripts and AI help together in a native Mac workspace. Requires macOS 14 or later; supports Apple Silicon and Intel.
 
-Mac 1.2.0 已在 App Store 上架。历史记录、可编辑逐字稿与 AI 助手汇集在原生 Mac 工作区，支持 macOS 14 或更高版本、Apple Silicon 与 Intel。
+Mac 1.2.2 已在 App Store 上架。历史记录、可编辑逐字稿与 AI 助手汇集在原生 Mac 工作区，支持 macOS 14 或更高版本、Apple Silicon 与 Intel。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#mac), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#mac).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#mac) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#mac) sections.
 
 ## Recording controls
 
-On iPhone, leaving the app or locking the phone stops dictation. On Mac, use the window, menu bar or Option-Shift-D to start and stop; Command-Shift-P pauses or resumes. Quitting stops capture. Obtain any required participant consent.
+User-started iPhone and Watch audio recordings can continue in the background or with the screen locked. Stop and save to finish. Live dictation stops when you leave its screen. On Mac, start and stop from the window, menu bar or Option-Shift-D. Command-Shift-P pauses or resumes. Quitting stops capture. Obtain any required recording consent.
 
-iPhone 切到后台或锁屏会停止听写。Mac 可从窗口、菜单栏或 ⌥⇧D 开始与停止，⌘⇧P 暂停或继续；退出应用会停止采集。录音或转写前请取得所需同意。
+主动开始的 iPhone 与 Watch 录音可在后台或锁屏时继续，结束时请停止并保存。实时听写在离开其页面时停止。Mac 可从窗口、菜单栏或 ⌥⇧D 开始与停止，⌘⇧P 暂停或继续，退出应用会停止采集。录音前请取得所需同意。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/) sections.
 
 ## Free features
 
-iOS 1.1.0+: Try all available Pro features. After the trial, search, precise playback, new AI actions, sharing and backups require purchase. Basic recording, viewing and editing saved content, normal playback and backup restoration remain free. iOS 1.1.0 is being prepared for release; availability is determined by the App Store. Released iOS 1.0.1 retains its original 20-use policy.
+iPhone · iPad (iOS 1.1.1) — After the trial, search, precise playback, new AI actions, sharing and backups require purchase. Basic recording, viewing and editing saved content, normal playback and backup restoration remain free.
 
-iOS 1.1.0+: 体验包含所有已提供的专业功能。到期后，搜索、重点定位、新的 AI 操作、分享与备份等专业功能需要买断；基础录音、查看和编辑已有资料、普通回放与恢复备份仍可使用。 iOS 1.1.0 正在准备上架，以 App Store 实际可用版本为准；已发布的 iOS 1.0.1 保留原有 20 次规则。
+Mac dictation, history, local editing and normal playback stay free.
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#pricing), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#pricing).
+iPhone · iPad (iOS 1.1.1) — 到期后，搜索、重点定位、新的 AI 操作、分享与备份等专业功能需要买断。基础录音、查看和编辑已有资料、普通回放与恢复备份仍可使用。
+
+Mac 本机听写、历史、本地编辑与普通回放持续免费。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#pricing) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#pricing) sections.
 
 ## Purchase and provider fees
 
-iOS 1.1.0+: Basic features are free. Claim one optional 7-day Pro trial with no automatic charge when it ends. This is a one-time purchase, not an auto-renewing subscription. Mac retains 20 shared trial uses for cloud transcription, AI and translation, followed by a one-time unlock. The iOS timed trial does not apply to Mac. iOS 1.1.0 is being prepared for release; availability is determined by the App Store. Released iOS 1.0.1 retains its original 20-use policy.
+iPhone · iPad (iOS 1.1.1) — Basic features are free. Claim one optional 7-day Pro trial with no automatic charge when it ends. Mac retains 20 shared trial uses for cloud transcription, AI and translation, followed by a one-time unlock.
 
-iOS 1.1.0+: 基础功能免费。专业版可主动领取一次 7 天体验，到期不会自动扣款。 这是一次性买断，不是自动续期订阅。 Mac 保留云端转录、AI 与翻译共享 20 次试用，之后一次买断；iOS 的限时体验不适用于 Mac。 iOS 1.1.0 正在准备上架，以 App Store 实际可用版本为准；已发布的 iOS 1.0.1 保留原有 20 次规则。
+iPhone · iPad (iOS 1.1.1) — 基础功能免费。专业版可主动领取一次 7 天体验，到期不会自动扣款。 Mac 保留云端转录、AI 与翻译共享 20 次试用，之后一次买断。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#pricing), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#pricing).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#pricing) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#pricing) sections.
 
 ## Restore purchases
 
@@ -59,15 +60,15 @@ On Mac, sign in with the same Apple ID, open the app, and tap Restore Purchases 
 
 在 Mac 上用同一个 Apple ID 打开应用，到设置里点恢复购买。这是非消耗型买断，不是按设备另收一次。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#restore), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#restore).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#restore) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#restore) sections.
 
 ## History and sync
 
-No. Session history, recordings and API settings remain on each device. Restoring the same App Store unlock on Mac and iPhone does not synchronize those files. Export or share the files you need yourself.
+Mac, iPhone and iPad keep their own note libraries and API settings. Restoring a purchase restores access to the features. Watch recordings are transferred to the paired iPhone. Use export or sharing to move other notes between devices.
 
-不会。会话历史、录音和 API 设置分别保存在各自设备。同一 Apple ID 在 Mac 与 iPhone 恢复买断，不会同步这些文件。需要的内容请自行导出或分享。
+Mac、iPhone 与 iPad 各自保存笔记资料库与 API 设置，恢复购买会恢复功能权限。Watch 录音会传给配对 iPhone。其他笔记可通过导出或分享在设备间传递。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#faq), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#faq).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#faq) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#faq) sections.
 
 ## Audio and privacy
 
@@ -75,7 +76,7 @@ Free dictation needs no API key. Apple speech recognition may process audio on t
 
 免费听写不用 API Key。Apple 语音识别可在设备上处理；本机识别不可用时，音频可能发送给 Apple。云端转录和 AI 将数据直接发送给你选择并授权的服务商。我们没有后端接收你的录音或转录。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#faq), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#faq).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#faq) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#faq) sections.
 
 ## Mac system audio
 
@@ -83,7 +84,7 @@ In Mac Settings, select system audio or mixed input. Allow screen and system aud
 
 在 Mac 应用设置中选择系统音频或混音。在 macOS「隐私与安全性」中允许屏幕与系统音频录制；系统要求时重启应用。混音还需要麦克风权限。应用通过 ScreenCaptureKit 采集音频，不保存屏幕视频。请先获得必要的参会人同意。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#system-audio), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#system-audio).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#system-audio) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#system-audio) sections.
 
 ## Export and playback
 
@@ -91,7 +92,7 @@ Open a saved Mac session and select its recording. Playback includes a draggable
 
 打开已保存的 Mac 会话并选择录音，可拖动进度、前后跳转 15 秒，并选择 0.75、1、1.25、1.5 或 2 倍速。可导出逐字稿文字、Markdown、纪要、单条音频，或包含已保存音频的会话文件夹；⌘⇧E 导出 Markdown。音频缺失时无法完成整包导出，逐字稿不能还原从未保存的录音。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#recordings), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#recordings).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#recordings) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#recordings) sections.
 
 ## Delete a recording
 
@@ -99,7 +100,7 @@ Stop listening, then use the recording trash button. The audio moves to the Mac 
 
 停止听写后点录音的废纸篓按钮，音频移到 Mac 废纸篓，文字与纪要保留；同次运行可用 ⌘⌥Z 撤销这一次单录音删除。删除整篇会话或清空历史没有同样的整篇撤销；批量清理不可逆，迁移原库、导出与备份副本需单独管理。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#delete-recording), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#delete-recording).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#delete-recording) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#delete-recording) sections.
 
 ## Revoke permission
 
@@ -107,7 +108,7 @@ In Mac Settings, open Account and Privacy, then revoke data sharing permission. 
 
 在 Mac 设置的账户与隐私中撤销数据发送授权，应用会取消正在进行的云转录和 AI 请求。更换接收服务商需重新授权。Apple 或服务商已收到的数据受其自身政策管理，需要向其申请删除。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#privacy-controls), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#privacy-controls).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#privacy-controls) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#privacy-controls) sections.
 
 ## Legacy history
 
@@ -115,7 +116,7 @@ In Mac Settings, choose Import legacy records and select the old data folder. Ke
 
 在 Mac 设置中选择「导入旧版记录」，再选择旧数据文件夹。导入前保留备份；文字和仍存在的录音会导入，缺失的原始音频无法从文字恢复。用「在 Finder 中显示数据」找到当前数据位置，不要直接假设旧版路径仍适用。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#migration), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#migration).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#migration) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#migration) sections.
 
 ## Local AI
 
@@ -123,7 +124,7 @@ Run a compatible chat completions service and set its endpoint in AI Settings, f
 
 先运行兼容的对话补全服务，再在 AI 设置中配置接口，例如本机回环地址。模型确实运行在本机时，发给它的文字在该服务本地处理；局域网或远程地址会把文字发离这台 Mac。Apple 语音处理是独立路径。本机模型仍适用应用的 AI 试用与买断规则。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#local-model), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#local-model).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#local-model) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#local-model) sections.
 
 ## Cloud collection
 
@@ -131,7 +132,7 @@ Cloud providers may retain audio and other user content after a request, togethe
 
 云服务商可能在请求结束后保留音频、其他用户内容，以及 API 账号标识、请求时间和次数、Token 用量、错误与追踪日志、IP 地址等网络信息。这些数据可能关联到你的服务商账号，用于认证、转录、AI 功能、安全及服务运行。部分服务商还会按自身条款和账号设置分析用量，或将提交内容用于模型改进和训练。应用不发送广告标识符，也不将这些请求用于广告追踪。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#providers), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#providers).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#providers) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#providers) sections.
 
 ## Provider retention
 
@@ -139,7 +140,7 @@ Retention, model training and international processing depend on the provider, e
 
 数据保留、模型训练及跨境处理取决于服务商、接口、套餐和账号设置。我们不统一承诺零保留或不训练。发送敏感内容前，请查看下方服务商的最新政策。删除本地内容或撤销授权会停止后续发送，但不会清除服务商已收到的数据，需向服务商提出删除请求。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#providers), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#providers).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#providers) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#providers) sections.
 
 ## Local controls
 
@@ -147,7 +148,7 @@ You can delete sessions, recordings and keys in the app. On Mac, revoke data sha
 
 你可以在应用中删除会话、录音与 Key。Mac 设置可撤回数据共享同意，取消连接测试、云转录与 AI 请求，关闭自动建议和翻译并停止采集。单条录音删除可在同次运行、文件仍在废纸篓时撤销；整篇会话没有同样的整篇撤销。仅卸载应用可能留下数据与钥匙串凭据；若需移除，请先清空历史和 Key，并分别处理旧资料库、导出、分享和备份副本。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#controls), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#controls).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#controls) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#controls) sections.
 
 ## Support email data
 
@@ -155,7 +156,7 @@ If you email support, we receive your email address, message and any diagnostics
 
 你发邮件联系支持时，我们会收到你的邮箱地址、正文，以及你主动提供的诊断信息或附件，用于回复和排查问题。可联系 281916057@qq.com 请求删除，但适用的留存要求可能有例外。请勿发送 API Key、私人录音或敏感转录。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#support-data), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#support-data).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#support-data) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#support-data) sections.
 
 ## Website
 
@@ -163,15 +164,63 @@ This static site is hosted on GitHub Pages. We use no analytics, advertising, tr
 
 本站由 GitHub Pages 托管，不使用分析、广告、追踪 SDK 或语言偏好存储；字体和截图均由本站提供。GitHub 可能按其隐私政策处理 IP 地址和普通访问日志。进入 App Store 或服务商链接后，适用目标网站的政策。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html) sections.
 
-## Mac release highlights
+## Release highlights
 
-More control while recording, clearer save feedback and practical ways to keep your library. These improvements are for the Mac app.
+Choose notes for the new daily reviews and highlight collections, and preview the text before sending. Search opens matching source text. Select and fine-tune passages for summaries, action items, reply drafts or source-linked communication reviews. Improved recording details, playback controls, transcription completion and Watch recording reliability.
 
-录音更好控制，保存状态更清楚，资料库更方便保管。以下改进适用于 Mac 版。
+新增每日回顾与重点汇总，可选择参与笔记并在生成前预览发送内容。搜索可直达原文。片段整理支持精确调整文字，生成摘要、行动事项、回复或有来源的沟通复盘。优化录音详情、回听控制、转写收尾和 Watch 录音可靠性。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#whats-new), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#whats-new).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#whats-new) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#whats-new) sections.
+
+## iPhone and iPad workflow
+
+Turn meetings, lectures, interviews and spoken ideas into notes you can revisit. Dictation Notes brings together iPhone audio recording, live speech-to-text and optional AI meeting summaries.
+
+把会议、课堂、访谈和灵感，整理成可回听、可查找的笔记。听写笔记结合 iPhone 随身录音、实时语音转文字和可选 AI 会议纪要，帮助你从记录走到行动。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#iphone) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#iphone) sections.
+
+## Apple Watch recording
+
+With Pro, record on Apple Watch, mark key moments and transfer to your paired iPhone for review.
+
+使用专业版在 Apple Watch 抬腕开录、标记重点，随后传给配对 iPhone 整理。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#watch) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#watch) sections.
+
+## Local storage
+
+Recordings, transcripts, titles, marked moments, local notes and generated results are stored on your device. API credentials use the system Keychain. Mac can use a selected library folder or external drive. Migration copies and verifies the library and retains its original. Mac audio is retained when Save recordings is enabled. Exports and operating-system backups may create copies at destinations governed by your settings.
+
+录音、逐字稿、标题、重点、本机备注和生成结果保存在设备上，API 凭据使用系统钥匙串。Mac 可选择资料库文件夹或外置盘，迁移会复制、校验并保留原库。Mac 启用“保存录音”后保留采集的音频。导出和系统备份可能按你的设置在目标位置创建副本。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#local-storage) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#local-storage) sections.
+
+## Apple speech recognition
+
+On Mac, free dictation prefers recognition on the device. iPhone may use on-device recognition or Apple speech services. If a Mac offline model is unavailable or fails, audio may also be sent to Apple speech services. Apple processes received audio under its privacy policy. The app explains possible Apple processing before listening and requests system speech recognition permission. Microphone and optional Mac system audio capture also require system permission.
+
+Mac 免费听写优先在设备上识别；iPhone 可能使用本机识别或 Apple 语音服务。Mac 离线模型不可用或识别失败时，音频也可能发送给 Apple 语音服务。Apple 按其隐私政策处理接收到的音频。应用会在开始听写前说明可能由 Apple 处理，并请求系统语音识别权限。麦克风及可选的 Mac 系统音频采集也需要系统授权。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#apple-speech) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#apple-speech) sections.
+
+## Selected AI text and source references
+
+Daily reviews send the text and titles of the notes you select by date to your chosen AI provider. Passage actions send the selected text after your adjustments and the context shown in the sending preview. Check the exact text and recipient before confirming. Results and links to the source passages are stored with their owning note. AI interpretations need your review. Opening a source link uses your local notes. Provider retention and deletion follow the provider policy below.
+
+每日回顾将按日期选择的笔记文字与标题发送给你选择的 AI 服务商。片段操作发送你精确调整后的选中文字，以及发送预览中展示的上下文。确认前请检查实际文字与接收方。结果和原文来源链接保存在所属笔记中，AI 判断需要自行核查。打开来源链接会定位本机笔记。服务商留存与删除规则见下文。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#review-content) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#review-content) sections.
+
+## Watch recording transfers
+
+Apple Watch stores source audio and marked moments locally and transfers them to the paired iPhone through WatchConnectivity. iPhone confirms receipt after saving. The original remains on Watch after that confirmation. Explicit cancellation or deletion can propagate to the paired device. Exports, backups and content already sent to a provider must be managed at their own destinations. Watch Pro access is activated on the paired iPhone.
+
+Apple Watch 在本地保存原音频与重点，通过 WatchConnectivity 传给配对 iPhone。iPhone 保存成功后确认接收，Watch 原件在确认后继续保留。明确取消或删除录音可将删除操作同步到配对设备。导出、备份和已发送给服务商的内容需要在各自位置管理。Watch Pro 权限在配对 iPhone 激活。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#watch-recordings) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#watch-recordings) sections.
 
 ## Local recovery copies
 
@@ -179,7 +228,39 @@ Mac library migration retains the original library; legacy imports may also reta
 
 Mac 迁移资料库会保留原库，导入旧记录也可能保留内部原始文件以便恢复。含音频的会话导出、分享与备份会生成额外副本。应用中的删除只作用于当前库，不删除外部迁移原库、导入源、导出或备份副本；清空全部历史也会删除库内保留的旧版原始副本。其他副本需在各自位置处理。若所选目录受同步或备份服务管理，其处理受该服务政策约束。暂停会停止采集，继续后新增录音段；取消收尾等待会保留已收到文字与已写入音频，但不会删除服务商已接收的数据，也不能找回未保存音频。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#recovery-copies), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#recovery-copies).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#recovery-copies) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#recovery-copies) sections.
+
+## How do I record, transcribe and replay on iPhone or iPad?
+
+Record on iPhone, pause and resume, then transcribe with Apple speech recognition. Read a compact transcript preview or open the full text. Edit saved text and titles. With Pro, search titles and transcripts, and jump to marked moments or transcript timestamps. Use your chosen AI service for full-recording summaries, takeaways and action items. Open cited source text to check the result.
+
+User-started iPhone and Watch audio recordings can continue in the background or with the screen locked. Stop and save to finish. Live dictation stops when you leave its screen.
+
+With Pro, export original text, summaries, audio or a backup. Restoring an existing backup is free and merges records, skipping matching IDs and records marked deleted. Backups contain note content and available audio. API keys, purchase credentials and system settings are excluded.
+
+用手机录音，支持暂停与继续。稍后使用 Apple 语音识别转成文字。 阅读原文预览或打开全文，编辑已保存文字与标题。 专业版可搜索标题与原文，按重点或文字时间点回听。 使用自选 AI 服务整理全篇纪要、结论与行动事项，并打开引用原文核查。
+
+主动开始的 iPhone 与 Watch 录音可在后台或锁屏时继续，结束时请停止并保存。实时听写在离开其页面时停止。
+
+Pro 可导出原文、纪要、音频或备份。已有备份可免费恢复，恢复时合并记录并跳过同 ID 和已标记删除的记录。备份包含笔记内容与可用音频，API 密钥、购买凭据和系统设置不包含在内。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#mobile-recordings) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#mobile-recordings) sections.
+
+## Why has my Watch recording not reached iPhone?
+
+Activate Pro on the paired iPhone and allow the Watch microphone. Check that Watch and iPhone are paired and connected, then open the iPhone app. Keep the original Watch recording while transfer is pending and use Retry if a transfer error appears. The received status appears after iPhone safely stores the recording. Receipt confirmation keeps the Watch original available.
+
+先在配对 iPhone 激活 Pro，并允许 Watch 麦克风权限。检查两台设备配对与连接状态，再打开 iPhone App。传输待完成时保留 Watch 原录音，出现传输错误可使用重试。iPhone 安全保存后，手表才显示接收状态，确认接收后仍保留 Watch 原件。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#watch-transfer) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#watch-transfer) sections.
+
+## How do daily reviews and selected passages use my notes?
+
+Search results take you to the matching text. Replay nearby audio when timing data is available. Select notes by date for a daily review of highlights, decisions and action items. Preview the exact text and recipient before generation. Gather manually marked moments and add titles or local notes. Select passages, adjust the text to send, then request a summary, action items, reply draft or communication review. Open linked sources to check the result. Verify AI interpretations yourself.
+
+搜索结果直接定位原文，有可用时间信息时可回听附近录音。 按日期选择参与回顾的笔记，汇总重点、决定和行动事项。生成前预览实际发送内容与接收方。 集中查看人工标记的重点，并添加标题与本机备注。 选择原文片段，精确调整发送文字，再整理摘要、行动事项、回复或沟通复盘。结果可跳转核查原文。AI 判断仍需自行核对。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#review-sources) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#review-sources) sections.
 
 ## On-device dictation shows no text
 
@@ -187,7 +268,7 @@ Allow the microphone first. On-device dictation also needs speech recognition pe
 
 先允许麦克风。本机听写还需要语音识别权限。到系统设置打开这两项后，回到应用再点开始。部分语言若没有离线模型，会走 Apple 的语音识别，此时需要网络。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#permissions), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#permissions).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#permissions) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#permissions) sections.
 
 ## How to connect your own API
 
@@ -195,43 +276,43 @@ On Mac, open Settings, choose an AI or transcription provider, enter the require
 
 Mac 在设置中选择 AI 或转录服务商，填写所需凭据，先点“保存配置”，再点“测试连接”，按提示授权接收方（如有）。本机回环地址运行的 AI 模型无需云端发送确认。AI 测试发送固定连通性提示；云转录测试发送一秒合成静音，不使用私人笔记或麦克风内容，但可能产生服务商费用。iPhone 使用各自的服务设置入口。免费 Apple 语音识别无需转录 Key。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#api-setup), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#api-setup).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#api-setup) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#api-setup) sections.
 
 ## How trial and unlock work
 
-iOS 1.1.0+: Basic features are free. Claim one optional 7-day Pro trial with no automatic charge when it ends.
+iPhone · iPad (iOS 1.1.1) — Basic features are free. Claim one optional 7-day Pro trial with no automatic charge when it ends.
 
 Try all available Pro features. After the trial, search, precise playback, new AI actions, sharing and backups require purchase. Basic recording, viewing and editing saved content, normal playback and backup restoration remain free.
 
-This is a one-time purchase, not an auto-renewing subscription.
+The trial runs for 168 consecutive hours from a successful claim. Reinstalling or restoring purchases keeps the original start time.
 
-AI and cloud transcription require your own API. Provider fees are separate; the app supplies no keys or credits.
+Already purchased? Restore with the same Apple Account. No second purchase is needed.
 
-The trial lasts 7 consecutive days from a successful claim. Reinstalling or restoring does not restart it.
+Eligible existing users keep their earlier free-feature rights and remaining API trial uses. The 7-day Pro trial does not consume those remaining uses.
 
-Already purchased? Restore with the same Apple Account; no second purchase is needed.
+Mac retains 20 shared trial uses for cloud transcription, AI and translation, followed by a one-time unlock.
 
-Mac retains 20 shared trial uses for cloud transcription, AI and translation, followed by a one-time unlock. The iOS timed trial does not apply to Mac.
+One-time App Store purchase. See your storefront for the price.
 
-iOS 1.1.0 is being prepared for release; availability is determined by the App Store. Released iOS 1.0.1 retains its original 20-use policy.
+AI and cloud transcription require your own API. Provider fees are separate. The app supplies no keys or credits.
 
-iOS 1.1.0+: 基础功能免费。专业版可主动领取一次 7 天体验，到期不会自动扣款。
+iPhone · iPad (iOS 1.1.1) — 基础功能免费。专业版可主动领取一次 7 天体验，到期不会自动扣款。
 
-体验包含所有已提供的专业功能。到期后，搜索、重点定位、新的 AI 操作、分享与备份等专业功能需要买断；基础录音、查看和编辑已有资料、普通回放与恢复备份仍可使用。
+体验包含所有已提供的专业功能。到期后，搜索、重点定位、新的 AI 操作、分享与备份等专业功能需要买断。基础录音、查看和编辑已有资料、普通回放与恢复备份仍可使用。
 
-这是一次性买断，不是自动续期订阅。
-
-AI 和云端转写需自备 API，服务商费用另计；应用不提供密钥或调用额度。
-
-体验从成功领取时开始，连续 7 天；重装或恢复购买不会重新计时。
+体验从成功领取时起连续计时 168 小时（7 天），重装或恢复购买沿用原开始时间。
 
 已有有效买断无需再次购买。请使用购买时的 Apple 账户恢复。
 
-Mac 保留云端转录、AI 与翻译共享 20 次试用，之后一次买断；iOS 的限时体验不适用于 Mac。
+符合条件的旧用户保留原免费功能权限与剩余 API 体验次数，7 天 Pro 体验期间不会扣除这些剩余次数。
 
-iOS 1.1.0 正在准备上架，以 App Store 实际可用版本为准；已发布的 iOS 1.0.1 保留原有 20 次规则。
+Mac 保留云端转录、AI 与翻译共享 20 次试用，之后一次买断。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#trial), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#trial).
+App Store 一次性买断，价格以所在地区商店为准。
+
+AI 和云端转写需自备 API，服务商费用另计。应用不提供密钥或调用额度。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#trial) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#trial) sections.
 
 ## I paid but it is still locked
 
@@ -239,7 +320,7 @@ Tap Restore Purchases in Settings and confirm you are using the Apple ID that pa
 
 到设置里点恢复购买，并确认用的是付款时的 Apple ID。沙盒账号和正式账号的购买不能混用。家庭共享打开后，同一家庭的成员也可以使用这次买断。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#purchase), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#purchase).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#purchase) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#purchase) sections.
 
 ## Provider test fails
 
@@ -247,35 +328,31 @@ Check the credentials, model availability, endpoint and network. For a local or 
 
 核对凭据、模型是否可用、端点与网络。使用本地或局域网模型时，确认服务已在该地址运行。Mac 保存 Key 失败时，先解锁钥匙串，重新填写并保存；不要删除既有钥匙串条目，也不要邮件发送完整 Key。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#provider-errors), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#provider-errors).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#provider-errors) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#provider-errors) sections.
 
 ## Does live translation use a trial?
 
-iOS 1.1.0+: optional 7 days, no auto-charge; Mac: 20 uses Mac retains 20 shared trial uses for cloud transcription, AI and translation, followed by a one-time unlock. The iOS timed trial does not apply to Mac. iOS 1.1.0 is being prepared for release; availability is determined by the App Store. Released iOS 1.0.1 retains its original 20-use policy.
+iPhone · iPad (iOS 1.1.1) — Basic features are free. Claim one optional 7-day Pro trial with no automatic charge when it ends. Mac retains 20 shared trial uses for cloud transcription, AI and translation, followed by a one-time unlock. AI and cloud transcription require your own API. Provider fees are separate. The app supplies no keys or credits.
 
-iOS 1.1.0 起：主动领取 7 天，不自动扣款；Mac：20 次 Mac 保留云端转录、AI 与翻译共享 20 次试用，之后一次买断；iOS 的限时体验不适用于 Mac。 iOS 1.1.0 正在准备上架，以 App Store 实际可用版本为准；已发布的 iOS 1.0.1 保留原有 20 次规则。
+iPhone · iPad (iOS 1.1.1) — 基础功能免费。专业版可主动领取一次 7 天体验，到期不会自动扣款。 Mac 保留云端转录、AI 与翻译共享 20 次试用，之后一次买断。 AI 和云端转写需自备 API，服务商费用另计。应用不提供密钥或调用额度。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#translation), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#translation).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#translation) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#translation) sections.
 
 ## Recording behavior on iPhone and Mac
 
-iOS 1.1.0: user-started phone and Watch recordings can continue while the screen is locked or the app is in the background. Stop and save to finish. Live dictation stops when you leave its screen. Watch Pro is activated on the paired iPhone. This describes the new version; check App Store availability.
+User-started iPhone and Watch audio recordings can continue in the background or with the screen locked. Stop and save to finish. Live dictation stops when you leave its screen. On Mac, start and stop from the window, menu bar or Option-Shift-D. Command-Shift-P pauses or resumes. Quitting stops capture. Obtain any required recording consent.
 
-Mac / iOS 1.0.1: On iPhone, leaving the app or locking the phone stops dictation. On Mac, use the window, menu bar or Option-Shift-D; quitting stops capture. If the microphone disconnects or transcription fails, check the input device and network, then start again. Restarting does not automatically transcribe the missed interval. Only audio recorded with Save recordings enabled is available later.
+主动开始的 iPhone 与 Watch 录音可在后台或锁屏时继续，结束时请停止并保存。实时听写在离开其页面时停止。Mac 可从窗口、菜单栏或 ⌥⇧D 开始与停止，⌘⇧P 暂停或继续，退出应用会停止采集。录音前请取得所需同意。
 
-iOS 1.1.0：主动开始的手机与 Watch 录音可在锁屏或后台继续，结束时请停止并保存。实时听写在离开其页面时停止。Watch 专业权限在配对 iPhone 激活。本段适用于新版，请以 App Store 可用版本为准。
-
-Mac / iOS 1.0.1: iPhone 切到后台或锁屏会停止听写。Mac 可通过窗口、菜单栏或 ⌥⇧D 操作，退出会停止采集。麦克风断开或识别失败后，先检查输入设备与网络，再重新开始；重新开始不会自动补识别中断区间。只有启用“保存录音”时留下的音频才能日后回听。
-
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#recording-lifecycle), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#recording-lifecycle).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#recording-lifecycle) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#recording-lifecycle) sections.
 
 ## How do I pause and resume on Mac?
 
-On Mac 1.2.0, select Pause or press Command-Shift-P. The current segment finishes and recording time stops. Resume adds a new audio segment to the same note. Wait for final processing before continuing, or cancel the wait to keep text already received and audio already written; the final sentence may be incomplete. Save recordings must be enabled to retain audio.
+On Mac 1.2.2, select Pause or press Command-Shift-P. The current segment finishes and recording time stops. Resume adds a new audio segment to the same note. Wait for final processing before continuing, or cancel the wait to keep text already received and audio already written; the final sentence may be incomplete. Save recordings must be enabled to retain audio.
 
-Mac 1.2.0 点“暂停”或按 ⌘⇧P，当前录音段会收尾，录音计时停止；继续后在同一笔记新增音频段。先等待收尾完成，或取消等待以保留已收到的文字与已写入音频，最后一句可能不完整。需要日后回听时，请启用“保存录音”。
+Mac 1.2.2 点“暂停”或按 ⌘⇧P，当前录音段会收尾，录音计时停止；继续后在同一笔记新增音频段。先等待收尾完成，或取消等待以保留已收到的文字与已写入音频，最后一句可能不完整。需要日后回听时，请启用“保存录音”。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#pause-resume), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#pause-resume).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#pause-resume) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#pause-resume) sections.
 
 ## What should I do if saving fails?
 
@@ -283,7 +360,7 @@ Keep the Mac window open and preserve the unsaved text. Check free disk space, f
 
 保留 Mac 窗口与尚未保存的文字，检查磁盘空间、目录权限和外置盘连接，再点“重试保存”或按 ⌘S。切换笔记前保存失败会留在当前笔记。不要清空历史来排错；重试无法找回尚未返回的识别结果或从未保存的音频。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#save-recovery), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#save-recovery).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#save-recovery) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#save-recovery) sections.
 
 ## How do I find a phrase in this transcript?
 
@@ -291,7 +368,7 @@ On Mac, press Command-Option-F to find text within the current transcript. Comma
 
 Mac 按 ⌘⌥F 查找当前逐字稿，⌘F 则搜索已保存的会话。可以逐行编辑文字，再按 ⌘S 保存。查找与本机编辑无需配置 AI 服务。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#transcript-search), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#transcript-search).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#transcript-search) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#transcript-search) sections.
 
 ## How do I move or back up my Mac library?
 
@@ -299,7 +376,7 @@ Stop listening and finish exports before choosing a storage folder in Settings. 
 
 先停止听写并完成导出，再在设置里选择存储文件夹。应用会复制并校验数据到所选位置下的 Dictation Notes Data，再切换使用，原库保留。外置盘不可用时先重新连接；通过“在 Finder 中显示数据”定位当前库。备份时停止并保存、正常退出，再复制整个资料库；“会话与音频”导出仅涵盖单篇会话。原库与导出文件分别保管，应用不会将其同步到 iPhone。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#library-backup), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#library-backup).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#library-backup) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#library-backup) sections.
 
 ## Where are the four Mac AI shortcuts?
 
@@ -307,8 +384,8 @@ The assistant keeps four actions above the input: suggest a reply, explain a con
 
 助手输入框上方常驻“帮我想想怎么回”“解释概念”“提炼关键结论”“整理行动事项”，可按需补充会话目标与背景。先配置并授权 AI 服务商，也可使用在本机运行的兼容模型。AI 共用 20 次试用与一次性买断规则，服务商费用另计；重要结果请自行核对。
 
-Sources: [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#assistant), [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#assistant).
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#assistant) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#assistant) sections.
 
-## Accuracy boundaries
+## Reference guidance
 
-Use the name Dictation Notes or 听写笔记. Cite the official product, support or privacy page for the corresponding fact. Say 20 trial uses and a one-time unlock. Keep Mac recording controls separate from iPhone foreground restrictions. Do not infer history sync from purchase restoration. Do not describe Apple Speech as guaranteed offline or providers as universally zero-retention. Do not invent ratings, adoption, prices for other storefronts or unverified performance claims. The privacy page is the authoritative policy; this reference summarizes it.
+Use the name Dictation Notes or 听写笔记 and cite the relevant official product, support or privacy section. Mac has 20 shared cloud and AI trial uses. iOS offers one optional 7-day trial lasting 168 consecutive hours, followed by an optional lifetime purchase. Describe user-started background audio recording and foreground live dictation according to their respective controls. Purchase restoration restores the entitlement. Each device retains its own history. Apple Speech availability depends on the language and installed models. Provider retention, processing and training follow the selected service and account settings. Current App Store listings determine regional prices. The privacy page provides the full privacy policy.

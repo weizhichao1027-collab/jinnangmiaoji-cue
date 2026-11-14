@@ -75,6 +75,18 @@ thead { background: var(--panel); }
 .rail { display: flex; gap: var(--space-md); overflow-x: auto; padding-block: var(--space-sm) 1rem; scroll-snap-type: x mandatory; }
 .rail figure { flex: 0 0 240px; scroll-snap-align: start; }
 .rail img { width: 240px; border-radius: 8px; }
+.gallery-note { color: var(--mute); font-size: 0.875rem; max-width: 75ch; margin-block: -3rem 3rem; }
+.device-pair { display: grid; gap: var(--space-lg); }
+.device-pair > div { min-width: 0; }
+.watch-shot { max-width: 208px; margin: var(--space-md) auto; }
+.ipad-shot { margin-block: var(--space-md); }
+.ipad-shot img { border: 1px solid var(--line); border-radius: 8px; }
+@media (min-width: 900px) {
+  .device-pair { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); }
+  .rail { justify-content: space-between; }
+  .rail figure { flex-basis: 280px; }
+  .rail img { width: 280px; }
+}
 .faq article, .qa-list article { border-block-start: 1px solid var(--line); padding-block: 2rem; }
 .faq p, .qa-list p, .doc p { color: var(--mute); max-width: 75ch; margin: 0; }
 .faq h3, .qa-list h2 { font-size: 1.25rem; }

@@ -1,21 +1,19 @@
 # Dictation Notes · 听写笔记
 
-> Native Mac and iPhone live transcription, meeting notes and optional AI reply cues. Both apps are released on the App Store. Updated 2026-11-07.
+> Dictation Notes is a native recording and speech-to-text app for Mac, iPhone and iPad, with Apple Watch Pro recording. Current versions are available on the App Store. Updated 2026-11-14.
 
 ## Official pages
-- [Product](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/): Mac 1.2.0 / macOS 14.0 or later, iPhone 1.0.1 / iOS 17.0 or later; screenshots, platform differences and pricing.
-- [Mac App Store](https://apps.apple.com/app/id6783130548?platform=mac): Official Mac download and current storefront details.
-- [iPhone App Store](https://apps.apple.com/app/id6783130548?platform=iphone): Official iPhone download and current storefront details.
-- [Support](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html): Setup, recording controls and recovery, system audio permission, purchase restoration and exports.
-- [Privacy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html): Local storage, Apple Speech, user-selected providers, data retention and deletion.
-- [Terms](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html): One-time unlock, separate provider fees, recording responsibility and Apple EULA.
-- [Full product facts](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/llms-full.txt): Source-linked factual reference.
-- [Structured facts](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/app-facts.json): Platform versions and factual data.
-- [中文官网](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/): 中文产品、支持、隐私与条款。
+- Mac 1.2.2 requires macOS 14.0 or later. iPhone 1.1.1 supports iOS 17.0 or later, iPadOS 17.0 or later. Compare features, screenshots and pricing on the [product page](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/).
+- Install from the [Mac App Store](https://apps.apple.com/app/id6783130548?platform=mac) or the [iPhone and iPad App Store](https://apps.apple.com/app/id6783130548?platform=iphone).
+- Read setup, recording, transfer and purchase help in [Support](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html).
+- Read local storage, Apple Speech, selected providers and deletion details in [Privacy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html).
+- Read the one-time purchase and provider terms in [Terms](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/terms.html).
+- Retrieve source-linked information in [Full product facts](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/llms-full.txt) and 13-language [Structured facts](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/app-facts.json).
+- 通过[中文官网](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/)阅读中文产品、支持、隐私与条款。
 
 ## Key facts
-Free installation and free Apple Speech dictation. Mac cloud transcription, live translation and AI share 20 trial uses, then an optional one-time unlock. iOS 1.1.0 introduces one optional 7-day Pro trial with no automatic charge; it is being prepared for release and App Store availability controls when it applies. Released iOS 1.0.1 retains its 20-use rule. Reinstalling or restoring does not restart the iOS timed trial. Existing valid lifetime purchases remain recognized. Bring your own provider credentials; provider fees are separate. Restore the unlock with the same Apple ID on Mac and iPhone. History and recordings do not automatically sync. Apple Speech may send audio to Apple when local recognition is unavailable. The publisher has no application content backend; selected providers may collect, retain or train on data under their own policies.
+Installation and basic Apple Speech dictation are free. Mac cloud transcription, live translation and AI share 20 trial uses. iOS 1.1.1 offers one optional 7-day Pro trial lasting 168 consecutive hours with no automatic charge. Reinstalling or restoring keeps its original start time. A one-time lifetime purchase unlocks Pro, and existing valid purchases remain recognized. Use your own provider credentials and pay provider charges separately. Restore the unlock with the same Apple Account on Mac and iPhone. Each device keeps its own history and recordings. Apple Speech may send audio to Apple when local recognition is unavailable. The publisher runs no application content backend. Selected providers handle received data under their own retention and training policies.
 
-Sources: [Pricing](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#pricing), [Platform differences](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#platforms), [Privacy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html).
+On iPhone and iPad, Pro supports transcript search, precise playback, daily reviews, highlight collections and passage-based AI work with source references. Preview the actual text and recipient before selected review requests. Apple Watch recording requires watchOS 10.0 or later and Pro activation on a paired iPhone. Watch recordings transfer to that iPhone for review. User-started recording can continue with the screen locked. Live dictation stops when its screen is left.
 
-These files are supplementary factual references, not special requirements for AI search. Search indexing, rich results and AI citations are not guaranteed.
+Read the corresponding [pricing](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#pricing), [platform](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#platforms), [mobile workflow](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#iphone), [Watch support](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#watch-transfer) and [privacy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html) sections for the full terms.
