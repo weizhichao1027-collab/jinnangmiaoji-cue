@@ -55,6 +55,7 @@ def fact_source(config, key, code='en'):
         'privacy.pSync': 'sync',
         'privacy.pRecovery': 'recovery-copies',
         'privacy.pReview': 'review-content', 'privacy.pWatch': 'watch-recordings',
+        'privacy.pDeleted': 'recently-deleted',
         'home.updateBody': 'whats-new',
         'home.mobileBody': 'iphone', 'home.watchBody': 'watch',
     }
@@ -234,7 +235,8 @@ def build_outputs(config, tables):
     sections += [('Release highlights', 'home.updateBody'), ('iPhone and iPad workflow', 'home.mobileBody'),
                  ('Apple Watch recording', 'home.watchBody'), ('Local storage', 'privacy.pLocal'),
                  ('Apple speech recognition', 'privacy.pApple'), ('Selected AI text and source references', 'privacy.pReview'),
-                 ('Watch recording transfers', 'privacy.pWatch'), ('Local recovery copies', 'privacy.pRecovery')]
+                 ('Watch recording transfers', 'privacy.pWatch'), ('Recently Deleted', 'privacy.pDeleted'),
+                 ('Local recovery copies', 'privacy.pRecovery')]
     # Newly added support topics remain discoverable without another hardcoded count.
     existing_keys = {key for _, key in sections}
     sections += [(tables['en'][question], answer) for question, answer in faq_pairs('support') if answer not in existing_keys]
@@ -258,7 +260,7 @@ def build_outputs(config, tables):
              'summary': {lang: tables[lang]['home.lead'] for lang in LOCALES},
              'officialPages': {lang: {page: page_url(config, page, lang) for page in PAGES} for lang in LOCALES},
              'topics': topics,
-             'privacy': {key: tables['en'][key] for key in ['privacy.p1', 'privacy.pLocal', 'privacy.pApple', 'privacy.pProviders', 'privacy.pCloudData', 'privacy.pRetention', 'privacy.pRights', 'privacy.pSupport', 'privacy.pReview', 'privacy.pWatch']},
+             'privacy': {key: tables['en'][key] for key in ['privacy.p1', 'privacy.pLocal', 'privacy.pApple', 'privacy.pProviders', 'privacy.pCloudData', 'privacy.pRetention', 'privacy.pRights', 'privacy.pSupport', 'privacy.pReview', 'privacy.pWatch', 'privacy.pDeleted']},
              'accuracyNotes': 'Visible official pages provide the full product and privacy terms. Provider availability, regional prices and processing policies can change. Search services control indexing and citations.'}
     outputs['app-facts.json'] = json.dumps(facts, ensure_ascii=False, indent=2) + '\n'
     mac, iphone = config['platforms']['mac'], config['platforms']['iphone']

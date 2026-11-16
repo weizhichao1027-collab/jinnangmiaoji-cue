@@ -1,9 +1,9 @@
 # Dictation Notes · 听写笔记
 
-> Dictation Notes is a native recording and speech-to-text app for Mac, iPhone and iPad, with Apple Watch Pro recording. Current versions are available on the App Store. Updated 2026-11-14.
+> Dictation Notes is a native recording and speech-to-text app for Mac, iPhone and iPad, with Apple Watch Pro recording. Current versions are available on the App Store. Updated 2026-11-17.
 
 ## Official pages
-- Mac 1.2.2 requires macOS 14.0 or later. iPhone 1.1.1 supports iOS 17.0 or later, iPadOS 17.0 or later. Compare features, screenshots and pricing on the [product page](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/).
+- Mac 1.2.3 requires macOS 14.0 or later. iPhone 1.1.2 supports iOS 17.0 or later, iPadOS 17.0 or later. Compare features, screenshots and pricing on the [product page](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/).
 - Install from the [Mac App Store](https://apps.apple.com/app/id6783130548?platform=mac) or the [iPhone and iPad App Store](https://apps.apple.com/app/id6783130548?platform=iphone).
 - Read setup, recording, transfer and purchase help in [Support](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html).
 - Read local storage, Apple Speech, selected providers and deletion details in [Privacy](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html).
@@ -12,7 +12,7 @@
 - 通过[中文官网](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/)阅读中文产品、支持、隐私与条款。
 
 ## Key facts
-Installation and basic Apple Speech dictation are free. Mac cloud transcription, live translation and AI share 20 trial uses. iOS 1.1.1 offers one optional 7-day Pro trial lasting 168 consecutive hours with no automatic charge. Reinstalling or restoring keeps its original start time. A one-time lifetime purchase unlocks Pro, and existing valid purchases remain recognized. Use your own provider credentials and pay provider charges separately. Restore the unlock with the same Apple Account on Mac and iPhone. Each device keeps its own history and recordings. Apple Speech may send audio to Apple when local recognition is unavailable. The publisher runs no application content backend. Selected providers handle received data under their own retention and training policies.
+Installation and basic Apple Speech dictation are free. Mac cloud transcription, live translation and AI share 20 trial uses. iOS 1.1.2 offers one optional 7-day Pro trial lasting 168 consecutive hours with no automatic charge. Reinstalling or restoring keeps its original start time. A one-time lifetime purchase unlocks Pro, and existing valid purchases remain recognized. Use your own provider credentials and pay provider charges separately. Restore the unlock with the same Apple Account on Mac and iPhone. Each device keeps its own history and recordings. Apple Speech may send audio to Apple when local recognition is unavailable. The publisher runs no application content backend. Selected providers handle received data under their own retention and training policies.
 
 On iPhone and iPad, Pro supports transcript search, precise playback, daily reviews, highlight collections and passage-based AI work with source references. Preview the actual text and recipient before selected review requests. Apple Watch recording requires watchOS 10.0 or later and Pro activation on a paired iPhone. Watch recordings transfer to that iPhone for review. User-started recording can continue with the screen locked. Live dictation stops when its screen is left.
 
