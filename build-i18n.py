@@ -56,6 +56,7 @@ def fact_source(config, key, code='en'):
         'privacy.pRecovery': 'recovery-copies',
         'privacy.pReview': 'review-content', 'privacy.pWatch': 'watch-recordings',
         'privacy.pDeleted': 'recently-deleted',
+        'privacy.pNoteViews': 'note-views',
         'home.updateBody': 'whats-new',
         'home.mobileBody': 'iphone', 'home.watchBody': 'watch',
     }
@@ -80,6 +81,16 @@ def page_url(config, page, code):
     return config['baseUrl'] + path_for(page, code)
 
 
+def screenshot_urls(config, platform, code, count=3):
+    root = config['screenshotRoots'][platform]
+    return [config['baseUrl'] + f'{root}/{platform}/{code}/{number:02}.jpg' for number in range(1, count + 1)]
+
+
+def shot(config, platform, code, number):
+    root = config['screenshotRoots'][platform]
+    return f"{config['basePath']}{root}/{platform}/{code}/{number:02}.jpg?v={config['assetVersion']}"
+
+
 def structured_data(config, data, page, code):
     base, url = config['baseUrl'], page_url(config, page, code)
     org_id, site_id = base + '#org', base + '#site'
@@ -90,7 +101,7 @@ def structured_data(config, data, page, code):
             'inLanguage': LOCALES, 'publisher': {'@id': org_id}}
     apps = []
     for platform, facts in config['platforms'].items() if page == 'home' else []:
-        screenshots = [base + f'shots/release-20261114/{platform}/{code}/{number:02}.jpg' for number in range(1, 4)]
+        screenshots = screenshot_urls(config, platform, code)
         apps.append({'@type': 'SoftwareApplication', '@id': base + '#' + platform + '-app',
                      'name': 'Dictation Notes', 'alternateName': '听写笔记', 'applicationCategory': 'BusinessApplication',
                      'operatingSystem': facts['operatingSystem'], 'softwareVersion': facts['version'],
@@ -139,14 +150,14 @@ def render(config, tables, page, code):
                'updated': config['updated'],
                'iphone.requirements': config['platforms']['iphone']['requirements'],
                'watch.requirements': config['platforms']['iphone']['watchCompanion']['requirements'],
-               'mac.hero': f'{asset}shots/release-20261114/mac/{code}/01.jpg?v={revision}',
-               'mac.notes': f'{asset}shots/release-20261114/mac/{code}/02.jpg?v={revision}',
-               'mac.history': f'{asset}shots/release-20261114/mac/{code}/03.jpg?v={revision}',
-               'iphone.hero': f'{asset}shots/release-20261114/iphone/{code}/01.jpg?v={revision}',
-               'iphone.transcript': f'{asset}shots/release-20261114/iphone/{code}/02.jpg?v={revision}',
-               'iphone.reply': f'{asset}shots/release-20261114/iphone/{code}/03.jpg?v={revision}',
-               'ipad.hero': f'{asset}shots/release-20261114/ipad/{code}/01.jpg?v={revision}',
-               'watch.hero': f'{asset}shots/release-20261114/watch/{code}/01.jpg?v={revision}',
+               'mac.hero': shot(config, 'mac', code, 1),
+               'mac.notes': shot(config, 'mac', code, 2),
+               'mac.history': shot(config, 'mac', code, 3),
+               'iphone.hero': shot(config, 'iphone', code, 1),
+               'iphone.transcript': shot(config, 'iphone', code, 2),
+               'iphone.reply': shot(config, 'iphone', code, 3),
+               'ipad.hero': shot(config, 'ipad', code, 1),
+               'watch.hero': shot(config, 'watch', code, 1),
                'mac.store': config['platforms']['mac']['storeUrl'], 'iphone.store': config['platforms']['iphone']['storeUrl'],
                **{f'url.{p}': asset + path_for(p, code) for p in PAGES}}
     def replace_token(match):
@@ -236,6 +247,7 @@ def build_outputs(config, tables):
                  ('Apple Watch recording', 'home.watchBody'), ('Local storage', 'privacy.pLocal'),
                  ('Apple speech recognition', 'privacy.pApple'), ('Selected AI text and source references', 'privacy.pReview'),
                  ('Watch recording transfers', 'privacy.pWatch'), ('Recently Deleted', 'privacy.pDeleted'),
+                 ('Transcript, summary and highlights', 'privacy.pNoteViews'),
                  ('Local recovery copies', 'privacy.pRecovery')]
     # Newly added support topics remain discoverable without another hardcoded count.
     existing_keys = {key for _, key in sections}
@@ -278,7 +290,9 @@ def build_outputs(config, tables):
 - 通过[中文官网]({base})阅读中文产品、支持、隐私与条款。
 
 ## Key facts
-Installation and basic Apple Speech dictation are free. Mac cloud transcription, live translation and AI share 20 trial uses. iOS {iphone['version']} offers one optional 7-day Pro trial lasting 168 consecutive hours with no automatic charge. Reinstalling or restoring keeps its original start time. A one-time lifetime purchase unlocks Pro, and existing valid purchases remain recognized. Use your own provider credentials and pay provider charges separately. Restore the unlock with the same Apple Account on Mac and iPhone. Each device keeps its own history and recordings. Apple Speech may send audio to Apple when local recognition is unavailable. The publisher runs no application content backend. Selected providers handle received data under their own retention and training policies.
+Installation and basic Apple Speech dictation are free. Mac {mac['version']} cloud transcription, live translation and AI share 20 trial uses. iPhone and iPad {iphone['version']} offer one optional 7-day Pro trial lasting 168 consecutive hours with no automatic charge. Reinstalling or restoring keeps its original start time. A one-time lifetime purchase unlocks Pro, and existing valid purchases remain recognized. Use your own provider credentials and pay provider charges separately. Restore the unlock with the same Apple Account on Mac and iPhone. Each device keeps its own history and recordings. Apple Speech may send audio to Apple when local recognition is unavailable. The publisher runs no application content backend. Selected providers handle received data under their own retention and training policies.
+
+On iPhone and iPad {iphone['version']}, a note opens as transcript, summary and highlights. The summary is one piece you can regenerate or edit. Highlights replay from their time. While dictating, AI can suggest a reply, explain, challenge or anticipate after the app names the recipient and you agree to send the needed text. Search marks the words you typed on the device. The current releases do not request location. Mac {mac['version']} is the Mac version on sale.
 
 On iPhone and iPad, Pro supports transcript search, precise playback, daily reviews, highlight collections and passage-based AI work with source references. Preview the actual text and recipient before selected review requests. Apple Watch recording requires {iphone['watchCompanion']['operatingSystem']} and Pro activation on a paired iPhone. Watch recordings transfer to that iPhone for review. User-started recording can continue with the screen locked. Live dictation stops when its screen is left.
 
@@ -288,7 +302,7 @@ Read the corresponding [pricing]({base}en/#pricing), [platform]({base}en/#platfo
               f'## Distribution\n\nMac {mac["version"]} requires {mac["operatingSystem"]} and supports {", ".join(mac["architectures"])}. iPhone {iphone["version"]} supports {iphone["operatingSystem"]}. Apple Watch requires {iphone["watchCompanion"]["operatingSystem"]} and Pro activation on its paired iPhone.\n\nInstall from the [Mac App Store]({mac["storeUrl"]}) or [iPhone and iPad App Store]({iphone["storeUrl"]}).\n\nThe interface and website support {", ".join(LOCALES)}. Read [Product]({base}en/), [Support]({base}en/support.html), [Privacy]({base}en/privacy.html) and [Terms]({base}en/terms.html).']
     for heading, key in sections:
         blocks.append(f'## {heading}\n\n{tables["en"][key]}\n\n{tables["zh-Hans"][key]}\n\nRead the corresponding [English]({fact_source(config, key)}) and [简体中文]({fact_source(config, key, "zh-Hans")}) sections.')
-    blocks.append('## Reference guidance\n\nUse the name Dictation Notes or 听写笔记 and cite the relevant official product, support or privacy section. Mac has 20 shared cloud and AI trial uses. iOS offers one optional 7-day trial lasting 168 consecutive hours, followed by an optional lifetime purchase. Describe user-started background audio recording and foreground live dictation according to their respective controls. Purchase restoration restores the entitlement. Each device retains its own history. Apple Speech availability depends on the language and installed models. Provider retention, processing and training follow the selected service and account settings. Current App Store listings determine regional prices. The privacy page provides the full privacy policy.')
+    blocks.append('## Reference guidance\n\nUse the name Dictation Notes or 听写笔记 and cite the relevant official product, support or privacy section. Mac ' + mac['version'] + ' has 20 shared cloud and AI trial uses. iPhone and iPad ' + iphone['version'] + ' offer one optional 7-day trial lasting 168 consecutive hours, followed by an optional lifetime purchase. A note on iPhone and iPad opens as transcript, summary and highlights. Regenerating a summary or requesting a reply, explanation, challenge or anticipation sends only text the user agrees to send. Search marks and highlight playback stay on the device. The current releases do not request location. Describe user-started background audio recording and foreground live dictation according to their respective controls. Purchase restoration restores the entitlement. Each device retains its own history. Apple Speech availability depends on the language and installed models. Provider retention, processing and training follow the selected service and account settings. Current App Store listings determine regional prices. The privacy page provides the full privacy policy.')
     outputs['llms-full.txt'] = '\n\n'.join(blocks) + '\n'
     # Project robots.txt is not an origin-root crawler directive on GitHub Pages.
     outputs['robots.txt'] = f'User-agent: *\nAllow: {config["basePath"]}\n\nSitemap: {base}sitemap.xml\n'

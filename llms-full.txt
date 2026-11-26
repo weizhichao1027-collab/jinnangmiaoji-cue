@@ -1,10 +1,10 @@
 # Dictation Notes · 听写笔记
 
-Updated on 2026-11-17. The official App Store ID is 6783130548. Published by Shanghai Qishan Cultural Communication Co., Ltd.. Contact 281916057@qq.com.
+Updated on 2026-11-26. The official App Store ID is 6783130548. Published by Shanghai Qishan Cultural Communication Co., Ltd.. Contact 281916057@qq.com.
 
 ## Distribution
 
-Mac 1.2.3 requires macOS 14.0 or later and supports Apple Silicon, Intel. iPhone 1.1.2 supports iOS 17.0 or later, iPadOS 17.0 or later. Apple Watch requires watchOS 10.0 or later and Pro activation on its paired iPhone.
+Mac 1.2.3 requires macOS 14.0 or later and supports Apple Silicon, Intel. iPhone 1.1.3 supports iOS 17.0 or later, iPadOS 17.0 or later. Apple Watch requires watchOS 10.0 or later and Pro activation on its paired iPhone.
 
 Install from the [Mac App Store](https://apps.apple.com/app/id6783130548?platform=mac) or [iPhone and iPad App Store](https://apps.apple.com/app/id6783130548?platform=iphone).
 
@@ -12,9 +12,9 @@ The interface and website support en, zh-Hans, zh-Hant, ja, ko, es, fr, de, pt-B
 
 ## Platforms
 
-Mac 1.2.3 requires macOS 14+ and supports Apple Silicon and Intel. iPhone and iPad 1.1.2 require iOS 17+. Apple Watch requires watchOS 10+ and Pro activation on the paired iPhone. The apps offer 13 interface languages.
+Mac 1.2.3 requires macOS 14+ and supports Apple Silicon and Intel. iPhone and iPad 1.1.3 require iOS 17+. Apple Watch requires watchOS 10+ and Pro activation on the paired iPhone. The apps offer 13 interface languages.
 
-Mac 1.2.3 需要 macOS 14+，支持 Apple Silicon 与 Intel。iPhone 与 iPad 1.1.2 需要 iOS 17+。Apple Watch 需要 watchOS 10+，并在配对 iPhone 激活 Pro 权限。应用提供 13 种界面语言。
+Mac 1.2.3 需要 macOS 14+，支持 Apple Silicon 与 Intel。iPhone 与 iPad 1.1.3 需要 iOS 17+。Apple Watch 需要 watchOS 10+，并在配对 iPhone 激活 Pro 权限。应用提供 13 种界面语言。
 
 Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#platforms) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#platforms) sections.
 
@@ -36,11 +36,11 @@ Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnang
 
 ## Free features
 
-iPhone · iPad (iOS 1.1.2) — After the trial, search, precise playback, new AI actions, sharing and backups require purchase. Basic recording, viewing and editing saved content, normal playback and backup restoration remain free.
+iPhone · iPad (iOS 1.1.3) — After the trial, search, precise playback, new AI actions, sharing and backups require purchase. Basic recording, viewing and editing saved content, normal playback and backup restoration remain free.
 
 Mac dictation, history, local editing and normal playback stay free.
 
-iPhone · iPad (iOS 1.1.2) — 到期后，搜索、重点定位、新的 AI 操作、分享与备份等专业功能需要买断。基础录音、查看和编辑已有资料、普通回放与恢复备份仍可使用。
+iPhone · iPad (iOS 1.1.3) — 到期后，搜索、重点定位、新的 AI 操作、分享与备份等专业功能需要买断。基础录音、查看和编辑已有资料、普通回放与恢复备份仍可使用。
 
 Mac 本机听写、历史、本地编辑与普通回放持续免费。
 
@@ -48,9 +48,9 @@ Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnang
 
 ## Purchase and provider fees
 
-iPhone · iPad (iOS 1.1.2) — Basic features are free. Claim one optional 7-day Pro trial with no automatic charge when it ends. Mac retains 20 shared trial uses for cloud transcription, AI and translation, followed by a one-time unlock.
+iPhone · iPad (iOS 1.1.3) — Basic features are free. Claim one optional 7-day Pro trial with no automatic charge when it ends. Mac retains 20 shared trial uses for cloud transcription, AI and translation, followed by a one-time unlock.
 
-iPhone · iPad (iOS 1.1.2) — 基础功能免费。专业版可主动领取一次 7 天体验，到期不会自动扣款。 Mac 保留云端转录、AI 与翻译共享 20 次试用，之后一次买断。
+iPhone · iPad (iOS 1.1.3) — 基础功能免费。专业版可主动领取一次 7 天体验，到期不会自动扣款。 Mac 保留云端转录、AI 与翻译共享 20 次试用，之后一次买断。
 
 Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#pricing) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#pricing) sections.
 
@@ -168,11 +168,11 @@ Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnang
 
 ## Release highlights
 
-Read saved notes while recording and track processing tasks and results. Import and export audio, restore recently deleted notes, and resume reading or playback. Organize full transcripts, open complete results and expand or add highlights. Added light and dark appearance, shortcuts and recording Live Activities. Improved Watch playback, transfer status and watch-face indicators.
+Notes open as transcript, summary and highlights. The summary is one piece you can regenerate or edit, and highlights replay from their time. While dictating, AI can suggest a reply, explain, challenge or anticipate. Search marks the words you typed.
 
 Mac Choose light or dark appearance in Settings. Read saved notes while recording. Organize long transcripts, edit generated notes and revisit previous versions. Restore sessions from Recently Deleted within 30 days. Improved library recovery and purchase loading.
 
-录音时可继续查阅笔记，新增处理任务进度与结果入口。支持音频导入导出、最近删除恢复，以及搜索定位和续读续听。长文整理支持全文处理和独立阅读，重点可展开与补标。新增明暗外观、快捷入口和录音实时活动，改进 Watch 回放、传输状态与表盘提示。
+笔记可在原文、整理和重点之间查看。纪要按整篇原文写成一篇，可以重新生成或编辑。重点按时间回听。听写时可以让 AI 接话、解释、挑刺或预测。搜索会标出关键词。
 
 Mac 新增浅色与深色外观切换。录音时可查阅已存笔记。支持长篇逐字稿全文整理、编辑整理结果及查看历史版本。误删会话可在最近删除中保留并恢复 30 天。改进资料库恢复与购买信息加载。
 
@@ -182,7 +182,11 @@ Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnang
 
 Turn meetings, lectures, interviews and spoken ideas into notes you can revisit. Dictation Notes brings together iPhone audio recording, live speech-to-text and optional AI meeting summaries.
 
+On iPhone and iPad 1.1.3, open each note as the transcript, one summary, or the highlights.
+
 把会议、课堂、访谈和灵感，整理成可回听、可查找的笔记。听写笔记结合 iPhone 随身录音、实时语音转文字和可选 AI 会议纪要，帮助你从记录走到行动。
+
+iPhone 与 iPad 1.1.3 打开笔记后，可在原文、整理和重点之间查看。
 
 Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/#iphone) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/#iphone) sections.
 
@@ -196,9 +200,9 @@ Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnang
 
 ## Local storage
 
-Recordings, transcripts, titles, marked moments, local notes, generated results and appearance preference are stored on your device. API credentials use the system Keychain. Deleted sessions may remain in Recently Deleted for up to 30 days before removal from that list. Mac can use a selected library folder or external drive. Migration copies and verifies the library and retains its original. Mac audio is retained when Save recordings is enabled. Exports and operating-system backups may create copies at destinations governed by your settings.
+Recordings, transcripts, titles, marked moments, local notes, generated results and appearance preference are stored on your device. API credentials use the system Keychain. Deleted sessions may remain in Recently Deleted for up to 30 days before removal from that list. Mac can use a selected library folder or external drive. Migration copies and verifies the library and retains its original. Mac audio is retained when Save recordings is enabled. Exports and operating-system backups may create copies at destinations governed by your settings. On iPhone and iPad, a note holds the transcript, one summary, and the highlights you marked.
 
-录音、逐字稿、标题、重点、本机备注、生成结果和外观偏好保存在设备上，API 凭据使用系统钥匙串。已删除会话可能在「最近删除」中保留最多 30 天，随后从该列表移除。Mac 可选择资料库文件夹或外置盘，迁移会复制、校验并保留原库。Mac 启用“保存录音”后保留采集的音频。导出和系统备份可能按你的设置在目标位置创建副本。
+录音、逐字稿、标题、重点、本机备注、生成结果和外观偏好保存在设备上，API 凭据使用系统钥匙串。已删除会话可能在「最近删除」中保留最多 30 天，随后从该列表移除。Mac 可选择资料库文件夹或外置盘，迁移会复制、校验并保留原库。Mac 启用“保存录音”后保留采集的音频。导出和系统备份可能按你的设置在目标位置创建副本。 iPhone 与 iPad 上，一条笔记包含原文、一篇整理，以及你标出的重点。
 
 Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#local-storage) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#local-storage) sections.
 
@@ -234,6 +238,14 @@ Sessions you delete move to Recently Deleted and remain recoverable for 30 days 
 
 Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#recently-deleted) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#recently-deleted) sections.
 
+## Transcript, summary and highlights
+
+On iPhone and iPad, a note’s transcript, one summary and highlights are stored on the device. Regenerating the summary sends the transcript you agree to send to the AI provider you chose. Asking for a reply, explanation, challenge or anticipation while dictating sends only the conversation text that request needs, after you agree. Search marks and playback from a highlight’s time stay on the device. The current iPhone, iPad and Mac releases do not request your location.
+
+iPhone 与 iPad 把一条笔记的原文、一篇整理和重点保存在设备上。重新生成整理时，会把你同意发送的原文交给你选择的 AI 服务商。听写时请求接话、解释、挑刺或预测，也只发送这次请求需要、且你同意发出的对话文字。搜索标出关键词，以及从重点的时间回听，都在本机完成。当前 iPhone、iPad 与 Mac 版本不请求定位。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#note-views) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#note-views) sections.
+
 ## Local recovery copies
 
 Mac library migration retains the original library; legacy imports may also retain internal original files for recovery. Session-with-audio exports, shared files and backups create additional copies. Deletion in the app applies to the active library, not external migration originals, import sources or exported and backed-up copies. Clear all history also removes internal legacy originals. Recently Deleted keeps recoverable sessions for 30 days on the active library. Manage other copies at their own destinations. A folder managed by a sync or backup service is subject to that service’s policies. Pausing stops capture and resuming creates a new segment. Canceling final processing preserves received text and written audio, but does not erase data already received by a provider or recover unsaved audio.
@@ -242,13 +254,57 @@ Mac 迁移资料库会保留原库，导入旧记录也可能保留内部原始�
 
 Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/privacy.html#recovery-copies) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/privacy.html#recovery-copies) sections.
 
+## How do I switch among transcript, summary and highlights?
+
+On iPhone or iPad 1.1.3, open a note and switch among transcript, summary and highlights. The transcript is the recognized text with its times. The summary is one piece written from that transcript. Highlights are moments you marked, listed by time. All three stay in the note on this device.
+
+在 iPhone 或 iPad 1.1.3 打开一条笔记，可在原文、整理和重点之间切换。原文是带时间的识别文字。整理是按整篇原文写成的一篇。重点是你标出的时刻，按时间列出。这三部分都留在这台设备的笔记里。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#note-views) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#note-views) sections.
+
+## How do I regenerate or edit a summary?
+
+When a summary is present, regenerate it or edit the text. Regenerating sends the transcript to the AI provider you chose after the app names the recipient and you agree. After the trial this needs Pro and your own API. Editing the saved summary stays on the device. Compare the result with the transcript before you rely on it.
+
+已有纪要时，可以重新生成，也可以直接改文字。重新生成会把原文交给你选择的 AI 服务商；应用会先说明接收方，你同意后才发送。体验结束后这需要专业版，并使用你自己的 API。编辑已经保存的纪要留在本机。使用前请对照原文核对。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#summary-edit) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#summary-edit) sections.
+
+## How do highlights play back?
+
+Open Highlights and choose a marked moment. Playback starts at that moment in the recording stored with the note. Marking and playback use the audio kept on this device.
+
+打开重点，选择一条标记。播放从这条标记在录音里的时间开始。标记和回听都使用随笔记保存在这台设备上的录音。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#highlight-replay) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#highlight-replay) sections.
+
+## What can AI do while I dictate?
+
+While dictating on iPhone, you can ask AI to suggest a reply, explain, challenge or anticipate. The app sends the conversation text needed for that request to the provider you chose, after it names the recipient and you agree. On-device dictation itself does not need an API key. Review the suggestion before you use it.
+
+在 iPhone 上听写时，可以让 AI 接话、解释、挑刺或预测。应用会把这次请求需要的对话文字交给你选择的服务商，并先说明接收方，你同意后才发送。本机听写本身不需要 API Key。使用建议前请自己核对。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#live-cues) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#live-cues) sections.
+
+## Why does search mark some words?
+
+On iPhone and iPad, search highlights the words you typed in the results. Opening a result still takes you to the matching text. Highlighting happens on the device and is not sent to a provider for that reason.
+
+在 iPhone 和 iPad 上，搜索会把你输入的词标在结果里。打开一条结果仍会进入对应原文。标词在本机完成，不会因此发给服务商。
+
+Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#search-marks) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#search-marks) sections.
+
 ## How do I record, transcribe and replay on iPhone or iPad?
+
+On iPhone or iPad 1.1.3, open a note as the transcript, one summary, or highlights. The summary can be regenerated or edited, and a highlight plays from its time.
 
 Record on iPhone, pause and resume, then transcribe with Apple speech recognition. Read a compact transcript preview or open the full text. Edit saved text and titles. With Pro, search titles and transcripts, and jump to marked moments or transcript timestamps. Use your chosen AI service for full-recording summaries, takeaways and action items. Open cited source text to check the result.
 
 User-started iPhone and Watch audio recordings can continue in the background or with the screen locked. Stop and save to finish. Live dictation stops when you leave its screen.
 
 With Pro, export original text, summaries, audio or a backup. Restoring an existing backup is free and merges records, skipping matching IDs and records marked deleted. Backups contain note content and available audio. API keys, purchase credentials and system settings are excluded.
+
+在 iPhone 或 iPad 1.1.3 打开笔记后，可以查看原文、一篇整理或重点。整理可以重新生成或编辑，重点从它的时间开始回听。
 
 用手机录音，支持暂停与继续。稍后使用 Apple 语音识别转成文字。 阅读原文预览或打开全文，编辑已保存文字与标题。 专业版可搜索标题与原文，按重点或文字时间点回听。 使用自选 AI 服务整理全篇纪要、结论与行动事项，并打开引用原文核查。
 
@@ -324,7 +380,7 @@ Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnang
 
 ## How trial and unlock work
 
-iPhone · iPad (iOS 1.1.2) — Basic features are free. Claim one optional 7-day Pro trial with no automatic charge when it ends.
+iPhone · iPad (iOS 1.1.3) — Basic features are free. Claim one optional 7-day Pro trial with no automatic charge when it ends.
 
 Try all available Pro features. After the trial, search, precise playback, new AI actions, sharing and backups require purchase. Basic recording, viewing and editing saved content, normal playback and backup restoration remain free.
 
@@ -340,7 +396,7 @@ One-time App Store purchase. See your storefront for the price.
 
 AI and cloud transcription require your own API. Provider fees are separate. The app supplies no keys or credits.
 
-iPhone · iPad (iOS 1.1.2) — 基础功能免费。专业版可主动领取一次 7 天体验，到期不会自动扣款。
+iPhone · iPad (iOS 1.1.3) — 基础功能免费。专业版可主动领取一次 7 天体验，到期不会自动扣款。
 
 体验包含所有已提供的专业功能。到期后，搜索、重点定位、新的 AI 操作、分享与备份等专业功能需要买断。基础录音、查看和编辑已有资料、普通回放与恢复备份仍可使用。
 
@@ -376,9 +432,9 @@ Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnang
 
 ## Does live translation use a trial?
 
-iPhone · iPad (iOS 1.1.2) — Basic features are free. Claim one optional 7-day Pro trial with no automatic charge when it ends. Mac retains 20 shared trial uses for cloud transcription, AI and translation, followed by a one-time unlock. AI and cloud transcription require your own API. Provider fees are separate. The app supplies no keys or credits.
+iPhone · iPad (iOS 1.1.3) — Basic features are free. Claim one optional 7-day Pro trial with no automatic charge when it ends. Mac retains 20 shared trial uses for cloud transcription, AI and translation, followed by a one-time unlock. AI and cloud transcription require your own API. Provider fees are separate. The app supplies no keys or credits.
 
-iPhone · iPad (iOS 1.1.2) — 基础功能免费。专业版可主动领取一次 7 天体验，到期不会自动扣款。 Mac 保留云端转录、AI 与翻译共享 20 次试用，之后一次买断。 AI 和云端转写需自备 API，服务商费用另计。应用不提供密钥或调用额度。
+iPhone · iPad (iOS 1.1.3) — 基础功能免费。专业版可主动领取一次 7 天体验，到期不会自动扣款。 Mac 保留云端转录、AI 与翻译共享 20 次试用，之后一次买断。 AI 和云端转写需自备 API，服务商费用另计。应用不提供密钥或调用额度。
 
 Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/en/support.html#translation) and [简体中文](https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/support.html#translation) sections.
 
@@ -432,4 +488,4 @@ Read the corresponding [English](https://weizhichao1027-collab.github.io/jinnang
 
 ## Reference guidance
 
-Use the name Dictation Notes or 听写笔记 and cite the relevant official product, support or privacy section. Mac has 20 shared cloud and AI trial uses. iOS offers one optional 7-day trial lasting 168 consecutive hours, followed by an optional lifetime purchase. Describe user-started background audio recording and foreground live dictation according to their respective controls. Purchase restoration restores the entitlement. Each device retains its own history. Apple Speech availability depends on the language and installed models. Provider retention, processing and training follow the selected service and account settings. Current App Store listings determine regional prices. The privacy page provides the full privacy policy.
+Use the name Dictation Notes or 听写笔记 and cite the relevant official product, support or privacy section. Mac 1.2.3 has 20 shared cloud and AI trial uses. iPhone and iPad 1.1.3 offer one optional 7-day trial lasting 168 consecutive hours, followed by an optional lifetime purchase. A note on iPhone and iPad opens as transcript, summary and highlights. Regenerating a summary or requesting a reply, explanation, challenge or anticipation sends only text the user agrees to send. Search marks and highlight playback stay on the device. The current releases do not request location. Describe user-started background audio recording and foreground live dictation according to their respective controls. Purchase restoration restores the entitlement. Each device retains its own history. Apple Speech availability depends on the language and installed models. Provider retention, processing and training follow the selected service and account settings. Current App Store listings determine regional prices. The privacy page provides the full privacy policy.

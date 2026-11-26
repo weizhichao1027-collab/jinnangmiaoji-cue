@@ -36,4 +36,4 @@ Readable body text, WCAG AA text contrast, visible keyboard focus, 44px navigati
 
 ## Source of context
 
-Existing README, i18n copy and CSS; Mac 1.2.3 and iOS 1.1.2 public App Store pages verified on 2026-11-17, approved metadata and the shipped source. Apple Watch recording uses a paired iPhone. This is an update to the established website for the live App Store releases.
+Existing README, i18n copy and CSS; public App Store lookup on 2026-11-26 for iPhone, iPad and Watch 1.1.3 and Mac 1.2.3, the shipped 1.1.3 privacy usage strings, and the approved store release notes. Apple Watch recording uses a paired iPhone. This is an update to the established website for the live App Store releases.

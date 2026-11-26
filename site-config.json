@@ -1,8 +1,14 @@
 {
   "baseUrl": "https://weizhichao1027-collab.github.io/jinnangmiaoji-cue/",
   "basePath": "/jinnangmiaoji-cue/",
-  "updated": "2026-11-17",
-  "assetVersion": "20261117-release",
+  "updated": "2026-11-26",
+  "assetVersion": "20261126-release",
+  "screenshotRoots": {
+    "mac": "shots/release-20261114",
+    "iphone": "shots/release-20261126",
+    "ipad": "shots/release-20261126",
+    "watch": "shots/release-20261126"
+  },
   "publisher": "Shanghai Qishan Cultural Communication Co., Ltd.",
   "supportEmail": "281916057@qq.com",
   "platforms": {
@@ -17,7 +23,7 @@
       "status": "released"
     },
     "iphone": {
-      "version": "1.1.2",
+      "version": "1.1.3",
       "operatingSystem": "iOS 17.0 or later, iPadOS 17.0 or later",
       "requirements": "iOS 17+ · iPadOS 17+",
       "devices": [
@@ -25,7 +31,7 @@
         "iPad"
       ],
       "watchCompanion": {
-        "version": "1.1.2",
+        "version": "1.1.3",
         "operatingSystem": "watchOS 10.0 or later",
         "requirements": "watchOS 10+",
         "requiresPairedIPhone": true,

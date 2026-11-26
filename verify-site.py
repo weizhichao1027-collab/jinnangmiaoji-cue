@@ -121,7 +121,7 @@ def verify():
                 assert app['offers']['price'] == '0'
                 assert all(' '.join(feature.split()) in visible for feature in app['featureList']), f'{path}: feature not visible'
                 assert app['softwareHelp']['@id'] == builder.page_url(config, 'support', code) + '#page'
-                screenshots = [base + f'shots/release-20261114/{platform}/{code}/{number:02}.jpg' for number in range(1, 4)]
+                screenshots = builder.screenshot_urls(config, platform, code)
                 assert app['screenshot'] == screenshots, f'{path}: current screenshots'
                 for screenshot in screenshots:
                     assert (ROOT / urlsplit(screenshot).path.removeprefix(config['basePath'])).is_file()
